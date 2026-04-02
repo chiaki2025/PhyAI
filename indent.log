@@ -1,7 +1,7 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Sat Mar 28 01:00:20 2026
-       Filename: chapter0.tex
+       Thu Apr  2 10:42:30 2026
+       Filename: phyai.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
        -w|--overwrite: Overwrite mode active, will make a back up before overwriting
@@ -27,15 +27,17 @@ INFO:  YAML settings read: -y switch
        YAML setting: backup:0
        Updating mainSettings with backup: 0
 INFO:  Backup procedure (-w flag active):
-       copying chapter0.tex to ./chapter0.bak0
-       Backup file: ./chapter0.bak0
-       chapter0.tex will be overwritten after indentation
+       ./phyai.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./phyai.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       copying phyai.tex to ./phyai.bak2
+       Backup file: ./phyai.bak2
+       phyai.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
 INFO:  Phase 3: indenting objects
 INFO:  Phase 4: final indentation check
 INFO:  Output routine:
-       Overwriting file chapter0.tex
+       Overwriting file phyai.tex
        --------------
 INFO:  Please direct all communication/issues to:
         https://github.com/cmhughes/latexindent.pl

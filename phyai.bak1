@@ -17,10 +17,8 @@
 \usepackage{hyperref}
 \usepackage{indentfirst}
 \usepackage{comment}
-\usepackage{siunitx}
 \usepackage[english]{babel}
 \usepackage{subfiles}
-\usepackage{float}
 \setcounter{chapter}{-1}
 \newtheorem{theorem}{Theorem}[section]
 \newtheorem{corollary}{Corollary}[theorem]

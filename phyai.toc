@@ -1,2 +1,5 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {0}Motivation}{3}{chapter.0}%
+\contentsline {chapter}{\numberline {0}The Zeroth Law of Thermodynamics}{5}{chapter.0}%
+\contentsline {section}{\numberline {0.1}What is Temperature?}{5}{section.0.1}%
+\contentsline {section}{\numberline {0.2}The Zeroth Law of Thermodynamics}{5}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Thermal Expansion and Heat Absorption}{5}{section.0.3}%

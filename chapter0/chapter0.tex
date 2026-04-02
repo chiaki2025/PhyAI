@@ -1,0 +1,55 @@
+\documentclass[phyai.tex]{subfiles}
+\begin{document}
+\chapter{The Zeroth Law of Thermodynamics}\label{chap:the_zeroth_law_of_thermodynamics} % (fold)
+\section{What is Temperature?}\label{sec:what_is_temperature_} % (fold)
+If you touch an ice cube, you will feel cold; and if you touch boiling water, you will feel hot. Now you can conclude that ice cube is in low temperature, and boiling water is in high temperature. In common thinking, \textbf{temperature} is a quantity that used to measure hotness and coldness of objects. Instead of trusting our feeling, we often use a measuring device called \textbf{thermometer} to estimate the temperature.
+\begin{exmp}
+	Using thermometer to measure the temperature of a cup of hot water.
+\end{exmp}
+After adjusting the thermometer to normal room temperature, immerse it into a cup; and wait until the mercury inside no longer rises. Now read the temperature displayed on the thermometer.
+\\ The waiting time is called \textbf{relaxation time}; the state when both thermometer and hot water sharing the same temperature is called \textbf{thermal equilibrium}.
+% section What is Temperature? (end)
+\section{The Zeroth Law of Thermodynamics}\label{sec:the_zeroth_law_of_thermodynamics} % (fold)
+\begin{definition}[The Zeroth Law of Thermodynamics]
+	\label{The Zeroth Law of Thermodynamics}
+	If object $A$ and $B$ are each in thermal equilibrium with a third object $T$, then $A$ and $B$ are in \textbf{thermal equilibrium} with each other.
+\end{definition}
+In spite of its simplicity, this law provides an independent definition of temperature without reference to any complex terminologies.
+\begin{corollary}[The First Definition of Temperature]
+	Every object has a property called \textbf{temperature}. When two objects are in \textbf{thermal equilibrium}, their temperatures are \textbf{equal}.
+	\label{The First Definition of Temperature}
+\end{corollary}
+After reading the temperature of hot water in our cup (might be around $ 60^{\circ} \text{C}$), you wait for a while, and the mercury level inside thermometer slowly decreases. You carefully observe until the water has completely cooled down to room temperature. Finally, the mercury level stops decreasing, and at this point the room temperature, the water temperature, and the thermometer temperature are all the same (possibly $ 25^{\circ}\text{C} $), according to the law.
+% section The Zeroth Law of Thermodynamics (end)
+\section{Thermal Expansion and Heat Absorption}\label{sec:thermal_expansion_and_heat_absorb} % (fold)
+Let's look closer to the experiment that we did. If I use a clock to measure time, I will obtain a simple graph:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{~/PhyAI/chapter0/0_1.png}
+	\end{center}
+	\caption{Relationship between time and thermometer's temperature}\label{fig:1}
+\end{figure}
+\\As you can see here, the time interval $(0,t_{0})$ is very short compared to $(t_{0},t_{1})$. Look at the first interval \footnote[1]{For a very short period, the amount of energy transferred to the outside environment is negligible, so we can ignore it.}, why did the thermometer's temperature increase?
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.9\textwidth]{~/PhyAI/chapter0/0_2.png}
+	\end{center}
+	\caption{Heat flows between objects}\label{fig:2}
+\end{figure}
+The simplest explanation is that there is a "special energy" that transfers from a high-temperature object to a low-temperature object. This is very easy to imagine, and we call that "energy" as \textbf{heat} \footnote[2]{\textbf{Heat} in this context is a \textbf{positive quantity}. I will explain the negative case later.}. Now you might wonder "Why does not heat flow in the reverse direction?". This question will be explained carefully in the next chapters.
+\begin{definition}[Heat definition]
+	Heat is the energy that \textbf{spontaneously} transfers from the higher temperature object to the lower temperature object.
+	\label{Heat definition}
+\end{definition}
+Because heat is a \textbf{transferring energy} between objects, so we have to be careful here:
+\begin{corollary}
+	A thermodynamics system \textbf{does not} contain heat.
+\end{corollary}
+Now we can form the second definition of \textbf{temperature} bases on  definition ~\ref{Heat definition} as follows:
+\begin{definition}[The Second Definition of Temperature]
+	\textbf{Temperature} is a measure of the tendency of an object to \textbf{spontaneously} give up energy to its surroundings.
+	\label{The Second definition of Heat}
+\end{definition}
+% section Thermal Expansion and Heat Absorb (end)
+% chapter The Zeroth Law of Thermodynamics (end)
+\end{document}
