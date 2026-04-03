@@ -10,10 +10,10 @@ After adjusting the thermometer to normal room temperature, immerse it into a cu
 \\ The waiting time is called \textbf{relaxation time}; the state when both thermometer and hot water sharing the same temperature is called \textbf{thermal equilibrium}.
 % section What is Temperature? (end)
 \section{The Zeroth Law of Thermodynamics}\label{sec:the_zeroth_law_of_thermodynamics} % (fold)
-\begin{definition}[The Zeroth Law of Thermodynamics]
+\begin{theorem}[The Zeroth Law of Thermodynamics]
 	\label{The Zeroth Law of Thermodynamics}
 	If object $A$ and $B$ are each in thermal equilibrium with a third object $T$, then $A$ and $B$ are in \textbf{thermal equilibrium} with each other.
-\end{definition}
+\end{theorem}
 In spite of its simplicity, this law provides an independent definition of temperature without reference to any complex terminologies.
 \begin{corollary}[The First Definition of Temperature]
 	Every object has a property called \textbf{temperature}. When two objects are in \textbf{thermal equilibrium}, their temperatures are \textbf{equal}.
@@ -37,7 +37,7 @@ Let's look closer to the experiment that we did. If I use a clock to measure tim
 	\caption{Heat flows between objects}\label{fig:2}
 \end{figure}
 The simplest explanation is that there is a "special energy" that transfers from a high-temperature object to a low-temperature object. This is very easy to imagine, and we call that "energy" as \textbf{heat} \footnote[2]{\textbf{Heat} in this context is a \textbf{positive quantity}. I will explain the negative case later.}. Now you might wonder "Why does not heat flow in the reverse direction?". This question will be explained carefully in the next chapters.
-\begin{definition}[Heat definition]
+\begin{definition}[Heat Definition]
 	Heat is the energy that \textbf{spontaneously} transfers from the higher temperature object to the lower temperature object.
 	\label{Heat definition}
 \end{definition}
@@ -45,11 +45,66 @@ Because heat is a \textbf{transferring energy} between objects, so we have to be
 \begin{corollary}
 	A thermodynamics system \textbf{does not} contain heat.
 \end{corollary}
-Now we can form the second definition of \textbf{temperature} bases on  definition ~\ref{Heat definition} as follows:
-\begin{definition}[The Second Definition of Temperature]
+Now we can form the second definition of \textbf{temperature} bases on Definition ~\ref{Heat definition} as follows:
+\begin{corollary}[The Second Definition of Temperature]
 	\textbf{Temperature} is a measure of the tendency of an object to \textbf{spontaneously} give up energy to its surroundings.
 	\label{The Second definition of Heat}
+\end{corollary}
+Obviously, from Definition ~\ref{Heat definition} and Corollary ~\ref{The Second definition of Heat}, if we define $Q$ as heat and $T$ as temperature, we obtain the proportional relationship:
+$$ Q\propto \Delta T $$
+\begin{definition}[Heat Capacity Definition]
+	\label{Heat Capacity Definition}
+	The \textbf{heat capacity} $C$ \footnote[1]{Actually, I think the word "capacity" here is used due to historical reason, and it is not so accurate in physics context.} of an object is defined as:
+	$$ Q=C\Delta T=C(T_{f}-T_{i}) $$
 \end{definition}
+As you can see here, the unit of quantity $C$ is (J/K)\footnote[2]{Up to now, we still not define what K is; but you can think K (Kelvin) as a new temperature scale, like Celsius. The relationship between them is linear: $ T_{K} =T_{C}+273^{\circ}\text{C}$.}. In practice, it is more convenient to define a new quantity as "heat capacity per mass" $c$ (J/K.kg), and standardize their values into a useful look-up table for searching.
+\begin{corollary}[Specific Heat Definition]
+	\label{Specific Heat Definition}
+	The specific heat is defined as: $$ c=\frac{C }{m} $$ Or equivalent to: $$ Q=mc\Delta T $$
+\end{corollary}
+Since the initial temperature of hot water is higher than thermometer, hot water tends to give up energy in \textbf{heat form} to the thermometer. We can easily calculate how much released energy using the above formula.
+\begin{exmp}
+	How much heat flows from hot water to thermometer? Known that $m_{\text{Hg}}=0.5$ (g) and $c_{\text{Hg}}=138$ (J/K.kg).
+\end{exmp}
+We have: $$ Q=mc\Delta T\footnote[3]{Converting Celsius to Kelvin scale does not affect $\Delta T$.}
+	=\frac{0.5 }{1000}.138.(60-25)=2.415\text{ (J)} $$
+\begin{exmp}
+	How much heat flows from the thermometer to hot water? What is the temperature of hot water at the moment $t_{0}$? Known that $m_{\ce{H2O}}=50$ (g) and $c_{\ce{H2O}}=4181$ (J/K.kg).
+\end{exmp}
+We have to very be careful here. Hot water gives \textbf{positive} energy in heat form to thermometer, so it receives \textbf{negative} energy flows from thermometer. Formally, we easily represent this relationship:
+$$ Q_{\text{hot water to thermometer}}=-Q_{\text{thermometer to hot water}} $$
+The direction of heat flowing is very significant, that directly rules the \textbf{sign} of $Q$. Eventually, we obtain: $$ Q_{\text{thermometer to hot water}}=-2.415\text{ (J)} $$
+Applying Corollary ~\ref{Specific Heat Definition}, we see that:
+$$ Q=mc\Delta T=\frac{50 }{1000}.4181.(T_{f}-60)=-2.415\Rightarrow T_{f}=59.98^{\circ}\text{ C}$$
+Because $\Delta T$ is very low, so we can neglect this tiny changing and shifting our focus on the temperature changing of thermometer.
+\\ During the heat absorbing process, the mercury level slowly increases inside our thermometer, but why? Our common belief is that "If something is hot, it will get bigger, and vice versa.". Representing our claim into formulas, we obtain:
+$$ \Delta L \propto \Delta T $$ $$\Delta V \propto \Delta T$$
+with $L$ stands for length, and $V$ stands for volume. In this chapter, we will temporarily accept our assertions (or common beliefs) as true without further explanation. They will be rediscovered in more detail in later chapters.
+\begin{definition}[Definition of Linear Expansion]
+	If the temperature of a metal rod of length $L$ is raised by an amount of $\Delta T$: $$ \Delta L=L\alpha\Delta T $$
+	The constant $\alpha$ is called the \textbf{coefficient of linear expansion}.
+	\label{Definition of Linear Expansion}
+\end{definition}
+Using the same line of thinking, we can extend our Definition ~\ref{Definition of Linear Expansion} above to volume expansion as a corollary.
+\begin{corollary}[Definition of Volume Expansion]
+	If the temperature of solids, or liquids of volume $V$ is raised by an amount of $\Delta T$: $$ \Delta V=V\beta\Delta T $$
+	\label{Definition of Volume Expansion}
+	The constant $\beta$ is called the \textbf{coefficient of volume expansion}.
+\end{corollary}
+Obviously, the relationship between $\alpha$ and $\beta$ can simply be described as:
+\begin{corollary}
+	\label{The Relationship between two coefficients}
+	$$\beta=3\alpha$$
+\end{corollary}
+Both $\alpha$ and $\beta$ share the same unit $1/ \text{K}$ or $\text{K}^{-1}$, and like the specific heat quantity $c$, these coefficients are founded by experiment.
+\begin{exmp}
+	During the first time interval, the mercury temperature slowly increase from $T_{i}=25^{\circ}$C to $T_{f}=60^{\circ}$C. Known that $\beta=1.8.10^{-4}$ (K$^{-1}$), and the initial height of mercury level at $T_{i}$ is $H=10$ (cm), what is the height of mercury level at the moment $t_{0}$?
+\end{exmp}
+Notice that $V=\pi r^{2}H\Rightarrow V\propto H $.
+Directly using the formula, we see that:
+$$ \Delta V=V\beta\Delta T\Rightarrow \Delta H=H\beta(T_{f}-T_{i})=\frac{30 }{100}.1.8.10^{-4}(60-25)=1.89.10^{-3}\text{ (m)}=1.89\text{ (cm)}$$
+
 % section Thermal Expansion and Heat Absorb (end)
 % chapter The Zeroth Law of Thermodynamics (end)
 \end{document}
+

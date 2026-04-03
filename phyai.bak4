@@ -20,7 +20,6 @@
 \usepackage{siunitx}
 \usepackage[english]{babel}
 \usepackage{subfiles}
-\usepackage[version=4]{mhchem}
 \usepackage{float}
 \setcounter{chapter}{-1}
 \newtheorem{theorem}{Theorem}[section]

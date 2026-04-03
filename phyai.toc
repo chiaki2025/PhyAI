@@ -1,5 +1,6 @@
 \babel@toc {english}{}\relax 
-\contentsline {chapter}{\numberline {0}The Zeroth Law of Thermodynamics}{5}{chapter.0}%
-\contentsline {section}{\numberline {0.1}What is Temperature?}{5}{section.0.1}%
-\contentsline {section}{\numberline {0.2}The Zeroth Law of Thermodynamics}{5}{section.0.2}%
-\contentsline {section}{\numberline {0.3}Thermal Expansion and Heat Absorption}{5}{section.0.3}%
+\contentsline {part}{I\hspace {1em}Introduction to Statistical Physics}{5}{part.1}%
+\contentsline {chapter}{\numberline {0}The Zeroth Law of Thermodynamics}{6}{chapter.0}%
+\contentsline {section}{\numberline {0.1}What is Temperature?}{6}{section.0.1}%
+\contentsline {section}{\numberline {0.2}The Zeroth Law of Thermodynamics}{6}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Thermal Expansion and Heat Absorption}{6}{section.0.3}%
