@@ -2,7 +2,7 @@
 \begin{document}
 \chapter{The Zeroth Law of Thermodynamics}\label{chap:the_zeroth_law_of_thermodynamics} % (fold)
 \section{What is Temperature?}\label{sec:what_is_temperature_} % (fold)
-If you touch an ice cube, you will feel cold; and if you touch boiling water, you will feel hot. Now you can conclude that ice cube is in low temperature, and boiling water is in high temperature. In common thinking, \textbf{temperature} is a quantity that used to measure hotness and coldness of objects. Instead of trusting our feeling, we often use a measuring device called \textbf{thermometer} to estimate the temperature.
+If you touch an ice cube, you will feel cold; and if you touch boiling water, you will feel hot. Now you can conclude that ice cube is at low temperature, and boiling water is at high temperature. In common thinking, \textbf{temperature} is a quantity that used to measure hotness and coldness of objects. Instead of trusting our feeling, we often use a measuring device called \textbf{thermometer} to estimate the temperature.
 \begin{exmp}
 	Using thermometer to measure the temperature of a cup of hot water.
 \end{exmp}
@@ -96,13 +96,31 @@ Obviously, the relationship between $\alpha$ and $\beta$ can simply be described
 	\label{The Relationship between two coefficients}
 	$$\beta=3\alpha$$
 \end{corollary}
-Both $\alpha$ and $\beta$ share the same unit $1/ \text{K}$ or $\text{K}^{-1}$, and like the specific heat quantity $c$, these coefficients are founded by experiment.
+Both $\alpha$ and $\beta$ share the same unit $1/ \text{K}$ or $\text{K}^{-1}$, and like the specific heat quantity $c$, these coefficients are found by experiment.
 \begin{exmp}
-	During the first time interval, the mercury temperature slowly increase from $T_{i}=25^{\circ}$C to $T_{f}=60^{\circ}$C. Known that $\beta=1.8.10^{-4}$ (K$^{-1}$), and the initial height of mercury level at $T_{i}$ is $H=10$ (cm), what is the height of mercury level at the moment $t_{0}$?
+	During the first time interval, the mercury temperature slowly increase from $T_{i}=25^{\circ}$C to $T_{f}=60^{\circ}$C. Known that $\beta=1.8.10^{-4}$ (K$^{-1}$), and the initial height of mercury level at $T_{i}$ is $H_{i}=10$ (cm), what is the height of mercury level at the moment $t_{0}$?
 \end{exmp}
-Notice that $V=\pi r^{2}H\Rightarrow V\propto H $.
-Directly using the formula, we see that:
+Notice that $V=\pi r^{2}H\Rightarrow V\propto H$. Directly using the formula, we see that:
 $$ \Delta V=V\beta\Delta T\Rightarrow \Delta H=H\beta(T_{f}-T_{i})=\frac{30 }{100}.1.8.10^{-4}(60-25)=1.89.10^{-3}\text{ (m)}=1.89\text{ (cm)}$$
+The final height of mercury level is: $$ H_{f}=H_{i}+\Delta H=10+1.89=11.89\text{ (cm)} $$
+To conclude this chapter, I would like to focus on a very special case, in which the heat capacity $C=+\infty$. This normally happens at a \textbf{phase transformation}, such as melting ice or boiling water.
+$$ C=\frac{ Q }{\Delta T}=\frac{Q }{0}=+\infty$$
+We still might want to know how much heat is required to melt or boil the substance completely during a phase transformation. This amount of energy is called the \textbf{latent heat}, denoted as $L$. Similar to the definition of specific heat, we define the quantity \textbf{specific latent heat}, denoted by $l$: $$ l=\frac{L }{m}=\frac{Q }{m} \text{ (J/kg)}$$
+\begin{exmp}
+	How much ice should be added to a cup of $200$ grams of boiling water to bring it down to $65^{\circ}$C. Assume that the ice is initially at $-15^{\circ}$C, specific heat capacity of ice is $2.1$ J/K.g, of water is $4.184$ J/K.g; specific latent heat for melting ice is $333$ J/g\footnote[1]{In practice, instead of using standard SI units, we often use their variances like J/g, cal/g,... Chemists really love using gram.}.
+\end{exmp}
+The flow of heat between ice and boiling water can be represented by formula: $$ Q_{\text{water}\to\text{ice}}=-Q_{\text{ice}\to\text{water}} $$
+Or by the \textbf{law of conservation of energy} form:
+$$ Q_{\text{water}\to\text{ice}}+Q_{\text{ice}\to\text{water}}=0\text{ (internal energy is conserved, no external energy exists)} $$
+Because $65^{\circ}$C is much higher than the freeze point of ice; when the system is equilibrium, all ice is \textbf{melted}.
+\begin{equation*}
+	\begin{split}
+		Q_{\text{water}\to\text{ice}}&=-Q_{\text{ice}\to\text{water}}\\
+		m_{\ce{H2O}}c_{\ce{H2O}}\Delta T_{\ce{H2O}}&=-(m_{\text{ice}}c_{\text{ice}}\Delta T_{\text{ice}}+m_{\text{ice}}l+m_{\text{ice}}c_{\ce{H2O}}\Delta T_{\text{melted ice raising temperature}})\\
+		200.4.184.(65-100)&=-[m_{\text{ice}}.2.1.(0-(-15))+m_{\text{ice}}.333+m_{\text{ice}}.4.184.(65-0)]\\
+		\Rightarrow m_{\text{ice}}&=46.01\text{ (g)}\\
+	\end{split}
+\end{equation*}
 
 % section Thermal Expansion and Heat Absorb (end)
 % chapter The Zeroth Law of Thermodynamics (end)
