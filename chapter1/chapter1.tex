@@ -1,0 +1,122 @@
+\documentclass[~/PhyAI/phyai.tex]{subfiles}
+\begin{document}
+\chapter{The First Law of Thermodynamics}\label{chap:the_first_law_of_thermodynamics} % (fold)
+\section{The Microscopic Model}\label{sec:the_microscopic_model} % (fold)
+As you can see here, we are moving further than the zeroth law of thermodynamics. In the previous chapter, we neither know what is inside the substances, nor the essence of heat. Thinking like a physicist, we need to build a physical model to explain many phenomena in nature.
+\begin{center}
+	\textit{Substance is just the collection of many very tiny "imaginary" particles.}
+\end{center}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter1/1_0.png}
+	\end{center}
+	\caption{Our hypothesis model of gas and crystal}\label{fig:1.1}
+\end{figure}
+But why do I call these particles "imaginary"? Because in the $19$th century, scientists had no way of directly observing them. Physicists living that era built the entire foundation of thermodynamics on atomic theory, which may not have convinced everyone until the quantum age. In the early $20$th century, the existence of atoms was finally proven and widely accepted, supported by numerous undeniable physical and mathematical proofs. Finally, in $1955$, the first photograph of atom was taken by Erwin W.Muller and his student.
+\begin{theorem}[Atomic Theory]
+	\label{Atomic theory}
+	Atomic theory is the specific theory that matter is composed of particles called \textbf{atoms}.
+\end{theorem}
+I think Theorem ~\ref{Atomic theory} should be called axiom, in mathematical language. In the following chapters, we will focus in depth on how this theory can be applied to build the foundations of thermodynamics, rather than proving it correctness.
+% section The Microscopic Model (end)
+\section{Volume and Pressure}\label{sec:volume_and_pressure}
+I think everyone knows what volume is, but it is not so easy to formalize our sense to a definition. Mathematically, we can state that:
+\begin{definition}[The First Definition of Volume]
+	\label{The First Definition of Volume}
+	Volume is a measure of regions in three-dimensional space.
+\end{definition}
+But I think we can extend the definition above with atomic theory:
+\begin{definition}[The Second Definition of Volume]
+	\label{The Second Definition of Volume}
+	Volume is a measure of the amount of space occupied by many small particles of \textbf{the same type} at equilibrium state.
+\end{definition}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_1.png}
+	\end{center}
+	\caption{Definition of Volume}\label{fig:1.2}
+\end{figure}
+Now you might wonder if you mix $2$ types of completely different gases, such as $\ce{H2}$ and $\ce{He}$, are they the same type? The answer is yes, but until they reach the \textbf{equilibrium state}.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_2.png}
+	\end{center}
+	\caption{Mixing $\ce{H2}$ and $\ce{He}$ together}\label{fig:1.3}
+\end{figure}
+Reaching the equilibrium state means the density of gas mixture is the same at all locations inside the box.\footnote[1]{This is just my claim.}\footnote[2]{Mixing gas process can release an amount of heat energy. According to the zeroth law of thermodynamics, equilibrium state is reached when the temperature of the mixture is stable.}
+\newpage
+\indent Unlike volume, \textbf{pressure} is very easy concept to define:
+\begin{definition}[Definition of Pressure]
+	Pressure is the force applied \textbf{perpendicular} to the surface of an object per unit area over which that force is distributed:$$ P=\frac{F }{A}\text{ (N/m$^2$), or (Pa)} $$
+	\label{Definition of Pressure}
+\end{definition}
+One classic example of pressure is pressing your hand against a small piston filled with gas. If you press hard and fast enough, you can observe small sparks inside the piston. We will be back to explain the phenomenon later.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter1/1_3.png}
+	\end{center}
+	\caption{Pressing a small piston}\label{fig:1.4}
+\end{figure}
+After understanding what volume and pressure are, now it is time to answer our previous question from Chapter ~\ref{chap:the_zeroth_law_of_thermodynamics}, what is Kelvin scale? Imagine you have an elastic balloon, which can be easily stretched. Of course, this balloon is filled fully with gas.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter1/1_4.png}
+	\end{center}
+	\caption{For every degree decrease, the volume $V/273$ decreases correspondingly}\label{fig:1.5}
+\end{figure}
+But because the volume quantity can not go below zero, if the temperature reaches $(T-273)^{\circ}$C, and continues to decrease, the volume will remain at zero. Alternatively, if you hold the volume of the gas fixed, then its pressure will approach zero as the temperature approaches $(T-273)^{\circ}$C. The special value $-273^{\circ}$C is called \textbf{absolute zero}\footnote[1]{This is the basic idea of how absolute zero was discovered.}, and defines the initial point of the \textbf{absolute temperature scale}, named after Lord Kelvin\footnote[2]{How about holding both the volume and pressure of the gas fixed, and decrease temperature?}.
+\begin{definition}[Definition of Kelvin Scale]
+	\label{Definition of Kelvin Scale}
+	The Kelvin scale is an absolute temperature scale that starts at the lowest possible temperature, taken to be $0$K:
+	\begin{equation*}
+		T_{K}=T_{C}+273^{\circ}C\text{ (K)}
+	\end{equation*}
+\end{definition}
+% section Volume and Pressure (end)
+\section{The Ideal Gas Law}\label{sec:the_ideal_gas_law} % (fold)
+Discovered by experiments, many properties of a low-density gas can be summarized in the famous idea gas law, where $P$ (N/m$^2$), $V$ (m$^3$), $n$ (mole), $R$ is a universal constant, and $T$ (K).
+\begin{theorem}[The Ideal Gas Law]
+	\label{The Ideal Gas Law}
+	The empirical ideal gas law for \textbf{low-density gas} is:
+	$$ PV=nRT $$
+\end{theorem}
+This section does not have much to discuss beyond introducing an important law of gases and some new constants. As you can see here, the unit of constant R is:
+\begin{equation*}
+	R=8.31\text{ (J/mol.K)}
+\end{equation*}
+If we define $N_{A}=6.023.10^{23}$ (mol$^{-1}$) is Avogadro's number, then the law can be rewritten as:
+\begin{equation*}
+	PV=nRT=\frac{N }{N_{A}}RT=N\mathbf{k_{B}}T
+\end{equation*}
+The constant $k_{B}$ is called \textbf{Boltzmann's constant}, it plays vital role in thermodynamics:
+\begin{equation*}
+	k_{B}=\frac{R }{N_{A}}=1.381.10^{-23}\text{ (J/K)}
+\end{equation*}
+% section The Ideal Gas Law (end)
+\section{The Kinetic Theory of Gases}\label{sec:the_kinetic_theory_of_gases} % (fold)
+In a gas-filled piston, you already know that gas (or any substance) is simply a collection of tiny, chaotic, uncontrollable particles. If you heat the piston, these particles appear to move faster. In this section, we will use the gas model to quantify the relationship between piston temperature and the velocity of the particles.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{~/PhyAI/chapter1/1_5.png}
+	\end{center}
+	\caption{An oversimplified model of an ideal gas}\label{fig:1_5}
+\end{figure}
+Since the system of $10^{23}$ particles is impossible to process in the first place, I have to make some assumptions here to simplify our physical model:
+\begin{itemize}
+	\item My oversimplified model of an ideal gas contains only $1$ particle.
+	\item Its speed never changes.
+	\item Piston is perfectly smooth, so collisions are always \textbf{elastic}.
+\end{itemize}
+Directly applying Definition ~\ref{Definition of Pressure} yields:
+\begin{equation*}
+	\begin{split}
+		\overline{P}_{\text{x, on piston}}&=\frac{\overline{F}_{\text{x, on piston}} }{A}=-\frac{\overline{F}_{\text{x, on particle}} }{A}\text{ (Newton's Third Law)}\\
+		&=-\frac{m \displaystyle\frac{\Delta v}{\Delta t}}{A}=-\frac{m \displaystyle\frac{(-v_{x})-v_{x}}{2L/v_{x}}}{A}=\frac{mv_{x}^{2}}{V}\\
+	\end{split}
+\end{equation*}
+Or equivalent to: $$ \overline{P}_{\text{x, on piston}}V=mv_{x}^{2} $$
+If our piston contains $N$ particles, then the total pressure on piston by $x$-axis is:
+$$ P_{x}=N\overline{P}_{\text{x, on piston}}=\frac{Nmv_{x}^{2}}{V} $$
+% section The Kinetic Theory of Gases (end)
+% chapter The First Law of Thermodynamics (end)
+\end{document}

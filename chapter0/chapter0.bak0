@@ -101,8 +101,8 @@ Both $\alpha$ and $\beta$ share the same unit $1/ \text{K}$ or $\text{K}^{-1}$, 
 	During the first time interval, the mercury temperature slowly increase from $T_{i}=25^{\circ}$C to $T_{f}=60^{\circ}$C. Known that $\beta=1.8.10^{-4}$ (K$^{-1}$), and the initial height of mercury level at $T_{i}$ is $H_{i}=10$ (cm), what is the height of mercury level at the moment $t_{0}$?
 \end{exmp}
 Notice that $V=\pi r^{2}H\Rightarrow V\propto H$. Directly using the formula, we see that:
-$$ \Delta V=V\beta\Delta T\Rightarrow \Delta H=H\beta(T_{f}-T_{i})=\frac{10 }{100}.1.8.10^{-4}(60-25)=6.3.10^{-4}\text{ (m)}=0.063\text{ (cm)}$$
-The final height of mercury level is: $$ H_{f}=H_{i}+\Delta H=10+0.063=10.063\text{ (cm)} $$
+$$ \Delta V=V\beta\Delta T\Rightarrow \Delta H=H\beta(T_{f}-T_{i})=\frac{30 }{100}.1.8.10^{-4}(60-25)=1.89.10^{-3}\text{ (m)}=0.189\text{ (cm)}$$
+The final height of mercury level is: $$ H_{f}=H_{i}+\Delta H=10+0.189=10.189\text{ (cm)} $$
 To conclude this chapter, I would like to focus on a very special case, in which the heat capacity $C=+\infty$. This normally happens at a \textbf{phase transformation}, such as melting ice or boiling water.
 $$ C=\frac{ Q }{\Delta T}=\frac{Q }{0}=+\infty$$
 We still might want to know how much heat is required to melt or boil the substance completely during a phase transformation. This amount of energy is called the \textbf{latent heat}, denoted as $L$. Similar to the definition of specific heat, we define the quantity \textbf{specific latent heat}, denoted by $l$: $$ l=\frac{L }{m}=\frac{Q }{m} \text{ (J/kg)}$$
