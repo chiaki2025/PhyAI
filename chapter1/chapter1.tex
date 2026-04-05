@@ -183,23 +183,31 @@ Consider a piston filled with ideal gas\footnote[1]{Actually, you do not need to
 	\end{center}
 	\caption{Heat $Q$ is converting to work $W$ to push the piston away}\label{fig:1.7}
 \end{figure}
-I think we are all familiar with the definition of work in Classical Mechanics course: $$ W=\int\overrightarrow{F}d\overrightarrow{r} \text{ (J)}$$
+I think we are all familiar with the definition of work in Classical Mechanics course: $$ W=\int_{\overrightarrow{r_{i}}}^{\overrightarrow{r_{f}}}\overrightarrow{F}d\overrightarrow{r} \text{ (J)}$$
 Both work $W$ and heat $Q$ are $2$ types \textbf{energy}; but they have a slight but subtle difference:
 \begin{itemize}
 	\item Heat is defined as any \textbf{spontaneously flow of energy} from one object to another. As we discussed in the previous chapter, heat tends to flow from the higher temperature object to the lower, but \textbf{not the reverse direction}. We have not known the reason yet.
 	\item Work is defined as any \textbf{other transfer of energy into or out of a system} (not spontaneous).
 \end{itemize}
-Notice that both heat and work refer to energy in \textbf{transmit}. It is meaningless to ask how much heat or work inside the system. We can only talk about how much heat or work has entered or leaf the system. According to the law of conservation of energy, energy can only be transformed or transferred from one to another. If we use the symbols $Q$ and $W$ to represent the amounts of energy that \textbf{enter} a system as heat and work; $U$ as the internal energy of system, then we can confidently state that:
-\begin{center}\textit{External energy will increase the internal energy.}\end{center} Or written as an equation, this statement is: $$ \Delta U=Q+W\footnote[1]{Many other textbooks, including Halliday, define $W$ as work that \textbf{left} a system, so the sign of $W$ is negative: $$ \Delta U=Q-W $$ This convention works very great when solving heat engine or heat cycle problems.} $$
+Notice that both heat and work refer to energy in \textbf{transmit}. It is meaningless to ask how much heat or work inside the system. We can only talk about how much heat or work have entered or left the system. According to the law of conservation of energy, energy can only be transformed or transferred from one to another. If we use the symbols $Q$ and $W$ to represent the amounts of energy that \textbf{enter} a system as heat and work; $U$ as the internal energy of system, then we can confidently state that:
+\begin{center}\textit{External energy will be transformed into an increase in internal energy.}\end{center} Or written as an equation, this statement is: $$ \Delta U=Q+W\footnote[1]{Many other textbooks, including Halliday, define $W$ as work that \textbf{left} a system, so the sign of $W$ is negative: $$ \Delta U=Q-W $$ This convention works very great when solving heat engine or heat cycle problems.} $$
 \begin{theorem}[The First Law of Thermodynamics]
 	The increment in the internal energy is \textbf{equal} to the difference between heat accumulated by the system and the thermodynamics work done by it. $$ \Delta U=Q-W \footnote[2]{I read this statement from \href{https://en.wikipedia.org/wiki/First_law_of_thermodynamics}{Wikipedia}, and I think this is the best explanation for the first law.}$$
 \end{theorem}
 In this scope of this book, we will stick to the convention that I have mentioned above, to keep consistent, that means $W$ is representing the amount of energy that \textbf{enter} the system.
+\subsection{Thermodynamics Process}\label{Thermodynamics Process}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_8.png}
+	\end{center}
+	\caption{Piston is being compressed by force}\label{fig:1_8}
+\end{figure}
+Using the definition of work, we obtain:
+$$ W=\int_{\overrightarrow{r_{i}}}^{\overrightarrow{r_{f}}}\overrightarrow{F}d\overrightarrow{r} =\int_{x_{i}}^{x_{f}}\overrightarrow{F}d\overrightarrow{x}=\int_{x_{i}}^{x_{f}}F\cos(\overrightarrow{F},d\overrightarrow{x})dx\text{ (Moving along $x$-axis)}$$
+If we define $W_{\text{left}}$ as the work that left our piston, then:
+$$ W_{\text{entered}}=-W_{\text{left}}=-\int_{x_{i} }^{x_{f}}F\cos(\overrightarrow{F},d\overrightarrow{x})dx=-\int_{x_{i}}^{x_{f}}Fdx=-\int_{x_{i}}^{x_{f}}PAdx=-\int_{V_{i}}^{V_{f}}PdV    $$
+For convenience, $W$ denotes the work that \textbf{entered} system:
+$$ W=-\int_{V_{i}}^{V_{f}}PdV  $$
 % section The First Law of Thermodynamics (end)
-\subsection{Thermodynamics Process}\label{sec:thermodynamics_process} % (fold)
-
-% section Thermodynamics Process (end)
-
-% section Heat Cycle (end)
 % chapter The First Law of Thermodynamics (end)
 \end{document}
