@@ -114,9 +114,92 @@ Directly applying Definition ~\ref{Definition of Pressure} yields:
 		&=-\frac{m \displaystyle\frac{\Delta v}{\Delta t}}{A}=-\frac{m \displaystyle\frac{(-v_{x})-v_{x}}{2L/v_{x}}}{A}=\frac{mv_{x}^{2}}{V}\\
 	\end{split}
 \end{equation*}
-Or equivalent to: $$ \overline{P}_{\text{x, on piston}}V=mv_{x}^{2} $$
 If our piston contains $N$ particles, then the total pressure on piston by $x$-axis is:
-$$ P_{x}=N\overline{P}_{\text{x, on piston}}=\frac{Nmv_{x}^{2}}{V} $$
+$$ P_{x}=\sum\overline{P}_{\text{x, on piston}}=\frac{\sum m v_{x,i}^{2} }{V}=N \frac{m\overline{v_{x}^{2}} }{V} \Rightarrow P_{x}V=Nm\overline{v_{x}^{2}}$$
+Because $N$ is extremely large, and the gas is homogeneous:
+$$ P=P_{x}=P_{y}=P_{z}\Rightarrow PV=Nm\overline{v_{x}^{2}} $$
+The average velocity of the particles in the $x, y$ and $z$ directions is the same, we obtain
+$$ \frac{m\overline{v_{x}^{2}}}{2}=\frac{m\overline{v_{y}^{2}}}{2}=\frac{m\overline{v_{z}^{2}}}{2}=\frac{kT} {2} $$
+The average velocity of $N$ particles in three-dimensional space is defined as:
+$$ \overline{v^{2}}=\overline{v_{x}^{2}+v_{y}^{2}+v_{z}^{2}}=\frac{v_{x}^{2}+v_{y}^{2}+v_{z}^{2}}{N}=\overline{v_{x}^{2}}+\overline{v_{y}^{2}}+\overline{v_{z}^{2}} $$
+The average translational kinetic energy is then:
+$$ \overline{K}=\frac{1 }{2}m\overline{v^{2}}=\frac{1 }{2}m\overline{v_{x}^{2}}+\frac{1 }{2}m\overline{v_{y}^{2}}+\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{3kT}{2} $$
+We can simply explain the phenomenon of thermal expansion using the previous result. If the temperature increases, the average kinetic energy also increases, which means these particles tend to move faster. Their chemical bonds tend to loosen or break, which causes the length or volume of matter to increase slightly.
+\begin{equation*}
+	\overline{v^{2}}=\frac{3kT }{m}
+\end{equation*}
+We are also interested in the \textbf{average of the squares of the speeds} (or root-mean square, rms for short):
+\begin{equation*}
+	v_{\text{rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3kT }{m}}
+\end{equation*}
+As you can see here, we have just done a bit of Statistical Physics. Because we do not know the \textbf{exact} state of each particle in a set of $10^{23}$ particles, we can still calculate their average velocity or energy\footnote[1]{Potential energy $U=mgz$ can be ignored, since $K>>U$.}. In the spirit of Statistical Physics, we solve the whole big problem of the enormous number of observations, without knowing the behavior or each individual particle.
 % section The Kinetic Theory of Gases (end)
+\section{The Equipartition Theorem}\label{sec:the_equipartition_theorem} % (fold)
+The average translational kinetic energy is just a special case of a much more general result. In the previous discussion, we only considered the motion of particles moving in three-dimensional space. There are $3$ types of motion, directly related to $3$ types of kinetic energy, and each of them can be called a \textbf{degree of freedom}:
+\begin{enumerate}
+	\item Moving along $x$-axis: $ \overline{K}_{x}=\displaystyle\frac{1 }{2}m\overline{v_{x}^{2}}=\frac{kT }{2}$
+	\item Moving along $y$-axis: $ \overline{K}_{y}=\displaystyle\frac{1 }{2}m\overline{v_{y}^{2}}=\frac{kT }{2}$
+	\item Moving along $z$-axis: $ \overline{K}_{z}=\displaystyle\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{kT }{2}$
+\end{enumerate}
+Other degrees of freedom include rotational motion and elastic potential energy (as stored in a structure like a spring), and what they have in common is that their energy functions are all \textbf{quadratic form}.
+\begin{theorem}[The Equipartition Theorem]
+	\label{The Equipartition Theorem}
+	At temperature $T$, the average energy of any quadratic degree of freedom is $ \displaystyle\frac{1 }{2}kT $.
+\end{theorem}
+\begin{corollary}[Total Internal Energy]
+	\label{Total Internal Energy}
+	If a system contains $N$ particles, each with $f$ degrees of freedom, and the \textbf{total internal energy}\footnote[1]{Actually, there is a slight difference between total thermal energy and total internal energy; but I neglect them and keep it simple as possible.} is: $$ U=N.f. \frac{1 }{2}kT $$
+\end{corollary}
+The final problem is determining the value of $f$. For example, if our gas is monatomic, then we can easily conclude that  $f=3$. In the case of diatomic, $f=5$ because there are $5$ possible ways of motion:
+\begin{enumerate}
+	\item Moving along $x$-axis: $ \overline{K}_{x}=\displaystyle\frac{1 }{2}m\overline{v_{x}^{2}}=\frac{kT }{2}$
+	\item Moving along $y$-axis: $ \overline{K}_{y}=\displaystyle\frac{1 }{2}m\overline{v_{y}^{2}}=\frac{kT }{2}$
+	\item Moving along $z$-axis: $ \overline{K}_{z}=\displaystyle\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{kT }{2}$
+	\item Rotating around $x$-axis: $\overline{K}_{x,\text{ rotate}}=\displaystyle\frac{1}{2}I\omega_{x}^{2}=\frac{kT}{2}$
+	\item Rotating around $y$-axis: $\overline{K}_{y,\text{ rotate}}=\displaystyle\frac{1}{2}I\omega_{y}^{2}=\frac{kT}{2}$
+\end{enumerate}
+Most polyatomic molecules can rotate about all three axes, so if our gas is polyatomic, then $f=6$. In the case of solid, $f=6$ too.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter1/1_6.png}
+	\end{center}
+	\caption{Degrees of freedom illustration}\label{fig:1.6}
+\end{figure}
+Counting degrees of freedom of liquid is more complicated than gas or solid, since the intermolecular potential energies are not quadratic functions.
+\begin{exmp}
+	Calculate the internal energy of a bottle filled with $\ce{H2}$ at normal room temperature.
+\end{exmp}
+Assuming the normal room condition are $P=1$ (atm), $T_{C}=25^{\circ}$C and the bottle's volume is $V=500$ (ml). Using the idea gas law, we have:
+$$ PV=NkT\Rightarrow N=\frac{PV }{kT} $$
+Applying Corollary ~\ref{Total Internal Energy}, we obtain:
+$$ U=N.f.\frac{kT }{2}=\frac{PV }{kT}.f.\frac{kT }{2}=\frac{PVf }{2}=\frac{101325.0.5.10^{-3}.5}{2}=126.65\text{ (J)} $$
+% section The Equipartition Theorem (end)
+\section{The First Law of Thermodynamics}\label{sec:the_first_law_of_thermodynamics} % (fold)
+\subsection{Heat and Work}\label{Heat and Work}
+Consider a piston filled with ideal gas\footnote[1]{Actually, you do not need to worry too much about the word "ideal", because most of the gases we encounter in real life behave similar to ideal gas model.}, now you heat it up with a candle, what will happen?
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_7.png}
+	\end{center}
+	\caption{Heat $Q$ is converting to work $W$ to push the piston away}\label{fig:1.7}
+\end{figure}
+I think we are all familiar with the definition of work in Classical Mechanics course: $$ W=\int\overrightarrow{F}d\overrightarrow{r} \text{ (J)}$$
+Both work $W$ and heat $Q$ are $2$ types \textbf{energy}; but they have a slight but subtle difference:
+\begin{itemize}
+	\item Heat is defined as any \textbf{spontaneously flow of energy} from one object to another. As we discussed in the previous chapter, heat tends to flow from the higher temperature object to the lower, but \textbf{not the reverse direction}. We have not known the reason yet.
+	\item Work is defined as any \textbf{other transfer of energy into or out of a system} (not spontaneous).
+\end{itemize}
+Notice that both heat and work refer to energy in \textbf{transmit}. It is meaningless to ask how much heat or work inside the system. We can only talk about how much heat or work has entered or leaf the system. According to the law of conservation of energy, energy can only be transformed or transferred from one to another. If we use the symbols $Q$ and $W$ to represent the amounts of energy that \textbf{enter} a system as heat and work; $U$ as the internal energy of system, then we can confidently state that:
+\begin{center}\textit{External energy will increase the internal energy.}\end{center} Or written as an equation, this statement is: $$ \Delta U=Q+W\footnote[1]{Many other textbooks, including Halliday, define $W$ as work that \textbf{left} a system, so the sign of $W$ is negative: $$ \Delta U=Q-W $$ This convention works very great when solving heat engine or heat cycle problems.} $$
+\begin{theorem}[The First Law of Thermodynamics]
+	The increment in the internal energy is \textbf{equal} to the difference between heat accumulated by the system and the thermodynamics work done by it. $$ \Delta U=Q-W \footnote[2]{I read this statement from \href{https://en.wikipedia.org/wiki/First_law_of_thermodynamics}{Wikipedia}, and I think this is the best explanation for the first law.}$$
+\end{theorem}
+In this scope of this book, we will stick to the convention that I have mentioned above, to keep consistent, that means $W$ is representing the amount of energy that \textbf{enter} the system.
+% section The First Law of Thermodynamics (end)
+\subsection{Thermodynamics Process}\label{sec:thermodynamics_process} % (fold)
+
+% section Thermodynamics Process (end)
+
+% section Heat Cycle (end)
 % chapter The First Law of Thermodynamics (end)
 \end{document}

@@ -9,3 +9,7 @@
 \contentsline {section}{\numberline {1.2}Volume and Pressure}{12}{section.1.2}%
 \contentsline {section}{\numberline {1.3}The Ideal Gas Law}{14}{section.1.3}%
 \contentsline {section}{\numberline {1.4}The Kinetic Theory of Gases}{14}{section.1.4}%
+\contentsline {section}{\numberline {1.5}The Equipartition Theorem}{16}{section.1.5}%
+\contentsline {section}{\numberline {1.6}The First Law of Thermodynamics}{17}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Heat and Work}{17}{subsection.1.6.1}%
+\contentsline {section}{\numberline {1.7}Thermodynamics Process}{19}{section.1.7}%

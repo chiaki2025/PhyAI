@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1775326598 "phyai.tex" "phyai.pdf" "phyai" 1775326600 2
+["pdflatex"] 1775383451 "phyai.tex" "phyai.pdf" "phyai" 1775383453 2
   "/etc/texmf/web2c/texmf.cnf" 1740892127 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -13,7 +13,9 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm" 1136768653 1332 f817c21a1ba54560425663374f1b651a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm" 1136768653 1344 8a0be4fe4d376203000810ad4dc81558 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm" 1136768653 1336 3125ccb448c1a09074e3aa4a9832f130 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm" 1136768653 1332 1fde11373e221473104d6cc5993f046e ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm" 1136768653 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
@@ -38,6 +40,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1248133631 32080 340ef9bf63678554ee606688e7b5339d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1248133631 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1248133631 36554 b67dc2cfa451409e100b3fcf5f506509 ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1248133631 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1248133631 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1248133631 36741 fa121aac0049305630cf160b86157ee4 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1248133631 36281 c355509802a035cadc5f15869451dcee ""
@@ -152,11 +155,13 @@
   "chapter1/1_3.png" 1775297446 13246 45ae49815c29250be9aff1b52044694c ""
   "chapter1/1_4.png" 1775316507 45935 20c2427168f736f655bd683de83a8469 ""
   "chapter1/1_5.png" 1775324831 14338 2c36fe73e843f2d7eb1f723f1c653217 ""
-  "chapter1/chapter1.tex" 1775326598 8411 df590e51c8cc515bf2dfd24c2f7ef412 ""
-  "phyai.aux" 1775326599 6340 167640582be639ec53e70074a33409c5 "pdflatex"
-  "phyai.out" 1775326599 1982 d6493a75f97bcc59d308dd9f22c4d951 "pdflatex"
+  "chapter1/1_6.png" 1775375650 43745 a01821ccb37adb0a6a7c82305710003a ""
+  "chapter1/1_7.png" 1775378914 18096 bb8ec3c8df6b69a36df07a07546a8cd5 ""
+  "chapter1/chapter1.tex" 1775383452 16669 2c580d1a1b1056a5ac22b2be1e446f39 ""
+  "phyai.aux" 1775383453 7898 1a36d7f95402348b7e7496c0c6eb4620 "pdflatex"
+  "phyai.out" 1775383453 2691 296b4dd27520fd082900121dfe84dde0 "pdflatex"
   "phyai.tex" 1775272162 1092 311c333c741f47fd67d2a740e2a7b99b ""
-  "phyai.toc" 1775326599 887 7248968553d8f92e4949b37927a3e28c "pdflatex"
+  "phyai.toc" 1775383453 1232 f6143d1f2ba4fec90b57fd1cb997e9ad "pdflatex"
   "preface.tex" 1775290100 5375 084c65e48d5d8f226f922c4ee085af74 ""
   (generated)
   "phyai.aux"
