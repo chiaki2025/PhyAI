@@ -208,6 +208,88 @@ If we define $W_{\text{left}}$ as the work that left our piston, then:
 $$ W_{\text{entered}}=-W_{\text{left}}=-\int_{x_{i} }^{x_{f}}F\cos(\overrightarrow{F},d\overrightarrow{x})dx=-\int_{x_{i}}^{x_{f}}Fdx=-\int_{x_{i}}^{x_{f}}PAdx=-\int_{V_{i}}^{V_{f}}PdV    $$
 For convenience, $W$ denotes the work that \textbf{entered} system:
 $$ W=-\int_{V_{i}}^{V_{f}}PdV  $$
+Within the scope of this subsection, I will list $4$ main special thermodynamics processes, without going deeply in details.
+\subsubsection{Isotherm Process}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_9.png}
+	\end{center}
+	\caption{Isotherm PV graph}\label{fig:1_9}
+\end{figure}
+From Corollary ~\ref{Total Internal Energy}, we can see that: $$ \Delta U=N.f.\frac{1 }{2}k\Delta T $$
+Because $T$ is \text{constant}, we can conclude that: $$ \Delta U=Q+W=0\Rightarrow Q=-W$$
+The work done is:
+$$ W=-\int_{V_{i}}^{V_{f}}PdV=-\int_{V_{i}}^{V_{f}}\frac{NkT }{V}dV   =NkT\ln{\frac{V_{i}}{V_{f}}}$$
+\subsubsection{Constant-Volume Process}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_10.png}
+	\end{center}
+	\caption{Constant-Volume PV graph}\label{fig:1_10}
+\end{figure}
+According to the first law: $$ \Delta U=Q+W=Q-\int_{V_{i}}^{V_{f}}PdV=Q\text{ (no work is done)}  $$
+Recall the definition of heat capacity from Definition ~\ref{Heat Capacity Definition}:
+$$ C=\frac{Q }{\Delta T}=\frac{\Delta U-W }{\Delta T} $$
+We define a new quantity, is called \textbf{heat capacity at constant volume}, denoted $C_{V}\footnote[1]{Many other textbooks, including Halliday, define the quantity $C_{V}$ as \textbf{molar specific heat at constant volume: $$ C_{V}=\frac{Q }{n\Delta T} $$}There is no conflict here, this convention works very well in solving physics exercises; however the capital $C$ might be confused with the definition of thermal capacity, as we discussed above. }\footnote[2]{I am following the notation convention from "An Introduction to Thermal Physics", written by Daniel V. Schroeder.}$:
+$$ C_{V}=\frac{\Delta U-W }{\Delta T}=\frac{\Delta U }{\Delta T}=\left(\frac{\partial U }{\partial T}\right)_{V}=\frac{Nkf }{2} $$
+$C_{V}$ is so convenient when we want to calculate the amount of internal energy increasing ($\Delta U$), or heat $Q$ entering the system:
+$$ \Delta U=Q=C_{V}\Delta T=\frac{Nkf\Delta T }{2} $$
+\subsubsection{Constant-Pressure Process}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_11.png}
+	\end{center}
+	\caption{Constant-Pressure PV graph}\label{fig:1_11}
+\end{figure}
+Like $C_{V}$, we denote $C_{P}$ as \textbf{heat capacity at constant pressure}, which can be determined as:
+\begin{equation*}
+	\begin{split}
+		C_{P}&=\frac{Q }{\Delta T}=\frac{\Delta U - W }{\Delta T}=\frac{\Delta U+P\Delta V }{\Delta T} =C_{V}+P \left(\frac{\Delta V }{\Delta T}\right)\\
+		&=C_{V}+P\left(\frac{\partial V }{\partial T}\right)_{P}=C_{V}+Nk
+	\end{split}
+\end{equation*}
+The increase of internal energy is: $$ \Delta U=C_{V}\Delta T=\frac{Nkf\Delta T}{2} $$
+The work done and heat that entered the system are:
+\begin{equation*}
+	\begin{split}
+		W&=-P\Delta V\\
+		Q&=C_{P}\Delta T=(C_{V}+Nk)\Delta T
+	\end{split}
+\end{equation*}
+\subsubsection{Adiabatic Process}
+The adiabatic compression is the process that \textbf{no heat flows out of (or into) the gas}. I always think of this process within the Carnot cycle\footnote[1]{Carnot cycle in particular, and heat engines in general, will be analyzed in more detail in later chapters.} as something happens very quickly and nothing is leaked or entered into the system.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter1/1_12.png}
+	\end{center}
+	\caption{Adiabatic PV graph}\label{fig:1_12}
+\end{figure}
+Because nothing is leaked or entered into system: $$ \Delta U=Q+W=0+W=W $$
+The original form of this equation does not reveal any information about the relationship between $P$ and $V$ themselves, independent of $T$:
+\begin{equation*}
+	\begin{split}
+		\Delta U&=W=-\int_{V_{i}}^{V_{f}}PdV\Rightarrow dU=-PdV \text{ (Differentiate both sides)}\\
+	\end{split}
+\end{equation*}
+Using Corollary ~\ref{Total Internal Energy}, we can see that:
+\begin{equation*}
+	\begin{split}
+		dU&=-PdV\\
+		\Leftrightarrow \frac{Nkf}{2}.dT&=-PdV\\
+		\Leftrightarrow \frac{Nkf}{2}.dT&=-\frac{NkT }{V}dV\\
+		\Leftrightarrow \int\frac{Nkf}{2}.\frac{dT }{T}&=-\int Nk.\frac{dV}{V}\text{ (Take antiderivative both sides)}\\
+		\Leftrightarrow \frac{f }{2}\ln{T}&=-\ln{V}+C\\
+		\Leftrightarrow T^{f/2}V&=\text{constant}\\
+	\end{split}
+\end{equation*}
+Here is a very tricky step\footnote[1]{If you find this proof very unnature, so do I. I recalculated the power factor $2/f$ from the solution, and it is very difficult to find on the first approach to the problem.}\footnote[2]{If you are still not satisfied, I recommend that you should read the proof in section 19-9, Halliday textbook.}, power both sides by $2/f$:
+\begin{equation*}
+	(T^{f/2}V)^{2/f}=TV^{2/f}=\frac{PV }{Nk}V^{2/f}=\text{constant}\Rightarrow PV^{(f+2)/f}=\text{constant}
+\end{equation*}
+If we define the coefficient $\gamma$ as \textbf{adiabatic exponent}:
+$$ \gamma=\frac{f+2 }{f} =\frac{C_{P}}{C_{V}}$$
+then we can rewrite the $P-V$ adiabatic function: $$ PV^{\gamma}=\text{constant} $$
+% subsection  (end)
 % section The First Law of Thermodynamics (end)
 % chapter The First Law of Thermodynamics (end)
 \end{document}

@@ -13,3 +13,7 @@
 \contentsline {section}{\numberline {1.6}The First Law of Thermodynamics}{17}{section.1.6}%
 \contentsline {subsection}{\numberline {1.6.1}Heat and Work}{17}{subsection.1.6.1}%
 \contentsline {subsection}{\numberline {1.6.2}Thermodynamics Process}{19}{subsection.1.6.2}%
+\contentsline {subsubsection}{Isotherm Process}{19}{section*.3}%
+\contentsline {subsubsection}{Constant-Volume Process}{20}{section*.4}%
+\contentsline {subsubsection}{Constant-Pressure Process}{21}{section*.5}%
+\contentsline {subsubsection}{Adiabatic Process}{21}{section*.6}%
