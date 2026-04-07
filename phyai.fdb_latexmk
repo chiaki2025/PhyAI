@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1775489659 "phyai.tex" "phyai.pdf" "phyai" 1775489661 2
+["pdflatex"] 1775581290 "phyai.tex" "phyai.pdf" "phyai" 1775581291 2
   "/etc/texmf/web2c/texmf.cnf" 1740892127 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -162,12 +162,15 @@
   "chapter1/1_6.png" 1775375650 43745 a01821ccb37adb0a6a7c82305710003a ""
   "chapter1/1_7.png" 1775378914 18096 bb8ec3c8df6b69a36df07a07546a8cd5 ""
   "chapter1/1_8.png" 1775403182 19129 e197e237f766edcbfd1915b5266fa6ba ""
-  "chapter1/1_9.png" 1775447977 19780 74ff0ea1a8d0749156065a2f90a7ccb8 ""
-  "chapter1/chapter1.tex" 1775489660 22512 69e86e64907e1a6bf3be6f88781563f7 ""
-  "phyai.aux" 1775489661 9421 bb25def86f20d44929ef884255ed9107 "pdflatex"
-  "phyai.out" 1775489661 2698 a5f0c936baf59f151d602a02d95bec49 "pdflatex"
-  "phyai.tex" 1775272162 1092 311c333c741f47fd67d2a740e2a7b99b ""
-  "phyai.toc" 1775489661 1519 ec58a141ac6e7da9fa9a9ad60926863b "pdflatex"
+  "chapter1/1_9.png" 1775546398 22380 509475f33f850e6a1788c9e3b5a0691a ""
+  "chapter1/chapter1.tex" 1775546708 22532 7e1fdd7c4ea2b3600132e3b7bb9387ed ""
+  "chapter2/2_1.png" 1775577555 40440 562a4de5f17de0b8b06c36c030c515d8 ""
+  "chapter2/2_2.png" 1775577613 20542 54609f393fbe27ad8bf767bf3ed3c897 ""
+  "chapter2/chapter2.tex" 1775581290 5602 cd01ebc6bb1cce7c8ed9141f4343899b ""
+  "phyai.aux" 1775581291 10778 90ef973f4589ea3428c0a9d6e800b6fc "pdflatex"
+  "phyai.out" 1775581291 3321 5ce615c3e3c3509d86c2a3e35501a431 "pdflatex"
+  "phyai.tex" 1775567926 1124 7cd2949db39324b7bf45cdeefea7f480 ""
+  "phyai.toc" 1775581291 1784 b26e722f3af22e60a59f2f8c6a01ae08 "pdflatex"
   "preface.tex" 1775290100 5375 084c65e48d5d8f226f922c4ee085af74 ""
   (generated)
   "phyai.aux"

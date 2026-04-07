@@ -1,0 +1,143 @@
+INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
+       latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
+       Wed Apr  8 00:01:30 2026
+       Filename: chapter2.tex
+INFO:  Processing switches:
+       -s|--silent: Silent mode active (you have used either -s or --silent)
+       -w|--overwrite: Overwrite mode active, will make a back up before overwriting
+       -y|--yaml: YAML settings specified via command line
+INFO:  Directory for backup files and indent.log:
+       .
+INFO:  YAML settings read: defaultSettings.yaml
+       Reading defaultSettings.yaml from /usr/share/texlive/texmf-dist/scripts/latexindent/defaultSettings.yaml
+INFO:  YAML reading settings
+       Home directory is /home/Chiaki
+       latexindent.pl didn't find indentconfig.yaml or .indentconfig.yaml
+       see all possible locations: https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#indentconfig-options)
+INFO:  -l switch used without filename, will search for the following files in turn:
+       localSettings.yaml,latexindent.yaml,.localSettings.yaml,.latexindent.yaml
+INFO:  YAML settings read: -l switch
+       Multiple localSettings found, separated by commas:
+       localSettings.yaml, latexindent.yaml, .localSettings.yaml, .latexindent.yaml
+WARN:  yaml file not found: localSettings.yaml not found. Proceeding without it.
+WARN:  yaml file not found: latexindent.yaml not found. Proceeding without it.
+WARN:  yaml file not found: .localSettings.yaml not found. Proceeding without it.
+WARN:  yaml file not found: .latexindent.yaml not found. Proceeding without it.
+INFO:  YAML settings read: -y switch
+       YAML setting: backup:0
+       Updating mainSettings with backup: 0
+INFO:  Backup procedure (-w flag active):
+       ./chapter2.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak3 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak4 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak5 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak6 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak7 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak8 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak9 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak10 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak11 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak12 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak13 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak14 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak15 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak16 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak17 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak18 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak19 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak20 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak21 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak22 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak23 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak24 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak25 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak26 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak27 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak28 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak29 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak30 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak31 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak32 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak33 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak34 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak35 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak36 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak37 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak38 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak39 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak40 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak41 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak42 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak43 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak44 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak45 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak46 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak47 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak48 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak49 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak50 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak51 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak52 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak53 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak54 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak55 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak56 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak57 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak58 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak59 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak60 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak61 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak62 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak63 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak64 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak65 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak66 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak67 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak68 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak69 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak70 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak71 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak72 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak73 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak74 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak75 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak76 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak77 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak78 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak79 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak80 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak81 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak82 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak83 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak84 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak85 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak86 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak87 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak88 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak89 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak90 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak91 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak92 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak93 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak94 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak95 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak96 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak97 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak98 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak99 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak100 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter2.bak101 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       copying chapter2.tex to ./chapter2.bak102
+       Backup file: ./chapter2.bak102
+       chapter2.tex will be overwritten after indentation
+INFO:  Phase 1: searching for objects
+INFO:  Phase 2: finding surrounding indentation
+INFO:  Phase 3: indenting objects
+INFO:  Phase 4: final indentation check
+INFO:  Output routine:
+       Overwriting file chapter2.tex
+       --------------
+INFO:  Please direct all communication/issues to:
+        https://github.com/cmhughes/latexindent.pl

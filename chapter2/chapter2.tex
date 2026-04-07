@@ -1,0 +1,80 @@
+\documentclass[~/PhyAI/phyai.tex]{subfiles}
+\begin{document}
+\chapter{The Second Law of Thermodynamics}\label{chap:the_second_law_of_thermodynamics} % (fold)
+Ludwig Boltzmann, who spent much of his life studying statistical mechanics, died in $1906$, by his own hand. Paul Ehrenfest, carrying on the work, died similarly in $1933$. Now it is our turn to study statistical mechanics\footnote[1]{Very famous quote that I found on the internet.}.
+\section{Microstate and Macrostate}\label{sec:microstate_and_macrostate} % (fold)
+In the first chapter, we used an ideal statistical model to develop the kinetic theory of gases and obtained some very useful results that formed the basis of the first law of thermodynamics. Now, we continue to use our knowledge of probability and statistics to answer our question: "Why does heat\footnote[2]{Heat in this context, is a \textbf{positive quantity.}} flow from high to low temperatures, but not in the reverse direction?".
+\\ \\ \\ \indent Let's do some combinatorics here. Imagine you have a fair coin, and you flip that coin $3$ times. You define an event $E$ as "Landing $2$ heads". How many sample points are there inside the subset $E$?
+$$ E=\{THH,HTH,THH\} \Rightarrow n(E)=\binom{3}{2}=3$$
+How many possible outcomes are there inside the sample space $\Omega$ (or $S$)?
+$$ \Omega=\{TTT,TTH,THT,THH,HHH,HHT,HTH,HHH\}\Rightarrow n(\Omega)=2^{3}=8$$
+The event $E$ is called as the \textbf{macrostate} of the system, and each of its elements is called \textbf{microstate}. For example, the macrostate "Landing $2$ heads" has $3$ microstates, one of them is $THH$; the number of microstates corresponding to a macrostate is called the \textbf{multiplicity}. Now I will change the notation here, I use the symbol $\Omega$ to denote \textbf{multiplicity}\footnote[3]{You can relate this new convention to the \textbf{random variable} concept in math books.}.
+Generally, the multiplicity of the macrostate "Landing $n$ heads" when flipping a coin $N$ times is:
+\begin{equation*}
+	\Omega(N,n)=\binom{N}{n}
+\end{equation*}
+% section: The Microstate and Macrostate (end)
+\section{The Einstein Model of a Solid}\label{sec:the_einstein_model_of_a_solid} % (fold)
+Actually, the Einstein model is quite difficult for me to fully understand it in a quantum context; so I just imagine it as a solid where every chemical bond (mostly ionic bond) stores some amount of energy, that shares the same unit. Let me explain.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter2/2_1.png}
+	\end{center}
+	\caption{How many configurations satisfy $3$ bonds containing $4$ units of energy?}\label{fig:2_1}
+\end{figure}
+A solid contains $N$ chemical bonds\footnote[1]{I think it is more accurate to use term "chemical bonds", rather than "oscillators" here.}\footnote[2]{As of the time of writing, I still do not understand why solids have $6$ degrees of freedom. Atoms in a crystal lattice barely move, so logically, their kinetic energy should be zero, and $f=3$ is simply due to potential energy stored inside the ionic bonds?}, and store a total of $q$ units of energy. The multiplicity is simply the number of \textbf{non-negative} solutions of this equation:
+\begin{equation*}
+	x_{1}+x_{2}+\cdots+x_{N-1}+x_{N}=q
+\end{equation*}
+Or equivalently, the number of each solution must be \textbf{greater than or equal to $1$} of this equation:
+\begin{equation*}
+	(x_{1}+1)+(x_{2}+1)+\cdots +(x_{N-1}+1)+(x_{N}+1)=q+N
+\end{equation*}
+\begin{equation*}
+	\Leftrightarrow t_{1}+t_{2}+\cdots+t_{N-1}+t_{N}=q+N
+\end{equation*}
+This combinatorial problem is very classic; we just need to "split" $(q+N)$ units of energy using $(N-1)$ "bars".
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter2/2_2.png}
+	\end{center}
+	\caption{The general formula for the multiplicity of an Einstein solid}\label{fig:2_2}
+\end{figure}
+This crucial formula is the backbone of this section, especially when we deal with problems related to Einstein's solid model.
+\begin{theorem}[The Multiplicity of an Einstein solid]
+	The general formula for the multiplicity of an Einstein solid with $N$ chemical bonds and $q$ units of energy is:
+	\begin{equation*}
+		\Omega(N,q)=\binom{N+q-1}{q}=\frac{(N+q-1)! }{(N-1)!q!}
+	\end{equation*}
+\end{theorem}
+In our previous example in Figure ~\ref{fig:2_1}, the number of satisfied configurations is:
+$$ \Omega(N,q)=\Omega(3,4)=\binom{3+4-1}{4}=15 $$
+The problem is, $N$ and $q$ are always very large numbers. For example, in $1$ gram of $\ce{Na}$, the number of atoms is up to $N=2.61.10^{22}$. In statistical physics, we usually deal with very large number; therefore, in the remainder of this subsection, I will introduce some powerful mathematical tools to handle them easier.
+\begin{theorem}[Weak Stirling's Approximation for Natural Logarithm] When $N>>1$:
+	$$\ln{N!}=N\ln{N}-N $$
+\end{theorem}
+\begin{proof}
+	\begin{equation*}
+		\begin{split}
+			\ln{N!}&=\ln{[N(N-1)\cdots 2.1]}=\ln{N}+\ln{(N-1)}+\cdots+\ln{2}+\ln{1}\\
+			&=\sum_{i=1}^{N}\ln{i}\approx\int_{1}^{N}\ln{x}dx\approx N\ln{N}-N
+		\end{split}
+	\end{equation*}
+
+\end{proof}
+\begin{theorem}[Stirling's Approximation] When $N>>1$:
+	$$    N!\approx N^{N}e^{-N}\sqrt{2\pi N}$$
+\end{theorem}
+
+\begin{proof}
+	Recall the definition of Gamma function, for every integer $N\geq 0$, we always have:
+	\begin{equation*}
+		\begin{split}
+			\Gamma(N+1)&=\int_{0 }^{+\infty}x^{N}e^{-x}dx=N!
+		\end{split}
+	\end{equation*}
+
+\end{proof}
+% section The Einstein Model of a Solid (end)
+% chapter The Second Law of Thermodynamics (end) 
+\end{document}
