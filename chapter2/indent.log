@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Wed Apr  8 00:01:30 2026
+       Sun Apr 12 00:51:09 2026
        Filename: chapter2.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -122,15 +122,8 @@ INFO:  Backup procedure (-w flag active):
        ./chapter2.bak92 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter2.bak93 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter2.bak94 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak95 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak96 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak97 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak98 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak99 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak100 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak101 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       copying chapter2.tex to ./chapter2.bak102
-       Backup file: ./chapter2.bak102
+       copying chapter2.tex to ./chapter2.bak95
+       Backup file: ./chapter2.bak95
        chapter2.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation

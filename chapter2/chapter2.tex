@@ -46,10 +46,11 @@ This crucial formula is the backbone of this section, especially when we deal wi
 	\begin{equation*}
 		\Omega(N,q)=\binom{N+q-1}{q}=\frac{(N+q-1)! }{(N-1)!q!}
 	\end{equation*}
+	\label{The Multiplicity of an Einstein solid}
 \end{theorem}
 In our previous example in Figure ~\ref{fig:2_1}, the number of satisfied configurations is:
 $$ \Omega(N,q)=\Omega(3,4)=\binom{3+4-1}{4}=15 $$
-The problem is, $N$ and $q$ are always very large numbers. For example, in $1$ gram of $\ce{Na}$, the number of atoms is up to $N=2.61.10^{22}$. In statistical physics, we usually deal with very large number; therefore, in the remainder of this subsection, I will introduce some powerful mathematical tools to handle them easier.
+The problem is, $N$ and $q$ are always very large numbers. For example, in $1$ gram of $\ce{Na}$, the number of chemical bonds is up to $N=7.856.10^{22}$. In statistical physics, we usually deal with very large number; therefore, in the remainder of this subsection, I will introduce some powerful mathematical tools to handle them easier.
 \begin{theorem}[Weak Stirling's Approximation for Natural Logarithm] When $N>>1$:
 	$$\ln{N!}=N\ln{N}-N $$
 \end{theorem}
@@ -67,14 +68,76 @@ The problem is, $N$ and $q$ are always very large numbers. For example, in $1$ g
 \end{theorem}
 
 \begin{proof}
-	Recall the definition of Gamma function, for every integer $N\geq 0$, we always have:
+	Recall the definition of Gamma function, for every non-negative integer $N$, we always have:
 	\begin{equation*}
 		\begin{split}
-			\Gamma(N+1)&=\int_{0 }^{+\infty}x^{N}e^{-x}dx=N!
+			\Gamma(N+1)&=\int_{0 }^{+\infty}x^{N}e^{-x}dx=N!\\
+			&=\int_{0 }^{+\infty} e^{N\ln{x}}e^{-x}dx=\int_{0 }^{+\infty} e^{N\ln{x}-x}dx\\
+			&=\int_{0 }^{+\infty}e^{N\ln{x}-x}dx
 		\end{split}
 	\end{equation*}
-
+	Now we want to expand the equation by Taylor expansion, by setting an auxiliary variable $x=y+N\Rightarrow y=x-N$ :
+	\begin{equation*}
+		\begin{split}
+			N\ln{x}-x&=N\ln{(y+N)}-(y+N)\\
+			&=N\ln{N\left(\frac{y }{N}+1\right)}-(y+N)\\
+			&= N\ln{N}+N \left(\frac{y }{N}-\frac{1 }{2}.\frac{y^{2} }{N^{2}}\right)-y-N\\
+			&=N\ln{N}-\frac{1 }{2}.\frac{y^{2} }{N}-N\\
+		\end{split}
+	\end{equation*}
+	After changing the variable, we obtain:
+	\begin{equation*}
+		\begin{split}
+			\Gamma(N+1)&=\int_{0 }^{+\infty}e^{N\ln{x}-x}dx=\int_{-N }^{+\infty}\exp{\left(N\ln{N}-\frac{1 }{2}.\frac{y^{2} }{N}-N\right)} dy\\
+			&=N^{N}e^{-N}\int_{-N }^{+\infty}\exp \left(-\frac{1 }{2}.\frac{y^{2}}{N}\right) dy
+		\end{split}
+	\end{equation*}
+	Since $N$ approaches infinity, applying Gaussian integral result:
+	$$ \int_{-\infty }^{+\infty }e^{-y^{2}}dy=\sqrt{\pi}  $$
+	We conclude:
+	\begin{equation*}
+		\begin{split}
+			\Gamma(N+1)&=N^{N}e^{-N}\sqrt{2N}\int_{-\infty }^{+\infty}\exp \left[-\left(\frac{y }{\sqrt{2N}}\right)^{2}\right] d \left(\frac{y }{\sqrt{2N}}\right)\\
+			&=N^{N}e^{-N}\sqrt{2\pi N}
+		\end{split}
+	\end{equation*}
 \end{proof}
+Let's apply our previous results to explore a very cool phenomenon. I have an \textbf{interacting system}, which consists $2$ Einstein solids. I call them $A$ and $B$; solid $A$ contains $2$ atoms and solid $B$ contains $3$ atoms. From the simple cube crystal structure, which I drew above, we know that $N_{A}=6$ and $N_{B}=9$ chemical bonds\footnote[1]{In practical, I think we should determine the number of moles first, then search for the actual crystal structure. Cube is just the simplest case.}. You measure the system's \textbf{temperature} through the insulation box, and obtain the total \textbf{internal energy} result $q=q_{A}+q_{B}=8$ (units of energy)\footnote[2]{This is just a very ideal model experiment.}. How is the energy distributed inside the solid $A$ or $B$? I think picking them out of the box might be not a good idea, since they can immediately interact with the outside environment.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.70\textwidth]{~/PhyAI/chapter2/2_3.png}
+	\end{center}
+	\caption{What is the most \text{probable} configuration for energy distributing system?}\label{fig:2_3}
+\end{figure}
+We have to do an indirect way to consider how many units of energy are likely within our solids. Recall Theorem ~\ref{The Multiplicity of an Einstein solid}, the number of total possible states of a solid of $N$ chemical bonds with $q$ energy units is: $$ \Omega(N,q)=\binom{q+N-1}{q} $$
+We already know that $ N_{A}=6 $, $N_{B}=9$, and $q=q_{A}+q_{B}=8$, so:
+$$ \Omega(N_{A},q_{A})=\Omega(6,q_{A})=\binom{q_{A}+5}{q_{A}} $$
+$$ \Omega(N_{B},q_{B})=\Omega(9,q_{B})=\binom{q_{B}+8}{q_{B}} $$
+The multiplicity of an interacting system is: $ \Omega_{AB}=\Omega_{A}.\Omega_{B} $
+\begin{center}
+	\begin{tabular}{ |c|c|c|c|c| }
+		\hline
+		$q_{A}$ & $\Omega_{A}$ & $q_{B}$ & $\Omega_{B}$ & $\Omega_{AB}$ \\
+		\hline
+		0       & 1            & 8       & 12870        & 12870         \\
+		1       & 6            & 7       & 6435         & 38610         \\
+		2       & 21           & 6       & 3003         & 63063         \\
+		3       & 56           & 5       & 1287         & 72072         \\
+		4       & 126          & 4       & 495          & 62370         \\
+		5       & 252          & 3       & 167          & 42084         \\
+		6       & 462          & 2       & 45           & 20790         \\
+		7       & 792          & 1       & 9            & 7128          \\
+		8       & 1287         & 0       & 1            & 1287          \\
+		\hline
+	\end{tabular}
+\end{center}
+As you can see here, the most probable configuration of an interacting system is $q_{A}=3$, $q_{B}=5$, with the highest multiplicity, the corresponding probability is slightly higher than its surroundings:
+$$ P(q_{A}=2, q_{B}=6)=19.69\% $$
+$$ P(q_{A}=3, q_{B}=5)=22.50\% $$
+$$ P(q_{A}=4, q_{B}=4)=19.47\% $$
+Our calculation above seems like make sense; an "equilibrium" state of energy is the most likely reached state. Energy is well-distributed inside solids, represented by a nearly perfect ratio:
+$$ \frac{q_{A}}{q_{B} }\approx \frac{N_{A} }{N_{B}} $$
 % section The Einstein Model of a Solid (end)
 % chapter The Second Law of Thermodynamics (end) 
+
 \end{document}
