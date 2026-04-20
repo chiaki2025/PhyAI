@@ -227,7 +227,7 @@ $$ \frac{q_{A} }{N_{A}}=\frac{q_{B}}{N_{B}}\Rightarrow q_{A}=3.33.10^{5},\; q_{B
 	\end{equation*}
 	So, there is no way $E_{2}$ could happen, compared to $E_{1}$.
 \end{exmp}
-After considering $3$ simple cases of Einstein solids, you can see that equilibrium state is reached when energy is evenly distributed\footnote[1]{I still can not prove the general result mathematically yet, as it is quite difficult. You could try proving the local maxima of $\Omega_{AB}$ is equilibrium state value: $$ \frac{q_{A}}{N_{A}}=\frac{q_{B}}{N_{B}} $$ A special case where $q>>N$ and $N_{A}=N_{B}=N$ is proved in section 2.4, An Introduction to Thermal Physics, Daniel V. Schroeder.} within solids A and B. If we assume the initial internal energy of solid A is $q_{A}=0$ and solid $B$ is $q_{B}=q$, then very quickly the energy is \textbf{well-distributed} due to multiplicities. Solid $A$ receives the energy from solid $B$, and solid $B$ transfers its energy to solid $A$; until they both reach the equilibrium state. Since internal energy is directly proportional to temperature, heat will be transferred from the higher temperature object (solid B) to the lower temperature object (solid A). This is a very convincing answer for our previous question from previous chapter!
+After considering $3$ simple cases of Einstein solids, you can see that equilibrium state is reached when energy is evenly distributed\footnote[1]{I still can not prove the general result mathematically yet, as it is quite difficult. You could try proving the local maxima of $\Omega_{AB}$ is equilibrium state value: $$ \frac{q_{A}}{N_{A}}=\frac{q_{B}}{N_{B}} $$ A special case where $q>>N$ and $N_{A}=N_{B}=N$ is proved in section 2.4, "An Introduction to Thermal Physics", Daniel V. Schroeder.} within solids $A$ and $B$. If we assume the initial internal energy of solid $A$ is $q_{A}=0$ and solid $B$ is $q_{B}=q$, then very quickly the energy is \textbf{well-distributed} due to multiplicities. Solid $A$ receives the energy from solid $B$, and solid $B$ transfers its energy to solid $A$; until they both reach the equilibrium state. Since internal energy is directly proportional to temperature, heat will be transferred from the higher temperature object (solid $B$) to the lower temperature object (solid $A$). This is a very convincing answer for our previous question from previous chapter!
 \begin{theorem}[The Second Law of Thermodynamics]
 	\label{The Second Law of Thermodynamics}
 	Multiplicity tends to increase; and any large system in equilibrium will be found in the macrostate with the greatest multiplicity.
@@ -236,12 +236,83 @@ After considering $3$ simple cases of Einstein solids, you can see that equilibr
 	\textbf{Statistically}, heat flows from the higher temperature object to the lower temperature object, and never in reverse.
 	\label{Heat flowing direction}
 \end{corollary}
-As the examples above have shown, when $(q, N)$ are very large numbers, it is more convenient to deal with $\ln\Omega$ than $\Omega$ itself. Now we define a new quantity, called \textbf{entropy}, to scale the multiplicity $\ln\Omega$ down.
+As the examples above have shown, when $(q, N)$ are very large numbers, it is more convenient to deal with $\ln\Omega\footnote[2]{From now on, $\Omega$ is denoted as the short form for $\Omega(N,q)$.}$ than $\Omega$ itself. Now we define a new quantity, called \textbf{entropy}, to scale the multiplicity $\ln\Omega$ down, and assign it with a physical unit.
 \begin{definition}[Entropy Definition]
 	Entropy is defined as: $$ S=k_{B}\ln\Omega \quad(\text{J/K})$$
 \end{definition}
-
+In this chapter, we still do not explain why $k_{B}$ is chosen to be scale factor yet, or physical meaning of the quantity $S$. Keep everything as simple as possible, and consider the quantity \textbf{entropy} as another representation of \textbf{multiplicity}. From Theorem ~\ref{The Second Law of Thermodynamics}, we can see that:
+\begin{corollary}
+	Entropy tends to increase.
+\end{corollary}
+To conclude this section, we now develop some useful results in calculating entropy of a general Einstein solid.
+\subsection{$N$ and $q$ are relatively small}
+If both $N$ and $q$ values are small, you can calculate exactly entropy of an Einstein solid without using any approximation formula.
+\begin{equation*}
+	S=k_{B}\ln{\Omega}=k_{B}\ln \binom{N+q-1}{q}
+\end{equation*}
+\subsection{$N$ and $q$ are large values}\label{sub:_n_and_q_are_large_values} % (fold)
+\subsubsection{An Einstein solid at high-temperature}
+As we discussed above; if a solid is at high-temperature compared to absolute zero, then $q>>N$. We have proved the approximation formula:
+$$ \Omega\approx \left(\frac{eq}{N}\right)^{N} $$
+Now we can conclude: $$ S=k_{B}\ln{\Omega}=k_{B}N\ln{\frac{eq }{N}} $$
+% subsection $N$ and $q$ are large values (end)
+\subsubsection{An Einstein solid at low-temperature}
+At low temperature near absolute zero, intuitively $N>>q$, we have to develop another approximation formula for this case. Since this is not a typical case, we will not state any corollaries here.
+\begin{equation*}
+	\begin{split}
+		\ln\Omega&=(q+N)\ln{(q+N)}-q\ln{q}-N\ln{N}\\
+		&=(q+N)\ln\left[N \left(\frac{q }{N}+1\right)\right]-q\ln{q}-N\ln{N}\\
+		&\approx (q+N)\ln{N}+(q+N)\frac{q }{N}-q\ln{q}-N\ln{N}\\
+		&=q\ln{N}+\frac{q^{2}}{N}+q-q\ln{q}\\
+		&\approx q\ln{\frac{N }{q}}+q=\ln \left(\frac{eN}{q}\right)^{q}\\
+	\end{split}
+\end{equation*}
+Finally, we see that: $$ S=k_{B}\ln{\Omega}=k_{B}q\ln \frac{eN }{q} $$
+\subsubsection{A general Einstein solid model}\label{sec:a_general_einstein_solid} % (fold)
+Now we are considering the final case, which both $N$ and $q$ are large value; and their difference is \textbf{not significant}. For example, assume that $N=2.31.10^{5}$ and $q=2.43.10^{5}$, obviously we must derive our approximation from scratch because the initial conditions $q>>N$ or $N>>q$ are incorrect.
+\begin{equation*}
+	\begin{split}
+		\Omega&=\binom{N+q-1}{q}=\frac{(N+q-1)! }{q!(N-1)!}=\frac{N }{q+N}\frac{(q+N)! }{q!N!}\\
+		&=\frac{N }{q+N}\frac{\sqrt{2\pi(q+N)}\left[(q+N)/e\right]^{q+N}}{\sqrt{2\pi q}\left(q/e\right)^{q}\sqrt{2\pi N}(N/e)^{N}}\quad(\text{Stirling's approximation})\\
+		&=\frac{\sqrt{N}}{\sqrt{2\pi}\sqrt{q(q+N)}}\left(\frac{q+N }{q}\right)^{q}\left(\frac{q+N }{N}\right)^{N}\\
+		&= \frac{\left(\displaystyle\frac{q+N}{q}\right)^{q}\left(\displaystyle\frac{q+N}{N}\right)^{N} }{\sqrt{\displaystyle\frac{2\pi q(q+N)}{N}}}
+	\end{split}
+\end{equation*}
+For any large values of $N$ and $q$, the entropy of Einstein solid is:
+\begin{equation*}
+	S=k_{B}\ln\Omega=k_{B}\ln\left[\frac{\left(\displaystyle\frac{q+N}{q}\right)^{q}\left(\displaystyle\frac{q+N}{N}\right)^{N} }{\sqrt{\displaystyle\frac{2\pi q(q+N)}{N}}}
+		\right]
+\end{equation*}
+% subsubsection A general Einstein solid (end)
 % section The Einstein Model of a Solid (end)
+\section{The Ideal Gas Model}\label{sec:the_ideal_gas_model} % (fold)
+\subsection{Fourier Transform and Quantum Mechanics}
+Every energy signals in time domain can be analyzed in frequency domain through Fourier transform\footnote[1]{I think the most convenient way to represent the Fourier transform is complex exponential form, which I learned from Signals and Systems course in my university. You should refer to Chapter 3, "Signals and Systems", Alan V. Oppenheim for the full proof of these formulas.}\footnote[2]{If this is your first time encountering the Fourier transform, I highly recommend watching \href{https://youtu.be/PRUn5Alm6Vk?si=fncmV6eVDB1_hrNu}{this video} to grasp the basic idea behind it.}:
+$$ X(\omega)=\int_{-\infty }^{+\infty}x(t)e^{-j\omega t}dt=\mathcal{F}(x(t))  $$
+Similarly, spectrum in frequency domain can also be reconstructed to signal in time domain through inverse Fourier transform:
+$$ x(t)=\frac{1}{2\pi}\int_{-\infty }^{+\infty}X(\omega)e^{j\omega t}d\omega=\mathcal{F}^{-1}(X(\omega))  $$
+Now let's build a bridge. Imagine a single gas particle inside a box of volume $V$; it moves from point $A$ to point $B$. All trajectories are in "position space", and its momentum is in "momentum space". Loosely speaking, if you know the particle's path from $A$ to $B$, then you can relatively know its movement. Similarly, the transformation between volume space and momentum space can also be described as:
+$$ \phi(p)=\frac{1 }{\sqrt{2\pi\hbar}}\int_{-\infty }^{+\infty}\psi(x)\exp{\left({\frac{-jpx }{\hbar}}\right)}dx  $$
+
+$$ \psi(x)=\frac{1 }{\sqrt{2\pi\hbar}}\int_{-\infty }^{+\infty}\phi(p)\exp{\left({\frac{jpx }{\hbar}}\right)}dp  $$
+Let's take a look at these 2 formulas, you can see many similarities here. First, both frequency domain and momentum space are imaginary; conversely, both time domain and position space are real. Second, neglecting all constants, the Fourier transform and "position-momentum" transform are consistent. These quantities can be loosely related in physical meaning like this:
+\begin{equation*}
+	\begin{split}
+		x(t)\text{ (Time domain)}&\leftrightarrow \psi(x)\text{ (Position space)}\\
+		X(\omega)\text{ (Frequency domain)}&\leftrightarrow \phi(p)\text{ (Momentum space)}\\
+	\end{split}
+\end{equation*}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter2/2_4.png}
+	\end{center}
+	\caption{Position and momentum space}\label{2_4}
+\end{figure}
+Why do I know the momentum space of a single gas particle is a sphere? Generally, the internal energy of a system is $U$, we have:
+$$ U=\frac{1 }{2}m(v_{x}^{2}+v_{y}^{2}+v_{z}^{2})=\frac{1 }{2m}(p_{x}^{2}+p_{y}^{2}+p_{z}^{2}) $$
+Equivalently, it yields:
+$$ p_{x}^{2}+p_{y}^{2}+p_{z}^{2}=2mU \text{ (Sphere equation)} $$
+% section The Ideal Gas Model (end)
 % chapter The Second Law of Thermodynamics (end) 
 
 \end{document}

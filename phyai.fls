@@ -1008,6 +1008,11 @@ INPUT /home/Chiaki/PhyAI/chapter2/2_3.png
 INPUT /home/Chiaki/PhyAI/chapter2/2_3.png
 INPUT /home/Chiaki/PhyAI/chapter2/2_3.png
 INPUT /home/Chiaki/PhyAI/chapter2/2_3.png
+INPUT /home/Chiaki/PhyAI/chapter2/2_4.png
+INPUT /home/Chiaki/PhyAI/chapter2/2_4.png
+INPUT /home/Chiaki/PhyAI/chapter2/2_4.png
+INPUT /home/Chiaki/PhyAI/chapter2/2_4.png
+INPUT /home/Chiaki/PhyAI/chapter2/2_4.png
 INPUT phyai.aux
 INPUT ./phyai.out
 INPUT ./phyai.out
@@ -1033,4 +1038,5 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb
