@@ -53,6 +53,7 @@ $$ \Omega(N,q)=\Omega(3,4)=\binom{3+4-1}{4}=15 $$
 The problem is, $N$ and $q$ are always very large numbers. For example, in $1$ gram of $\ce{Na}$, the number of chemical bonds is up to $N=7.856.10^{22}$. In statistical physics, we usually deal with very large number; therefore, in the remainder of this subsection, I will introduce some powerful mathematical tools to handle them easier.
 \begin{theorem}[Weak Stirling's Approximation for Natural Logarithm] When $N>>1$:
 	$$\ln{N!}=N\ln{N}-N $$
+	\label{Weak Stirling's Approximation}
 \end{theorem}
 \begin{proof}
 	\begin{equation*}
@@ -110,7 +111,7 @@ Let's apply our previous results to explore a very cool phenomenon. I have an \t
 	\caption{What is the most \text{probable} configuration for energy distributing system?}\label{fig:2_3}
 \end{figure}
 We have to do an indirect way to consider how many units of energy are likely within our solids. Recall Theorem ~\ref{The Multiplicity of an Einstein solid}, the number of total possible states of a solid of $N$ chemical bonds with $q$ energy units is: $$ \Omega(N,q)=\binom{q+N-1}{q} $$
-We already know that $ N_{A}=6 $, $N_{B}=9$, and $q=q_{A}+q_{B}=8$, so:
+We already assumed that $ N_{A}=6 $, $N_{B}=9$, and $q=q_{A}+q_{B}=8$, so:
 $$ \Omega(N_{A},q_{A})=\Omega(6,q_{A})=\binom{q_{A}+5}{q_{A}} $$
 $$ \Omega(N_{B},q_{B})=\Omega(9,q_{B})=\binom{q_{B}+8}{q_{B}} $$
 The multiplicity of an interacting system is: $ \Omega_{AB}=\Omega_{A}.\Omega_{B} $
@@ -135,8 +136,111 @@ As you can see here, the most probable configuration of an interacting system is
 $$ P(q_{A}=2, q_{B}=6)=19.69\% $$
 $$ P(q_{A}=3, q_{B}=5)=22.50\% $$
 $$ P(q_{A}=4, q_{B}=4)=19.47\% $$
-Our calculation above seems like make sense; an "equilibrium" state of energy is the most likely reached state. Energy is well-distributed inside solids, represented by a nearly perfect ratio:
-$$ \frac{q_{A}}{q_{B} }\approx \frac{N_{A} }{N_{B}} $$
+Our calculation above seems like make sense; the "equilibrium" state of energy is the most likely reached state. Energy is well-distributed inside solids, represented by a nearly perfect ratio:
+$$ \frac{q_{A}}{q_{B} }\approx \frac{N_{A} }{N_{B}} \Rightarrow \frac{q_{A} }{N_{A}}\approx \frac{q_{B} }{N_{B}}$$
+The amount of energy stored is directly proportional to the number of chemical bonds in a solid; to put it more simply, the more containers, the more energy can be stored. Now consider another situation where $N_{A}=N_{B}=300$, and $q=q_{A}+q_{B}=1000$. Instead of directly calculating $\Omega(N,q)$, we must change our strategy to \textbf{approximate} numerical values.
+$$ \Omega(N,q)=\binom{q+N-1}{q}\approx\binom{q+N}{q}=\frac{(q+N)! }{q!N!}\quad(q,N>>1)$$
+Take natural logarithm of both sides, and use Theorem ~\ref{Weak Stirling's Approximation}:
+\begin{equation*}
+	\begin{split}
+		\ln{\Omega(N,q)}&=\ln{(q+N)!}-\ln{q!}-\ln{N!}=(q+N)\ln{(q+N)}-(q+N)-q\ln{q}+q-N\ln{N}+N\\
+		&=(q+N)\ln{(q+N)}-q\ln{q}-N\ln{N}
+	\end{split}
+\end{equation*}
+Taking natural logarithm of the multiplicity of an interacting system yields:
+\begin{equation*}
+	\ln{\Omega_{AB}}=\ln{\Omega_{A}}+\ln{\Omega_{B}}
+\end{equation*}
+Obviously, if $\Omega_{AB}$ reaches its maximum value, then so does $\ln{\Omega_{AB}}$. From the previous result, we guess that the "equilibrium" state is reached when:
+$$ \frac{q_{A} }{N_{A}}\approx \frac{q_{B}}{N_{B}}\Rightarrow q_{A}=q_{B}=500 $$
+
+\begin{center}
+	\begin{tabular}{ |c|c|c|c|c| }
+		\hline
+		$q_{A}$ & $\ln\Omega_{A}$ & $q_{B}$ & $\ln\Omega_{B}$ & $\ln\Omega_{AB}$ \\
+		\hline
+		0       & 0               & 1000    & 702.26          & 702.26           \\
+		1       & 6.70            & 999     & 702             & 708.70           \\
+		2       & 12.02           & 998     & 701.74          & 713.76           \\
+		...     & ...             & ...     & ...             & ...              \\
+		498     & 528.30          & 502     & 530.18          & 1058.48          \\
+		499     & 528.78          & 501     & 529.72          & 1058.50          \\
+		500     & 529.25          & 500     & 529.25          & 1058.50          \\
+		501     & 529.72          & 499     & 528.28          & 1058.50          \\
+		502     & 530.18          & 498     & 528.30          & 1058.48          \\
+		...     & ...             & ...     & ...             & ...              \\
+		998     & 701.74          & 2       & 12.02           & 713.76           \\
+		999     & 702             & 1       & 6.70            & 708.70           \\
+		1000    & 702.26          & 0       & 0               & 702.26           \\
+		\hline
+	\end{tabular}
+\end{center}
+Determining the exact probability of each configuration is impossible, but we can easily figure out what the most probable configuration is inside system:
+$$ {\Omega_{AB}}\propto P(q_{A}, q_{B}) $$
+The numerical results shows that our guess seems like correct. We consider the last case, in reality, $q$ is often much larger than $N$, thanks to room temperature is very higher than absolute zero point.
+\begin{corollary}[Multiplicity of a Large Einstein Solid]
+	\label{Multiplicity of a Large Einstein Solid}
+	The multiplicity of a large Einstein solid at normal temperature ($q>>N$) is:
+	\begin{equation*}
+		\ln{\Omega(N,q)}=N+N\ln{\frac{q }{N}}\Rightarrow \Omega(N,q)=\left(\frac{eq }{N}\right)^{N}
+	\end{equation*}
+\end{corollary}
+\begin{proof}
+	\begin{equation*}
+		\begin{split}
+			\ln{\Omega(N,q)}&=(q+N)\ln{(q+N)}-q\ln{q}-N\ln{N}\\
+			&=(q+N)\ln{\left[q \left(\frac{N}{q}+1\right)\right]}-q\ln{q}-N\ln{N}\\
+			&\approx (q+N)\left(\ln{q}+\frac{N }{q}\right)-q\ln{q}-N\ln{N}\\
+			&=N\ln{\frac{q }{N}}+N+\frac{N^{2}}{q}\\
+			&\approx N\ln{\frac{q }{N}}+N
+		\end{split}
+	\end{equation*}
+	We can see that:
+	\begin{equation*}
+		\Omega(N,q)=\left(\frac{eq }{N}\right)^{N}
+	\end{equation*}
+\end{proof}
+Suppose $N_{B}=2N_{A}=2.10^{2}$ and $q=q_{A}+q_{B}=10^{6}$. Similarly, we guess that the "equilibrium state" is reached when:
+$$ \frac{q_{A} }{N_{A}}=\frac{q_{B}}{N_{B}}\Rightarrow q_{A}=3.33.10^{5},\; q_{B}=6.67.10^{5} $$
+
+\begin{center}
+	\begin{tabular}{ |c|c|c|c|c| }
+		\hline
+		$q_{A}$       & $\ln\Omega_{A}$ & $q_{B}$       & $\ln\Omega_{B}$ & $\ln\Omega_{AB}$ \\
+		\hline
+		0             & 0               & $10^{6}$      & $2042.66$       & $2042.66$        \\
+		...           & ...             & ...           & ...             & ...              \\
+		$3.20.10^{5}$ & $907.09$        & $6.80.10^{5}$ & $1826.30$       & $2733.39$        \\
+		$3.33.10^{5}$ & $911.07$        & $6.67.10^{5}$ & $1822.44$       & $2733.51$        \\
+		$3.40.10^{5}$ & $913.15$        & $6.60.10^{5}$ & $1822.33$       & $2733.48$        \\
+		...           & ...             & ...           & ...             & ...              \\
+		$10^{6}$      & $1021.03$       & $0$           & $0$             & $1021.03$        \\
+		\hline
+	\end{tabular}
+\end{center}
+\begin{exmp}
+	What is the probability of event $E_{1}:(q_{A}=3.33.10^{5}, q_{B}=6.67.10^{5})$  occurring greater than the probability of event $E_{2}:(q_{A}=0, q_{B}=10^{6})$ occurring?
+	\begin{equation*}
+		\begin{split}
+			\frac{P(E_{1} )}{P(E_{2})}&=\frac{\Omega_{1} }{\Omega_{2}}=\frac{e^{2733.51 }}{e^{2042.66}}\approx e^{690}\approx 10^{300}\;(\text{times})
+		\end{split}
+	\end{equation*}
+	So, there is no way $E_{2}$ could happen, compared to $E_{1}$.
+\end{exmp}
+After considering $3$ simple cases of Einstein solids, you can see that equilibrium state is reached when energy is evenly distributed\footnote[1]{I still can not prove the general result mathematically yet, as it is quite difficult. You could try proving the local maxima of $\Omega_{AB}$ is equilibrium state value: $$ \frac{q_{A}}{N_{A}}=\frac{q_{B}}{N_{B}} $$ A special case where $q>>N$ and $N_{A}=N_{B}=N$ is proved in section 2.4, An Introduction to Thermal Physics, Daniel V. Schroeder.} within solids A and B. If we assume the initial internal energy of solid A is $q_{A}=0$ and solid $B$ is $q_{B}=q$, then very quickly the energy is \textbf{well-distributed} due to multiplicities. Solid $A$ receives the energy from solid $B$, and solid $B$ transfers its energy to solid $A$; until they both reach the equilibrium state. Since internal energy is directly proportional to temperature, heat will be transferred from the higher temperature object (solid B) to the lower temperature object (solid A). This is a very convincing answer for our previous question from previous chapter!
+\begin{theorem}[The Second Law of Thermodynamics]
+	\label{The Second Law of Thermodynamics}
+	Multiplicity tends to increase; and any large system in equilibrium will be found in the macrostate with the greatest multiplicity.
+\end{theorem}
+\begin{corollary}[Heat flowing direction]
+	\textbf{Statistically}, heat flows from the higher temperature object to the lower temperature object, and never in reverse.
+	\label{Heat flowing direction}
+\end{corollary}
+As the examples above have shown, when $(q, N)$ are very large numbers, it is more convenient to deal with $\ln\Omega$ than $\Omega$ itself. Now we define a new quantity, called \textbf{entropy}, to scale the multiplicity $\ln\Omega$ down.
+\begin{definition}[Entropy Definition]
+	Entropy is defined as: $$ S=k_{B}\ln\Omega \quad(\text{J/K})$$
+\end{definition}
+
 % section The Einstein Model of a Solid (end)
 % chapter The Second Law of Thermodynamics (end) 
 

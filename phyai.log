@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  8 APR 2026 00:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  20 APR 2026 11:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -798,23 +798,39 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.44 ...em}[The Multiplicity of an Einstein solid]
-                                                   </home/Chiaki/PhyAI/chapter2/2_1.png> </home/Chiaki/PhyAI/chapter2/2_2.png>]) [25] (./phyai.aux)
+                                                   </home/Chiaki/PhyAI/chapter2/2_1.png> </home/Chiaki/PhyAI/chapter2/2_2.png>] [25]
+<~/PhyAI/chapter2/2_3.png, id=377, 662.475pt x 481.8pt>
+File: ~/PhyAI/chapter2/2_3.png Graphic file (type png)
+<use ~/PhyAI/chapter2/2_3.png>
+Package pdftex.def Info: ~/PhyAI/chapter2/2_3.png  used on input line 109.
+(pdftex.def)             Requested size: 338.5863pt x 246.24406pt.
+ [26
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.113 ...ts is: $$ \Omega(N,q)=\binom{q+N-1}{q} $$
+                                                   </home/Chiaki/PhyAI/chapter2/2_3.png>]
+Overfull \hbox (11.92653pt too wide) detected at line 149
+[]
+ []
+
+[27] [28]) [29] (./phyai.aux)
 Package rerunfilecheck Info: File `phyai.out' has not changed.
 (rerunfilecheck)             Checksum: 5CE615C3E3C3509D86C2A3E35501A431;3321.
  ) 
 Here is how much of TeX's memory you used:
- 16978 strings out of 476091
- 332645 string characters out of 5794082
- 1866330 words of memory out of 5000000
- 36943 multiletter control sequences out of 15000+600000
+ 17004 strings out of 476091
+ 333151 string characters out of 5794082
+ 1872330 words of memory out of 5000000
+ 36955 multiletter control sequences out of 15000+600000
  526916 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,21n,76p,1000b,1104s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,21n,76p,1162b,1104s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on phyai.pdf (26 pages, 728639 bytes).
+Output written on phyai.pdf (30 pages, 765693 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 405 compressed objects within 5 object streams
- 134 named destinations out of 1000 (max. 500000)
- 222 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 PDF objects out of 1000 (max. 8388607)
+ 434 compressed objects within 5 object streams
+ 147 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 

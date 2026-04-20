@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Sun Apr 12 00:51:09 2026
+       Mon Apr 20 11:04:10 2026
        Filename: chapter2.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -112,18 +112,8 @@ INFO:  Backup procedure (-w flag active):
        ./chapter2.bak82 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter2.bak83 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter2.bak84 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak85 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak86 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak87 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak88 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak89 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak90 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak91 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak92 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak93 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak94 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       copying chapter2.tex to ./chapter2.bak95
-       Backup file: ./chapter2.bak95
+       copying chapter2.tex to ./chapter2.bak85
+       Backup file: ./chapter2.bak85
        chapter2.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
