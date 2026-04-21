@@ -312,6 +312,96 @@ Why do I know the momentum space of a single gas particle is a sphere? Generally
 $$ U=\frac{1 }{2}m(v_{x}^{2}+v_{y}^{2}+v_{z}^{2})=\frac{1 }{2m}(p_{x}^{2}+p_{y}^{2}+p_{z}^{2}) $$
 Equivalently, it yields:
 $$ p_{x}^{2}+p_{y}^{2}+p_{z}^{2}=2mU \text{ (Sphere equation)} $$
+Notice that our momentum space $\phi(p)$ is just \textbf{the surface area} of the sphere. Now we move on to Heisenberg's uncertainty principle. Let's take a look at 2 signals and their Fourier representations.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter2/2_5.png}
+	\end{center}
+	\caption{$\delta(t)$ and $\cos(\omega_{0}t$)}\label{fig:2_5}
+\end{figure}
+The Dirac delta $\delta(t)$ signal focuses only on the origin in the time domain, but its spectrum spreads out entirely in the frequency domain. The cosine $\cos(\omega_{0}t)$ signal spreads out over the time domain; but its spectrum focuses only on the frequency values $\omega=\omega_{0}$ and $\omega=-\omega_{0}$.
+\\ \\
+\textit{The more information you observe in the time domain, the less information you know in the frequency domain; and vice versa.}
+\\ \\
+Using the same analogy, for simplify, you can qualitatively think Heisenberg's uncertainty principle as:
+\\ \\
+\textit{The less spread out the wavefunction is in position space, the more spread out it must be in momentum space; and vice versa.}
+\\ \\
+This statement can be rewritten as: $$ (\Delta x)(\Delta p_{x})\approx h $$
+where $\Delta x$ is the spread in $x$, $\Delta p_{x}$ is the spread in $p$, and $h$ is Planck's constant.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter2/2_6.png}
+	\end{center}
+	\caption{A number of position and momentum states for particle moving along $x$ direction}\label{fig:2_6}
+\end{figure}
+The total number of distinct states on $x$ direction is: $$ \frac{L }{\Delta x}\frac{L_{p}}{\Delta p_{x}}=\frac{LL_{p}}{h} $$
+\subsection{Entropy of Ideal Gas}
+In the previous subsection, I introduced a frame of quantum mechanics, that needed to calculate the entropy of ideal gas. Let's consider the simplest model, only one single ideal gas atom is inside the container. The system has internal energy $U$ (mostly concentrates on the kinetic energy), and assume that the container's volume is $V$. How many microstates could the atom be in? We already know the number of available states on a single direction; using the same line of thinking, multiplicity on 3 directions $x,y$ and $z$ is:
+$$ \Omega_{1}=\frac{VV_{p}}{h^{3}} $$
+Notice that $V_{p}$ is just \textbf{the surface area} of momentum space (in this case, it is a sphere). Add one more atom in our container, now what is the multiplicity of the system? Our momentum space now is more complicated:
+$$ p_{1x}^{2}+p_{1y}^{2}+p_{1z}^{2}+p_{2x}^{2}+p_{2y}^{2}+p_{2z}^{2}= 2mU$$
+Obviously, this is not an ordinary surface equation; it defines the surface of a hypersphere in $6$-dimensional momentum space.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter2/2_7.png}
+	\end{center}
+	\caption{Multiplicity of a system containing $2$ atoms}\label{2_7}
+\end{figure}
+Similarly, we can see that:
+$$ \Omega_{2}=\frac{V}{h^{3}}.\frac{V }{h^{3}}\times V_{p}=\frac{V^{2}}{h^{6}}\times V_{p} $$
+But what is $V_{p}$? In the case of a single atom, $V_{p}$ is the surface area of a sphere of radius $R=\sqrt{2mU}$. Is $V_{p}$ still the "surface area" of a hypersphere in $6$-dimensional space? The answer is yes, and we have a general formula for the "surface-area" of any $d$-dimensional hypersphere of radius $r$.
+\begin{theorem}["Surface area" of $d$-dimensional hypersphere of radius $r$ formula]
+	\begin{equation*}
+		A_{d}(r)=\displaystyle\frac{2\pi^{d/2}}{\left(\displaystyle\frac{d }{2}-1\right)!}r^{d-1}
+	\end{equation*}
+\end{theorem}
+\begin{proof}
+	The simplest way to prove this result is to use induction. Rewriting in the form of Gamma function yields:
+	$$ A_{d}(r)=\displaystyle\frac{2\pi^{d/2}}{\Gamma \left(\displaystyle\frac{d }{2}\right)}r^{d-1} $$
+	After substituing $d=1,2,3$, we obtain:
+	\begin{equation*}
+		\begin{split}
+			A_{1}(r)&=2 \quad\text{($2$ points bounding the line segment)}\\
+			A_{2}{(r)}&=2\pi r\quad\text{(Circumference of a circle)}\\
+			A_{3}{(r)}&=4\pi r^{2}
+		\end{split}
+	\end{equation*}
+	We do not care about the trivial case $A_{1}(r)$, but rather with guessing a recurrence relationship through how $A_{3}(r)$ is established.
+	\begin{figure}[H]
+		\begin{center}
+			\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter2/2_8.png}
+		\end{center}
+		\caption{Derivation of $A_{3}(r)$ formula  }\label{2_8}
+	\end{figure}
+	It is obvious from the drawing that we have:
+	$$ A_{3}(r)=\int_{0 }^{\pi}A_{2}(r\sin\theta)rd\theta=  \int_{0 }^{\pi}2\pi r\sin\theta.rd\theta=4\pi r^{2} $$
+	The recurrence relation is pretty clear, we try to prove it is still true even $d>3$.
+	$$ A_{d}(r)=\int_{0 }^{\pi}A_{d-1}(r\sin\theta)rd\theta  $$
+	Assume that our formula still holds true up to $d-1$ dimension:
+	$$ A_{d-1}(r)=\displaystyle\frac{2\pi^{(d-1)/2}}{\Gamma \left(\displaystyle\frac{d-1 }{2}\right)} r^{d-2}$$
+	Plug the function above into our recurrence relation:
+	\begin{equation*}
+		\begin{split}
+			A_{d}(r)&=\int_{0}^{\pi}A_{d-1}(r\sin\theta)rd\theta=\displaystyle\frac{2\pi^{(d-1)/2}}{\Gamma \left(\displaystyle\frac{d-1 }{2}\right)}r^{d-1}\int_{0 }^{\pi}\sin^{d-2}\theta d\theta   \\
+		\end{split}
+	\end{equation*}
+	After separating the constant, now only the Wallis's integral left. To complete our proof, we have to show that:
+	$$ \int_{0 }^{\pi}\sin^{d-2}\theta d\theta=\displaystyle\frac{\sqrt{\pi} \Gamma \left(\displaystyle\frac{d-1}{2}\right)}{\Gamma \left(\displaystyle\frac{d}{2}\right)}  $$
+	Setting $d-2=n$, we reduce our equation to:
+	$$ \int_{0 }^{\pi}\sin^{n}\theta d\theta=\displaystyle\frac{\sqrt{\pi}\Gamma \left(\displaystyle\frac{n}{2}+\displaystyle\frac{1}{2}\right)}{\Gamma\left(\displaystyle\frac{n}{2}+1\right)}  $$
+	Before directly proving, let me recall the recursive property of Wallis's integral:
+	\begin{equation*}
+		\begin{split}
+			W_{n}&=\int_{0 }^{\pi}\sin^{n}\theta d\theta\\&=\int_{0 }^{\pi}\sin^{n-2}\theta (1-\cos^{2}\theta)d\theta\\ &=\int_{0 }^{\pi}\sin^{n-2}\thetad\theta-\int_{0 }^{\pi}\sin^{n-2}\theta\cos^{2}\theta d\theta  \\
+			&=\int_{0 }^{\pi}\sin^{n-2}\theta d\theta -\int_{0 }^{\pi}\cos\theta d \left(\frac{\sin^{n-1}\theta }{n-1}\right)\\
+			&=\int_{0 }^{\pi}\sin^{n-2}\theta d\theta -\frac{1 }{n-1}\int_{0 }^{\pi}\sin^{n}\theta d\theta \\
+			&= W_{n-2}-\frac{1 }{n-1}W_{n}\\
+		\end{split}
+	\end{equation*}
+	Finally, we can conclude:
+	$$ W_{n}=\frac{n-1 }{n}W_{n-2} $$
+\end{proof}
 % section The Ideal Gas Model (end)
 % chapter The Second Law of Thermodynamics (end) 
 

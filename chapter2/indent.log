@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Mon Apr 20 23:56:50 2026
+       Wed Apr 22 00:03:38 2026
        Filename: chapter2.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -118,21 +118,8 @@ INFO:  Backup procedure (-w flag active):
        ./chapter2.bak88 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter2.bak89 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter2.bak90 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak91 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak92 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak93 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak94 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak95 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak96 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak97 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak98 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak99 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak100 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak101 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak102 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter2.bak103 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       copying chapter2.tex to ./chapter2.bak104
-       Backup file: ./chapter2.bak104
+       copying chapter2.tex to ./chapter2.bak91
+       Backup file: ./chapter2.bak91
        chapter2.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
