@@ -401,6 +401,23 @@ But what is $V_{p}$? In the case of a single atom, $V_{p}$ is the surface area o
 	\end{equation*}
 	Finally, we can conclude:
 	$$ W_{n}=\frac{n-1 }{n}W_{n-2} $$
+	If $n$ is an even integer, then:
+	\begin{equation*}
+		\begin{split}
+			W_{n}&=\frac{n-1 }{n}.\frac{n-3 }{n-2}\cdots \frac{1 }{2}.W_{0}=\frac{(n-1)!!}{n!!}\pi\\
+			\Gamma \left(\frac{n}{2}+\frac{1 }{2}\right)&=\frac{n-1 }{2}.\frac{n-3 }{2}\cdots \frac{1}{2}.\Gamma \left(\frac{1}{2}\right)=\frac{(n-1)!!}{2^{n/2}}\sqrt{\pi}\\
+			\Gamma \left(\frac{n }{2}+1\right)&=\frac{n }{2}.\frac{n-2 }{2}\cdots \frac{2 }{2}.\Gamma(0)=\frac{n!! }{2^{n/2}}.1\\
+		\end{split}
+	\end{equation*}
+	We completed our proof for $n=2k$ case. If $ n $ is an odd integer, then:
+	\begin{equation*}
+		\begin{split}
+			W_{n}&=\frac{n-1 }{n}.\frac{n-3 }{n-2}\cdots \frac{2 }{2}.W_{1}=\frac{(n-1)!!}{n!!}.2\\
+			\Gamma \left(\frac{n}{2}+\frac{1 }{2}\right)&=\frac{n-1 }{2}.\frac{n-3 }{2}\cdots \frac{2}{2}.\Gamma \left(0\right)=\frac{(n-1)!!}{2^{n/2}}.1\\
+			\Gamma \left(\frac{n }{2}+1\right)&=\frac{n }{2}.\frac{n-2 }{2}\cdots \frac{2 }{2}.\Gamma \left(\frac{1 }{2}\right)=\frac{n!! }{2^{n/2}}\sqrt{\pi}\\
+		\end{split}
+	\end{equation*}
+	We completed our proof for $n=2k+1$ case.
 \end{proof}
 % section The Ideal Gas Model (end)
 % chapter The Second Law of Thermodynamics (end) 

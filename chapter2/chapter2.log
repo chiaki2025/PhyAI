@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  22 APR 2026 00:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  23 APR 2026 00:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4282,13 +4282,215 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
+! LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 	\begin{equation*}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.406 		\begin{split}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.407 			W_
+           {n}&=\frac{n-1 }{n}.\frac{n-3 }{n-2}\cdots \frac{1 }{2}.W_{0}=\fr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.407 			W_{n}&
+               =\frac{n-1 }{n}.\frac{n-3 }{n-2}\cdots \frac{1 }{2}.W_{0}=\fr...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.408 ...ma \left(\frac{n}{2}+\frac{1 }{2}\right)&
+                                                  =\frac{n-1 }{2}.\frac{n-3 ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.409 			\Gamma \left(\frac{n }{2}+1\right)&
+                                            =\frac{n }{2}.\frac{n-2 }{2}\cdo...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 		\end{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.410 		\end{split}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.411 	\end{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment equation* undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.413 	\begin{equation*}
+                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment split undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.414 		\begin{split}
+                     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.415 			W_
+           {n}&=\frac{n-1 }{n}.\frac{n-3 }{n-2}\cdots \frac{2 }{2}.W_{1}=\fr...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Misplaced alignment tab character &.
+l.415 			W_{n}&
+               =\frac{n-1 }{n}.\frac{n-3 }{n-2}\cdots \frac{2 }{2}.W_{1}=\fr...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.416 ...ma \left(\frac{n}{2}+\frac{1 }{2}\right)&
+                                                  =\frac{n-1 }{2}.\frac{n-3 ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+! Misplaced alignment tab character &.
+l.417 			\Gamma \left(\frac{n }{2}+1\right)&
+                                            =\frac{n }{2}.\frac{n-2 }{2}\cdo...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+
+! LaTeX Error: \begin{document} ended by \end{split}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.418 		\end{split}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.418 		\end{split}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \begin{document} ended by \end{equation*}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 	\end{equation*}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
 ! LaTeX Error: \begin{document} ended by \end{proof}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.404 \end{proof}
+l.421 \end{proof}
                  
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4302,7 +4504,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.408 \end{document}
+l.425 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4312,7 +4514,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> ...ond_law_of_thermodynamics}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4323,7 +4525,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...microstate_and_macrostate}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4334,7 +4536,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...einstein_model_of_a_solid}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4345,7 +4547,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:2_1}{{}{\thepage 
                                        }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4356,7 +4558,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:2_2}{{}{\thepage 
                                        }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4367,7 +4569,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...city of an Einstein solid}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4378,7 +4580,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ... Stirling's Approximation}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4389,7 +4591,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:2_3}{{}{\thepage 
                                        }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4400,7 +4602,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...of a Large Einstein Solid}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4411,7 +4613,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...ond Law of Thermodynamics}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4422,7 +4624,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...el{Heat flowing direction}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4433,7 +4635,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ..._n_and_q_are_large_values}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4444,7 +4646,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...:a_general_einstein_solid}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4455,7 +4657,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...l{sec:the_ideal_gas_model}{{}{\thepage 
                                                   }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4466,7 +4668,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{2_4}{{}{\thepage 
                                    }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4477,7 +4679,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:2_5}{{}{\thepage 
                                        }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4488,7 +4690,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:2_6}{{}{\thepage 
                                        }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4499,7 +4701,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{2_7}{{}{\thepage 
                                    }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4510,7 +4712,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{2_8}{{}{\thepage 
                                    }}
-l.408 \end{document}
+l.425 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4524,7 +4726,7 @@ and I'll forget about whatever was undefined.
 Here is how much of TeX's memory you used:
  276 strings out of 476091
  6997 string characters out of 5794082
- 1964330 words of memory out of 5000000
+ 1972330 words of memory out of 5000000
  20742 multiletter control sequences out of 15000+600000
  512941 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -4541,7 +4743,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on chapter2.pdf (1 page, 180563 bytes).
+Output written on chapter2.pdf (1 page, 181965 bytes).
 PDF statistics:
  68 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
