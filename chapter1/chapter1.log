@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  7 APR 2026 14:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  25 APR 2026 09:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1855,7 +1855,7 @@ or  <return>  to continue without it.
 <inserted text> 
                 $
 l.129 	\overline
-                {v^{2}}=\frac{3kT }{m}
+                {v^{2}}=\frac{3k_{B}T }{m}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -1900,13 +1900,13 @@ or  <return>  to continue without it.
 <inserted text> 
                 $
 l.133 	v_
-         {\text{rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3kT }{m}}
+         {\text{rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3k_{B}T }{m}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
 l.133 	v_{\text
-               {rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3kT }{m}}
+               {rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3k_{B}T }{m}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3388,7 +3388,7 @@ might try typing `S' now just to see what is salvageable.
 <recently read> &
                  
 l.248 		&
-         =C_{V}+P\left(\frac{\partial V }{\partial T}\right)_{P}=C_{V}+Nk
+         =C_{V}+P\left(\frac{\partial V }{\partial T}\right)_{P}=C_{V}+Nk_{B}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3479,7 +3479,7 @@ you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
 l.256 		Q&
-          =C_{P}\Delta T=(C_{V}+Nk)\Delta T
+          =C_{P}\Delta T=(C_{V}+Nk_{B})\Delta T
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3828,13 +3828,13 @@ might try typing `S' now just to see what is salvageable.
 <inserted text> 
                 $
 l.278 		\Leftrightarrow
-                        \frac{Nkf}{2}.dT&=-PdV\\
+                        \frac{Nk_{B}f}{2}.dT&=-PdV\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.278 		\Leftrightarrow \frac{Nkf}{2}.dT&
-                                         =-PdV\\
+l.278 		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&
+                                             =-PdV\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3843,8 +3843,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.279 		\Leftrightarrow \frac{Nkf}{2}.dT&
-                                         =-\frac{NkT }{V}dV\\
+l.279 		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&
+                                             =-\frac{Nk_{B}T }{V}dV\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3853,8 +3853,8 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.280 ...ghtarrow \int\frac{Nkf}{2}.\frac{dT }{T}&
-                                                  =-\int Nk.\frac{dV}{V}\tex...
+l.280 ...rrow \int\frac{Nk_{B}f}{2}.\frac{dT }{T}&
+                                                  =-\int Nk_{B}.\frac{dV}{V}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -3863,7 +3863,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.280 ...\frac{dT }{T}&=-\int Nk.\frac{dV}{V}\text
+l.280 ...c{dT }{T}&=-\int Nk_{B}.\frac{dV}{V}\text
                                                   { (Take antiderivative bot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4327,7 +4327,7 @@ sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on chapter1.pdf (2 pages, 180268 bytes).
+Output written on chapter1.pdf (2 pages, 180629 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

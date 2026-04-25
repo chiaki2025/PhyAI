@@ -118,45 +118,45 @@ If our piston contains $N$ particles, then the total pressure on piston by $x$-a
 $$ P_{x}=\sum\overline{P}_{\text{x, on piston}}=\frac{\sum m v_{x,i}^{2} }{V}=N \frac{m\overline{v_{x}^{2}} }{V} \Rightarrow P_{x}V=Nm\overline{v_{x}^{2}}$$
 Because $N$ is extremely large, and the gas is homogeneous:
 $$ P=P_{x}=P_{y}=P_{z}\Rightarrow PV=Nm\overline{v_{x}^{2}} $$
-The average velocity of the particles in the $x, y$ and $z$ directions is the same, we obtain
-$$ \frac{m\overline{v_{x}^{2}}}{2}=\frac{m\overline{v_{y}^{2}}}{2}=\frac{m\overline{v_{z}^{2}}}{2}=\frac{kT} {2} $$
+The average velocity of the particles in the $x, y$ and $z$ directions is the same, we obtain:
+$$ \frac{m\overline{v_{x}^{2}}}{2}=\frac{m\overline{v_{y}^{2}}}{2}=\frac{m\overline{v_{z}^{2}}}{2}=\frac{k_{B}T} {2} $$
 The average velocity of $N$ particles in three-dimensional space is defined as:
 $$ \overline{v^{2}}=\overline{v_{x}^{2}+v_{y}^{2}+v_{z}^{2}}=\frac{v_{x}^{2}+v_{y}^{2}+v_{z}^{2}}{N}=\overline{v_{x}^{2}}+\overline{v_{y}^{2}}+\overline{v_{z}^{2}} $$
 The average translational kinetic energy is then:
-$$ \overline{K}=\frac{1 }{2}m\overline{v^{2}}=\frac{1 }{2}m\overline{v_{x}^{2}}+\frac{1 }{2}m\overline{v_{y}^{2}}+\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{3kT}{2} $$
+$$ \overline{K}=\frac{1 }{2}m\overline{v^{2}}=\frac{1 }{2}m\overline{v_{x}^{2}}+\frac{1 }{2}m\overline{v_{y}^{2}}+\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{3k_{B}T}{2} $$
 We can simply explain the phenomenon of thermal expansion using the previous result. If the temperature increases, the average kinetic energy also increases, which means these particles tend to move faster. Their chemical bonds tend to loosen or break, which causes the length or volume of matter to increase slightly.
 \begin{equation*}
-	\overline{v^{2}}=\frac{3kT }{m}
+	\overline{v^{2}}=\frac{3k_{B}T }{m}
 \end{equation*}
 We are also interested in the \textbf{average of the squares of the speeds} (or root-mean square, rms for short):
 \begin{equation*}
-	v_{\text{rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3kT }{m}}
+	v_{\text{rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3k_{B}T }{m}}
 \end{equation*}
 As you can see here, we have just done a bit of Statistical Physics. Because we do not know the \textbf{exact} state of each particle in a set of $10^{23}$ particles, we can still calculate their average velocity or energy\footnote[1]{Potential energy $U=mgz$ can be ignored, since $K>>U$.}. In the spirit of Statistical Physics, we solve the whole big problem of the enormous number of observations, without knowing the behavior or each individual particle.
 % section The Kinetic Theory of Gases (end)
 \section{The Equipartition Theorem}\label{sec:the_equipartition_theorem} % (fold)
 The average translational kinetic energy is just a special case of a much more general result. In the previous discussion, we only considered the motion of particles moving in three-dimensional space. There are $3$ types of motion, directly related to $3$ types of kinetic energy, and each of them can be called a \textbf{degree of freedom}:
 \begin{enumerate}
-	\item Moving along $x$-axis: $ \overline{K}_{x}=\displaystyle\frac{1 }{2}m\overline{v_{x}^{2}}=\frac{kT }{2}$
-	\item Moving along $y$-axis: $ \overline{K}_{y}=\displaystyle\frac{1 }{2}m\overline{v_{y}^{2}}=\frac{kT }{2}$
-	\item Moving along $z$-axis: $ \overline{K}_{z}=\displaystyle\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{kT }{2}$
+	\item Moving along $x$-axis: $ \overline{K}_{x}=\displaystyle\frac{1 }{2}m\overline{v_{x}^{2}}=\frac{k_{B}T }{2}$
+	\item Moving along $y$-axis: $ \overline{K}_{y}=\displaystyle\frac{1 }{2}m\overline{v_{y}^{2}}=\frac{k_{B}T }{2}$
+	\item Moving along $z$-axis: $ \overline{K}_{z}=\displaystyle\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{k_{B}T }{2}$
 \end{enumerate}
 Other degrees of freedom include rotational motion and elastic potential energy (as stored in a structure like a spring), and what they have in common is that their energy functions are all \textbf{quadratic form}.
 \begin{theorem}[The Equipartition Theorem]
 	\label{The Equipartition Theorem}
-	At temperature $T$, the average energy of any quadratic degree of freedom is $ \displaystyle\frac{1 }{2}kT $.
+	At temperature $T$, the average energy of any quadratic degree of freedom is $ \displaystyle\frac{1 }{2}k_{B}T $.
 \end{theorem}
 \begin{corollary}[Total Internal Energy]
 	\label{Total Internal Energy}
-	If a system contains $N$ particles, each with $f$ degrees of freedom, and the \textbf{total internal energy}\footnote[1]{Actually, there is a slight difference between total thermal energy and total internal energy; but I neglect them and keep it simple as possible.} is: $$ U=N.f. \frac{1 }{2}kT $$
+	If a system contains $N$ particles, each with $f$ degrees of freedom, and the \textbf{total internal energy}\footnote[1]{Actually, there is a slight difference between total thermal energy and total internal energy; but I neglect them and keep it simple as possible.} is: $$ U=N.f. \frac{1 }{2}k_{B}T $$
 \end{corollary}
 The final problem is determining the value of $f$. For example, if our gas is monatomic, then we can easily conclude that  $f=3$. In the case of diatomic, $f=5$ because there are $5$ possible ways of motion:
 \begin{enumerate}
-	\item Moving along $x$-axis: $ \overline{K}_{x}=\displaystyle\frac{1 }{2}m\overline{v_{x}^{2}}=\frac{kT }{2}$
-	\item Moving along $y$-axis: $ \overline{K}_{y}=\displaystyle\frac{1 }{2}m\overline{v_{y}^{2}}=\frac{kT }{2}$
-	\item Moving along $z$-axis: $ \overline{K}_{z}=\displaystyle\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{kT }{2}$
-	\item Rotating around $x$-axis: $\overline{K}_{x,\text{ rotate}}=\displaystyle\frac{1}{2}I\omega_{x}^{2}=\frac{kT}{2}$
-	\item Rotating around $y$-axis: $\overline{K}_{y,\text{ rotate}}=\displaystyle\frac{1}{2}I\omega_{y}^{2}=\frac{kT}{2}$
+	\item Moving along $x$-axis: $ \overline{K}_{x}=\displaystyle\frac{1 }{2}m\overline{v_{x}^{2}}=\frac{k_{B}T }{2}$
+	\item Moving along $y$-axis: $ \overline{K}_{y}=\displaystyle\frac{1 }{2}m\overline{v_{y}^{2}}=\frac{k_{B}T }{2}$
+	\item Moving along $z$-axis: $ \overline{K}_{z}=\displaystyle\frac{1 }{2}m\overline{v_{z}^{2}}=\frac{k_{B}T }{2}$
+	\item Rotating around $x$-axis: $\overline{K}_{x,\text{ rotate}}=\displaystyle\frac{1}{2}I\omega_{x}^{2}=\frac{k_{B}T}{2}$
+	\item Rotating around $y$-axis: $\overline{K}_{y,\text{ rotate}}=\displaystyle\frac{1}{2}I\omega_{y}^{2}=\frac{k_{B}T}{2}$
 \end{enumerate}
 Most polyatomic molecules can rotate about all three axes, so if our gas is polyatomic, then $f=6$. In the case of solid, $f=6$ too.
 \begin{figure}[H]
@@ -170,9 +170,9 @@ Counting degrees of freedom of liquid is more complicated than gas or solid, sin
 	Calculate the internal energy of a bottle filled with $\ce{H2}$ at normal room temperature.
 \end{exmp}
 Assuming the normal room condition are $P=1$ (atm), $T_{C}=25^{\circ}$C and the bottle's volume is $V=500$ (ml). Using the idea gas law, we have:
-$$ PV=NkT\Rightarrow N=\frac{PV }{kT} $$
+$$ PV=Nk_{B}T\Rightarrow N=\frac{PV }{k_{B}T} $$
 Applying Corollary ~\ref{Total Internal Energy}, we obtain:
-$$ U=N.f.\frac{kT }{2}=\frac{PV }{kT}.f.\frac{kT }{2}=\frac{PVf }{2}=\frac{101325.0.5.10^{-3}.5}{2}=126.65\text{ (J)} $$
+$$ U=N.f.\frac{k_{B}T }{2}=\frac{PV }{k_{B}T}.f.\frac{k_{B}T }{2}=\frac{PVf }{2}=\frac{101325.0.5.10^{-3}.5}{2}=126.65\text{ (J)} $$
 % section The Equipartition Theorem (end)
 \section{The First Law of Thermodynamics}\label{sec:the_first_law_of_thermodynamics} % (fold)
 \subsection{Heat and Work}\label{Heat and Work}
@@ -216,10 +216,10 @@ Within the scope of this subsection, I will list $4$ main special thermodynamics
 	\end{center}
 	\caption{Isotherm PV graph}\label{fig:1_9}
 \end{figure}
-From Corollary ~\ref{Total Internal Energy}, we can see that: $$ \Delta U=N.f.\frac{1 }{2}k\Delta T $$
+From Corollary ~\ref{Total Internal Energy}, we can see that: $$ \Delta U=N.f.\frac{1 }{2}k_{B}\Delta T $$
 Because $T$ is \text{constant}, we can conclude that: $$ \Delta U=Q+W=0\Rightarrow Q=-W$$
-The work done is:
-$$ W=-\int_{V_{i}}^{V_{f}}PdV=-\int_{V_{i}}^{V_{f}}\frac{NkT }{V}dV   =NkT\ln{\frac{V_{i}}{V_{f}}}$$
+The work done on the system is:
+$$ W=-\int_{V_{i}}^{V_{f}}PdV=-\int_{V_{i}}^{V_{f}}\frac{Nk_{B}T }{V}dV   =Nk_{B}T\ln{\frac{V_{i}}{V_{f}}}$$
 \subsubsection{Constant-Volume Process}
 \begin{figure}[H]
 	\begin{center}
@@ -231,9 +231,9 @@ According to the first law: $$ \Delta U=Q+W=Q-\int_{V_{i}}^{V_{f}}PdV=Q\text{ (n
 Recall the definition of heat capacity from Definition ~\ref{Heat Capacity Definition}:
 $$ C=\frac{Q }{\Delta T}=\frac{\Delta U-W }{\Delta T} $$
 We define a new quantity, is called \textbf{heat capacity at constant volume}, denoted $C_{V}\footnote[1]{Many other textbooks, including Halliday, define the quantity $C_{V}$ as \textbf{molar specific heat at constant volume: $$ C_{V}=\frac{Q }{n\Delta T} $$}There is no conflict here, this convention works very well in solving physics exercises; however the capital $C$ might be confused with the definition of thermal capacity, as we discussed above. }\footnote[2]{I am following the notation convention from "An Introduction to Thermal Physics", written by Daniel V. Schroeder.}$:
-$$ C_{V}=\frac{\Delta U-W }{\Delta T}=\frac{\Delta U }{\Delta T}=\left(\frac{\partial U }{\partial T}\right)_{V}=\frac{Nkf }{2} $$
+$$ C_{V}=\frac{\Delta U-W }{\Delta T}=\frac{\Delta U }{\Delta T}=\left(\frac{\partial U }{\partial T}\right)_{V}=\frac{Nk_{B}f }{2} $$
 $C_{V}$ is so convenient when we want to calculate the amount of internal energy increasing ($\Delta U$), or heat $Q$ entering the system:
-$$ \Delta U=Q=C_{V}\Delta T=\frac{Nkf\Delta T }{2} $$
+$$ \Delta U=Q=C_{V}\Delta T=\frac{Nk_{B}f\Delta T }{2} $$
 \subsubsection{Constant-Pressure Process}
 \begin{figure}[H]
 	\begin{center}
@@ -245,15 +245,15 @@ Like $C_{V}$, we denote $C_{P}$ as \textbf{heat capacity at constant pressure}, 
 \begin{equation*}
 	\begin{split}
 		C_{P}&=\frac{Q }{\Delta T}=\frac{\Delta U - W }{\Delta T}=\frac{\Delta U+P\Delta V }{\Delta T} =C_{V}+P \left(\frac{\Delta V }{\Delta T}\right)\\
-		&=C_{V}+P\left(\frac{\partial V }{\partial T}\right)_{P}=C_{V}+Nk
+		&=C_{V}+P\left(\frac{\partial V }{\partial T}\right)_{P}=C_{V}+Nk_{B}
 	\end{split}
 \end{equation*}
-The increase of internal energy is: $$ \Delta U=C_{V}\Delta T=\frac{Nkf\Delta T}{2} $$
+The increase of internal energy is: $$ \Delta U=C_{V}\Delta T=\frac{Nk_{B}f\Delta T}{2} $$
 The work done and heat that entered the system are:
 \begin{equation*}
 	\begin{split}
 		W&=-P\Delta V\\
-		Q&=C_{P}\Delta T=(C_{V}+Nk)\Delta T
+		Q&=C_{P}\Delta T=(C_{V}+Nk_{B})\Delta T
 	\end{split}
 \end{equation*}
 \subsubsection{Adiabatic Process}
@@ -275,9 +275,9 @@ Using Corollary ~\ref{Total Internal Energy}, we can see that:
 \begin{equation*}
 	\begin{split}
 		dU&=-PdV\\
-		\Leftrightarrow \frac{Nkf}{2}.dT&=-PdV\\
-		\Leftrightarrow \frac{Nkf}{2}.dT&=-\frac{NkT }{V}dV\\
-		\Leftrightarrow \int\frac{Nkf}{2}.\frac{dT }{T}&=-\int Nk.\frac{dV}{V}\text{ (Take antiderivative both sides)}\\
+		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&=-PdV\\
+		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&=-\frac{Nk_{B}T }{V}dV\\
+		\Leftrightarrow \int\frac{Nk_{B}f}{2}.\frac{dT }{T}&=-\int Nk_{B}.\frac{dV}{V}\text{ (Take antiderivative both sides)}\\
 		\Leftrightarrow \frac{f }{2}\ln{T}&=-\ln{V}+C\\
 		\Leftrightarrow T^{f/2}V&=\text{constant}\\
 	\end{split}
