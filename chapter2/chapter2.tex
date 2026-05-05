@@ -245,7 +245,7 @@ In this chapter, we still do not explain why $k_{B}$ is chosen to be scale facto
 	Entropy tends to increase.
 \end{corollary}
 To conclude this section, we now develop some useful results in calculating entropy of a general Einstein solid.
-\subsection{$N$ and $q$ are relatively small}
+\subsection{$N$ and $q$ are relatively small}\label{sub: n and q are relatively small}
 If both $N$ and $q$ values are small, you can calculate exactly entropy of an Einstein solid without using any approximation formula.
 \begin{equation*}
 	S=k_{B}\ln{\Omega}=k_{B}\ln \binom{N+q-1}{q}
@@ -421,11 +421,19 @@ But what is $V_{p}$? In the case of a single atom, $V_{p}$ is the surface area o
 \end{proof}
 Back to our problem, now we obtain the multiplicity function for a system containing only $2$ ideal gas atoms:
 $$ \Omega_{2}=\frac{V^{2} }{h^{6}}\times V_{p}=\frac{V^{2} }{h^{6}}\times A_{6}(\sqrt{2mU}) $$
-But notice that $2$ atoms are \textbf{indistinct}, it means they can be interchangeable:
+But notice that $2$ atoms are \textbf{indistinguishable}, it means they can be interchangeable:
 $$ \Omega_{2}=\frac{1 }{2!}.\frac{V^{2} }{h^{6}}\times V_{p}=\frac{1 }{2!}.\frac{V^{2} }{h^{6}}\times A_{6}(\sqrt{2mU})$$
 Generally, for a system containing $N$ atoms, the multiplicity of a system is:
 $$ \Omega_{N}=\frac{1}{N!}.\frac{V^{N}}{h^{3N}}\times A_{3N}(\sqrt{2mU})\approx\frac{1 }{N!}.\frac{V^{N}}{h^{3N}}.\frac{\pi^{3N/2}}{(3N/2)!}(2mU)^{3N/2} $$
-\begin{theorem}[The Multiplicity of Ideal Gas] The total entropy of a system containing $N$ ideal gas atoms is:
+\begin{theorem}[The Multiplicity of Idea Gas]
+	\label{The Multiplicity of Ideal Gas}
+	The multiplicity of a system containing $N$ ideal gas \textbf{particles} is:
+	$$ \Omega_{N}=\frac{1 }{N!}\frac{V^{N }}{h^{3N}}\frac{\pi^{3N/2}}{(3N/2)!}(\sqrt{2m})^{3N}U^{\textbf{Nf}/2}=f(N)V^{N}U^{\textbf{Nf}/2} $$
+	where $f$ is the total number degrees of freedom of a single particle.
+\end{theorem}
+For monatomic gas case (as we discussed above) like $\ce{He}$, $f$ is equal $3$; but $f$ is equal $5$ in case of $\ce{H2}$ or $\ce{N2}$.
+\begin{theorem}[The Entropy of Ideal Gas] The total entropy of a system containing $N$ ideal gas atoms is:
+	\label{The Entropy of Ideal Gas}
 	$$ S=k_{B}\ln\Omega_{N}\approx Nk_{B} \left[\ln \left(\frac{V}{N} \left(\frac{4 \pi mU}{3Nh^{2}}\right)^{3/2}\right)+\frac{5}{2}\right] $$
 	This equation can be called as Sackur-Tetrode equation.
 \end{theorem}
@@ -441,7 +449,85 @@ $$ \Omega_{N}=\frac{1}{N!}.\frac{V^{N}}{h^{3N}}\times A_{3N}(\sqrt{2mU})\approx\
 	We obtain:
 	$$ S=k_{B}\ln{\Omega_{N}}\approx Nk_{B}\left[\frac{5}{2}+\ln \left(\frac{V}{N} \left(\frac{4\pi mU}{3Nh^{2}}\right)^{3/2}\right)\right] $$
 \end{proof}
+\section{Entropy of Interacting Systems}
+From the previous section, if you look carefully at our calculated tables, you will see the tendency of \textbf{increasing entropy} in case of $2$ Einstein solids interacting system.\footnote[1]{I listed the three main formulas for entropy in Einstein solid model in subsection ~\ref{sub: n and q are relatively small} and ~\ref{sub:_n_and_q_are_large_values}. For a deeper understanding of energy flow, you should try doing the numerical examples of calculations yourself to see it more clearly.}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{~/PhyAI/chapter2/2_9.png}
+	\end{center}
+	\caption{The tendency of increasing entropy graph}\label{fig:2_9}
+\end{figure}
+Now I will prove that this graph has only one local maxima in case of our system is at a high temperature, that is the most common and realistic case. The low temperature case can also be proven by the same method here\footnote[1]{As I said before, I still can not prove for the general case.}. We already knew that:
+$$ S_{AB}=S_{A}+S_{B}=k_{B}\ln\Omega_{A}+k_{B}\ln\Omega_{B}=k_{B}\left(N_{A}\ln{\frac{eq_{A}}{N_{A}}}+N_{B}\ln{\frac{eq_{B}}{N_{B}}}\right) $$
+We will show that this function $S_{AB}(q_{A},q_{B})$ has only one local maxima by using two methods: examining single variable function and Lagrange multiplier. Let's begin with the easier one:
+\begin{equation*}
+	\begin{split}
+		S_{AB}&=k_{B}\left(N_{A}\ln{\frac{e}{N_{A}}}+N_{B}\ln{\frac{e}{N_{B}}}\right)+k_{B}\left(N_{A}\ln{q_{A}}+N_{B}\ln{q_{B}}\right)\\
+		&= \text{constant}+k_{B}\left(N_{A}\ln{q_{A}}+N_{B}\ln{q_{B}}\right)\\
+		&=\text{constant}+k_{B}\left(N_{A}\ln{q_{A}}+N_{B}\ln{(q-q_{A})}\right)\\
+		&=\text{constant}+k_{B}.f(q_{A})
+	\end{split}
+\end{equation*}
+Taking the first derivative of $f(q_{A})$, and applying Fermat's theorem yields:
+\begin{equation*}
+	\begin{split}
+		\frac{df(q_{A}) }{dq_{A}}&=k_{B}\left(\frac{N_{A} }{q_{A}}-\frac{N_{B}}{q-q_{A}}\right)=0\Leftrightarrow N_{A}q_{B}=q_{A}N_{B}\Leftrightarrow \frac{q_{A} }{N_{A}}=\frac{q_{B} }{N_{B}}
+	\end{split}
+\end{equation*}
+Our function has exactly one critical point, but we do not know it is maxima or minima yet. Taking the second derivative and checking its sign may not be a good choice, since it is not so easy. We notice since $0<q_{A}<q$, it is very easy to see that:
+$$ \lim_{q_{A}\to 0^+}f(q_{A})=\lim_{q_{A}\to q^-}f(q_{A})=-\infty $$
+Drawing variation table of this function, we obtain:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{~/PhyAI/chapter2/2_10.png}
+	\end{center}
+	\caption{Variation table of $f(q_{A})$}\label{fig:2_10}
+\end{figure}
+Now we conclude that $q_{A}=\displaystyle\frac{q_{B}N_{A}}{N_{B}}$ is the only local maximum. We move to the second method, applying Lagrange multiplier with initial constrain $q=q_{A}+q_{B}$:
+\begin{equation*}
+	\begin{cases}
+		f(q_{A},q_{B})=N_{A}\ln{q_{A}}+N_{B}\ln{q_{B}} \\
+		g(q_{A},q_{B})=q_{A}+q_{B}=q                   \\
+	\end{cases}
+\end{equation*}
+With the aid of Lagrange multiplier $\lambda$, we form a system of equations as follows:
+\begin{equation*}
+	\begin{cases}
+		\nabla f(q_{A},q_{B})=\lambda \nabla g(q_{A},q_{B}) \\
+		g(q_{A},q_{B})=q_{A}+q_{B}=q                        \\
+	\end{cases}
+	\Leftrightarrow
+	\begin{cases}
+		\displaystyle\frac{N_{A}}{q_{A}}=\lambda \\
+		\displaystyle\frac{N_{B}}{q_{B}}=\lambda \\
+		q_{A}+q_{B}=q
+	\end{cases}
+\end{equation*}
+Again, we also conclude that $ q_{A}=\displaystyle\frac{q_{B}N_{A}}{N_{B}} $ is the only local maximum because the system of equations above has only one solution.
+\\ Now let's take a look at another interacting system of $2$ ideal gases $A$ and $B$; for simplicity, our gases are both \textbf{monoatomic}, due to Theorem ~\ref{The Multiplicity of Ideal Gas}, each atom has $3$ degrees of freedom:
+$$ \Omega=f(N)V^{N}U^{3N/2} $$
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter2/2_11.png}
+	\end{center}
+	\caption{Energy can pass through partition, but not particles. }\label{fig:2_11}
+\end{figure}
+The total entropy of our system is:
+\begin{equation*}
+	\begin{split}
+		S_{AB}&=k_{B}\ln\Omega_{AB}=k_{B}\left(\ln\Omega_{A}+\ln\Omega_{B}\right)\\&=\text{constant}+k_{B}\left(N_{A}\ln{V_{A}}+\frac{3N_{A}}{2}\ln{U_{A}}+N_{B}\ln{V_{B}}+\frac{3N_{B}}{2}\ln{U_{B}}\right)\\
+		&=\text{constant}+k_{B}\left(N_{A}\ln{V_{A}}+N_{B}\ln{V_{B}}\right)+k_{B}\left(\frac{3N_{A}}{2}\ln{U_{A}}+\frac{3N_{B}}{2}\ln{U_{B}}\right)
+	\end{split}
+\end{equation*}
+Precisely determining the critical point is not so easy, because we have to use $2$ Lagrange multipliers corresponding to $2$ fixed conditions: $N=N_{A}+N_{B}$ and $U=U_{A}+U_{B}$. However, we can quantitatively the graph of $U_{A}$, $V_{A}$, $S_{AB}/k_{B}$ from previous conclusion.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter2/2_12.png}
+	\end{center}
+	\caption{Entropy of a system of $2$ ideal gases, with sliding partition}\label{fig:2_12}
+\end{figure}
+The red curve represents the $S_{AB}/k_{B}$ graph (in form of our previous result has been proved) while holding an arbitrary $U_{A}$ value fixed; and so does the blue curve. Now, the commonality between these two graphs can be clearly seen; both have \textbf{only} a single extreme peak, and regardless of the initial state, entropy always increase; or in other words, the system always approach its most probable state.
+
 % section The Ideal Gas Model (end)
 % chapter The Second Law of Thermodynamics (end) 
-
 \end{document}

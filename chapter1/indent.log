@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Sat Apr 25 09:56:31 2026
+       Mon Apr 27 11:22:36 2026
        Filename: chapter1.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -31,17 +31,8 @@ INFO:  Backup procedure (-w flag active):
        ./chapter1.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter1.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter1.bak3 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak4 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak5 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak6 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak7 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak8 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak9 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak10 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak11 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter1.bak12 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       copying chapter1.tex to ./chapter1.bak13
-       Backup file: ./chapter1.bak13
+       copying chapter1.tex to ./chapter1.bak4
+       Backup file: ./chapter1.bak4
        chapter1.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
