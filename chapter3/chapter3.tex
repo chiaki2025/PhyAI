@@ -1,0 +1,58 @@
+\documentclass[~/PhyAI/phyai.tex]{subfiles}
+\begin{document}
+\chapter{The Third Law of Thermodynamics}\label{chap:the_third_law_of_thermodynamics} % (fold)
+Nobody knows what entropy really
+is, so in any discussion you will always have an advantage.\footnote[1]{A quote from John von Neumann, when he discussed the idea of entropy with Claude Shannon. I have heard this term is also used in information theory, but that is not our concern here.}
+\section{The Meaning of Entropy}
+From the previous chapter, we have been working with the term "entropy" in various situations: solids, ideal gases; but what exactly is entropy? Unlike other quantities such as volume ($V$), pressure ($P$), number of particles ($N$),...; it is not so easy to imagine an abstract and "invisible" thing like entropy ($S$). In this section, we discuss  an intuitive way of understanding entropy, without relying on formulas. Let's forget everything you have learned so far, and decorate a blank wall with a few pictures. Now I give you $5$ landscape pictures, and your mission is sticking them on my wall.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter3/3_1.png}
+	\end{center}
+	\caption{$2$ possible picture arrangements}\label{fig:3_1}
+\end{figure}
+There are many possible ways of sticking pictures; I can not draw and count all of them here, but the number of possible arrangements is \textbf{not infinity}. You can think of entropy as the number of ways you can arrange the pictures on the wall. The more arrangements, the higher the entropy of our system (just consists a wall with five pictures). Obviously, if our wall is larger, we are more freely to stick our pictures wherever we want; and the entropy of our new system (again, larger wall with five picture) is greater than the smaller one.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter3/3_2.png}
+	\end{center}
+	\caption{Large system has more entropy than the small system}\label{fig:3_2}
+\end{figure}
+You can also increase the total entropy by sticking more and more pictures on the wall too. But now, do you see that if there are many different ways to arrange pictures, the wall will become even more cluttered? By the same logic, the higher the entropy, the more chaotic the system becomes? "Why is more cluttered? Bro, no matter the size of the wall, I always arrange everything parallel, like all pictures are in one row.". Yes, nothing is wrong; however, we need to note a subtle difference between \textbf{intentionally} arranging pictures in one row, and \textbf{randomly} sticking them on our wall. Apparently, when we concern how many possible arrangements, we are dealing with the \textbf{randomness}. Randomly sticking pictures on a small wall is less "chaotic" (or "messy") than on a larger one; since there are fewer ways to do so.
+
+\begin{center}
+	\textit{Entropy is a quantity that describes how chaotic (or messy) a system is.}
+\end{center}
+Now imagine you are sticking pictures on your wall $A$, nearby is my wall $B$. I ask if you could decorate my wall too, so our big wall would be so nice; and I assume that you agree.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter3/3_3.png}
+	\end{center}
+	\caption{The total entropy of wall $A+B$ system}\label{fig:3_3}
+\end{figure}
+When you start moving pictures to my wall and sticking them on, we can see that our wall are "in contact" and "transferring" pictures with each other. This "interaction" process increases the total entropy of our system\footnote[1]{This conclusion is true, both in our common sense and in our calculations. We proved several special cases in the Chapter ~\ref{chap:the_second_law_of_thermodynamics}.}.
+\begin{center}
+	\textit{The interaction process increases the total entropy of a system.}
+\end{center}
+Inductively, we imagine the universe as a giant closed system, with many particles inside; and they are always exchanging "something"\footnote[2]{I do not know if the completely isolated object exists or not; its existence violates our laws of thermodynamics.} with each other, we can firmly state:
+\begin{center}
+	\textit{The total entropy of the universe is increasing.}
+\end{center}
+An ice cube is more "organized" than a cup of water, and vice versa. In the middle of winter, water is freezed. Does this phenomenon violate the second law of thermodynamics? Probably, because the liquid is now condensing (or "organizing") into a solid block of ice; obviously its entropy decreases!
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{~/PhyAI/chapter3/3_4.png}
+	\end{center}
+	\caption{Water is freezed}\label{fig:3_4}
+\end{figure}
+Surprisingly, the answer is no. The water is cooled down since it \textbf{contacts} with the outside environment; they are \textbf{interacting}. Because the water's temperature is much higher than surrounding; so it gives up some of its energy, while the environment receives them. A decrease in energy leads to a decrease in entropy (particles become less mobile, thus making their movement more difficult), and vice versa. From the law of conservation of energy:
+$$ \textbf{Energy released by water}=\textbf{Energy received by environment} $$
+But:
+
+$$ \textbf{Entropy "released" by water}\neq\textbf{Entropy "received" by environment}\footnote[3]{I use the double bracket here to emphasize the fact that "entropy" is not transferred in the way of energy or other physics quantities.  } $$
+Entropy is closely related to energy, but they are not the same, and we do not have any law of conservation of entropy; so we have to be careful here. This result below may surprise you:
+$$ \textbf{Entropy "released" by water}<\textbf{Entropy "received" by environment} $$
+So the total entropy of our system (a cup of water and the outside environment) increases, because it gains more than losses.
+% chapter The Third Law of Thermodynamics (end)
+\end{document}
+
