@@ -323,7 +323,7 @@ The Dirac delta $\delta(t)$ signal focuses only on the origin in the time domain
 \\ \\
 \textit{The more information you observe in the time domain, the less information you know in the frequency domain; and vice versa.}
 \\ \\
-Using the same analogy, for simplify, you can qualitatively think Heisenberg's uncertainty principle as:
+Using the same analogy, for simplicity, you can qualitatively think Heisenberg's uncertainty principle as:
 \\ \\
 \textit{The less spread out the wavefunction is in position space, the more spread out it must be in momentum space; and vice versa.}
 \\ \\
@@ -526,7 +526,44 @@ Precisely determining the critical point is not so easy, because we have to use 
 	\end{center}
 	\caption{Entropy of a system of $2$ ideal gases, with sliding partition}\label{fig:2_12}
 \end{figure}
-The red curve represents the $S_{AB}/k_{B}$ graph (in form of our previous result has been proved) while holding an arbitrary $U_{A}$ value fixed; and so does the blue curve. Now, the commonality between these two graphs can be clearly seen; both have \textbf{only} a single extreme peak, and regardless of the initial state, entropy always increase; or in other words, the system always approach its most probable state.
+The red curve represents the $S_{AB}/k_{B}$ graph (in form of our previous result has been proved) while holding an arbitrary $U_{A}$ value fixed; and so does the blue curve. Now, the commonality between these two graphs can be clearly seen; both have \textbf{only} a single extreme peak, and regardless of the initial state, entropy always increase; or in other words, the system always approaches its most probable state. As you can see here, since entropy is always increasing, we do not need to worry so much about the initial $S_{i}$ or final $S_{f}$ state, but rather about \textbf{difference} $\Delta S=S_{f}-S_{i}$ between them.
+\begin{theorem}[Entropy is increasing]
+	\label{Entropy is increasing}
+	$$ \Delta S\geq 0 $$
+\end{theorem}
+If any process can hold $\Delta S=0$, that means $S_{i}=S_{f}$, we call it \textbf{reversible process}; and if $\Delta S>0$, or equivalent to $S_{f}>S_{i}$, we call it \textbf{irreversible process}. Keep these words in mind, we will return to them at the end of next chapter, when we work with some well-known thermodynamics cycles; they will be revisited as a result of the second law. To conclude this chapter, I will introduce you to two classic irreversible processes: \textbf{free expansion} and \textbf{gas mixing}.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter2/2_13.png}
+	\end{center}
+	\caption{Free expansion phenomenon}\label{fig:2_13}
+\end{figure}
+Due to Theorem ~\ref{The Entropy of Ideal Gas}, the entropy difference is:
+$$ \Delta S=Nk_{B}\ln \frac{V_{f} }{V_{i}} $$
+As you can see here $V_{f}>V_{i}$ due gas expansion to fill the container, even it does not do any work or receive any external heat:
+$$ \Delta U=Q+W=0+0=0 $$
+This empirical result makes sense because it satisfies our law: $\Delta S \geq 0$.
+Now suppose you have equal moles of two ideal gases $A$ and $B$, divide them into two equal parts inside a container. What happens if you pull the partition out?
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter2/2_14.png}
+	\end{center}
+	\caption{Gas mixing phenomenon}\label{fig:2_14}
+\end{figure}
+For simplicity, I assume that:
+$$ V_{i,a}=V_{i,b}=\frac{V }{2} $$
+We can see that:
+\begin{equation*}
+	\Delta S=\Delta S_{A}+\Delta S_{B}=N_{A}k_{B}\ln \frac{V_{f} }{V_{i}}+N_{B}k_{B}\ln \frac{V_{f} }{V_{i}}=2Nk_{B}\ln{2}
+\end{equation*}
+Again, entropy increased in the process of mixing gas. We have successfully applied the second law to explain the expansion of gases inside a container. But how about the shrinking case? Perhaps instead of mixing or expanding, these gases particles just stay still in one place, or even shrink. The answer is these phenomenons could never happen, because they \textbf{violate the second law of thermodynamics}.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{~/PhyAI/chapter2/2_15.png}
+	\end{center}
+	\caption{The cases of violating the second law of thermodynamics}\label{fig:2_15}
+\end{figure}
+
 
 % section The Ideal Gas Model (end)
 % chapter The Second Law of Thermodynamics (end) 
