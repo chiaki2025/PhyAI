@@ -53,6 +53,89 @@ $$ \textbf{Entropy "released" by water}\neq\textbf{Entropy "received" by environ
 Entropy is closely related to energy, but they are not the same, and we do not have any law of conservation of entropy; so we have to be careful here. This result below may surprise you:
 $$ \textbf{Entropy "released" by water}<\textbf{Entropy "received" by environment} $$
 So the total entropy of our system (a cup of water and the outside environment) increases, because it gains more than losses.
+\section{The Meaning of Temperature}\label{sec:the_meaning_of_temperature} % (fold)
+In the conventional sense, a cup of boiling water has much higher temperature than its surrounding, so it will transfer some of its energy to surrounding environment (and conversely, the environment also receives that heat), according to the zeroth law of thermodynamics. As we discussed in the previous section:
+\begin{center}
+	\textit{Entropy is directly related to heat.}
+\end{center}
+And obviously, also by the law:
+\begin{center}
+	\textit{The amount of heat transferred between objects is directly linked to the temperature difference. }
+\end{center}
+The temperature itself is not so important than the \textbf{difference}. If our system only consists objects at same temperature, nothing is exchanged, everything is in equilibrium state. Only when $\Delta T>0$, some heat $Q$ is transferred, from the high temperature objects to the lower; which leads to the \textbf{total entropy of entire system} slowly \textbf{increases}. In our thinking line, we can imagine:
+\begin{center}
+	\textit{Entropy is something that deeply related not only heat, but also the temperature difference too.}
+\end{center}
+In this section, we develop the connection among three physical quantities: $ (\textbf{heat}, \textbf{energy}, \textbf{entropy}) $. Let's begin with a very classical problem: consider a system consists two Einstein solids $A$ ($N_{A}=40$) and $B$ $(N_{B}=60)$, and the total energy is $q=100$. Using the same calculating techniques from  Chapter ~\ref{chap:the_second_law_of_thermodynamics}, we obtain some numerical values:
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|}
+		\hline
+		$q_{A}$ & $\ln\Omega_{A}$ & $q_{B}$ & $\ln\Omega_{B}$ & $S_{AB}/k_{B}$ \\
+		\hline
+		0       & 0               & 100     & 105.85          & 105.85         \\
+		\hline
+		1       & 4.70            & 99      & 105.37          & 110.07         \\
+		\hline
+		...     & ...             & ...     & ...             & ...            \\
+		\hline
+		20      & 38.19           & 80      & 95.60           & 133.79         \\
+		\hline
+		21      & 39.27           & 79      & 95.04           & 134.31         \\
+		\hline
+		22      & 40.32           & 78      & 97.60           & 134.92         \\
+		\hline
+		...     & ...             & ...     & ...             & ...            \\
+		\hline
+		39      & 54.75           & 61      & 83.86           & 138.61         \\
+		\hline
+		40      & 55.45           & 60      & 83.17           & 138.62         \\
+		\hline
+		41      & 56.13           & 59      & 82.48           & 138.61         \\
+		\hline
+		...     & ...             & ...     & ...             & ...            \\
+		\hline
+		100     & 83.75           & 0       & 0               & 83.75          \\
+		\hline
+	\end{tabular}
+\end{table}
+\\Plot our data into a simple graph:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{~/PhyAI/chapter3/3_5.png}
+	\end{center}
+	\caption{A simple graph of the entropies}\label{fig:3_5}
+\end{figure}
+Looking at table and graph, we find out some interesting observations here. I randomly pick an interval; $q_{A}$ is increasing $2$ units, from $q_{A}=20$ to $q_{A}=22$, its entropy is also increasing $\Delta S_{A}=40.32-38.19=2.13$ $(k_{B})$; meanwhile $S_{B}$ is decreasing $\Delta S_{B}=94.6-95.6=-1$ $(k_{B})$. We can see that:
+$$ \Delta S_{\text{total}}=\Delta S_{A}+\Delta S_{B}=2.13+(-1)=1.13 \; (k_{B})$$
+Again, the total entropy is increasing! Can I guess the slope of a tangent line at point $q_{A}=20$ is \textbf{steeper} than point $q_{B}=80$? Let's find out by doing some math here. Recall from our approximation formula:
+$$ S=k_{B}[(q+N)\ln{(q+N)}-q\ln{q}-N\ln{N}]\Rightarrow \left(\frac{\partial S}{\partial q}\right)_{N}=k_{B} \left[\ln\left(1+\frac{N }{q}\right)\right] $$
+Substituting our values yields:
+$$ q_{A}=20, N_{A}=40\Rightarrow \frac{\partial S_{A}}{\partial q_{A}}= 1.09 k_{B}$$
+$$ q_{B}=80, N_{B}=60\Rightarrow \frac{\partial S_{B}}{\partial q_{B}}=  0.55k_{B}$$
+Here is a question, why is $\Delta S_{B}$ negative, but it still has positive slope? The answer is pretty simple, our graph perspective is from right to left, but calculation convention is from left to right. If the initial state of our system is $(q_{A}=0, q_{B}=100)$, then the total entropy is slowly increasing, until it reaches its \textbf{maximum value}, and stays still at equilibrium point. There is no chance for our system could fall out of its equilibrium state anymore,  after it reached \footnote[1]{Or more precisely, no matter where it begins, the probability of equilibrium state occurring is alwasy the highest. I recommend you should verify this fact by calculating the ratio: $$ \frac{P(q_{A}=40, q_{B}=60)}{P(q_{A}=45, q_{B}=55)}$$}.
+\begin{definition}[Equilibrium Definition]
+	Equilibrium state is the state which entropy reaches its \textbf{maximum value}, or equivalently: $$ \Delta S=0 $$
+	\label{Equilibrium Definition}
+\end{definition}
+According the zeroth law of thermodynamics, the temperature of solid $A$ and $B$ are equal if and only if they are in equilibrium, that means $S_{\text{total}}$ is now maximum. Obviously, equilibrium point is the local maxima, so its tangent line is now \textbf{straight}. We take the first derivative with respect to $q_{A}$ :
+$$ \frac{\partial S_{\text{total}}}{\partial q_{A}}=0\Rightarrow \frac{\partial (S_{A}+S_{B})}{\partial q_{A}}=0 \Rightarrow \frac{\partial S_{A} }{\partial q_{A}}=-\frac{\partial S_{B} }{\partial q_{A}}$$
+A subtle observation is that a decrease in $q_{A}$ corresponds to an increase in $q_{B}$:
+$$ \frac{\partial S_{A} }{\partial q_{A}}=\frac{\partial S_{B}}{\partial q_{B}} $$
+This equation makes perfect sense to our intuition, look at previous calculation: the slope of $S_{A}$ graph is much steeper than $S_{B}$, then it gradually decreases, while the slope of $S_{B}$ slowly increases until they are \textbf{equal}. That is an equilibrium moment. Now if our system is not in equilibrium, I assume:
+$$ \frac{\partial S_{A} }{\partial q_{A}}>\frac{\partial S_{B}}{\partial q_{B}} $$
+To ensure the second law of thermodynamics, as you can see here, the entropy of solid $A$ increases \textbf{faster} than the rate of entropy decrease of solid $B$. That means solid $A$ receives energy released from solid $B$; and now we can conclude that \textbf{the temperature of solid $A$ is lower than solid $B$.} Before introducing the canonical definition of temperature, let me define a new "energy" quantity unit $\varepsilon\footnote[1]{The unit of $\varepsilon$ is (eV), which is the kinetic energy of an electron that has been accelerated through a voltage different of $1$V.}$:
+$$ U=\varepsilon.q $$
+Apparently, we can see that:
+$$ \frac{\partial S_{A} }{\partial q_{A}}=\frac{\partial S_{B}}{\partial q_{B}}\Leftrightarrow \frac{\partial S_{A} }{\partial U_{A}}=\frac{\partial S_{B}}{\partial U_{B}} $$
+\begin{definition}[The Third Definition of Temperature]
+	The temperature is defined as:
+	\label{The Third Definition of Temperature}
+	$$\frac{1 }{T}=\frac{\partial S }{\partial U}\; (1/K) $$
+\end{definition}
+We now eventually understood why the unit of entropy is (J/K) (thanks to the unit of $k_{B}$ constant). Plugging it to the definition above, the energy part (J) disappears, so only (1/K) left.
+
+% section The Meaning of Temperature (end)
 % chapter The Third Law of Thermodynamics (end)
 \end{document}
 

@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Thu May  7 00:41:46 2026
+       Sat May  9 01:52:35 2026
        Filename: chapter3.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -156,8 +156,48 @@ INFO:  Backup procedure (-w flag active):
        ./chapter3.bak126 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter3.bak127 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter3.bak128 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       copying chapter3.tex to ./chapter3.bak129
-       Backup file: ./chapter3.bak129
+       ./chapter3.bak129 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak130 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak131 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak132 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak133 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak134 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak135 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak136 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak137 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak138 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak139 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak140 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak141 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak142 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak143 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak144 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak145 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak146 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak147 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak148 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak149 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak150 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak151 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak152 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak153 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak154 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak155 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak156 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak157 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak158 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak159 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak160 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak161 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak162 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak163 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak164 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak165 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak166 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak167 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak168 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       copying chapter3.tex to ./chapter3.bak169
+       Backup file: ./chapter3.bak169
        chapter3.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
