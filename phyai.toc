@@ -32,3 +32,5 @@
 \contentsline {chapter}{\numberline {3}The Third Law of Thermodynamics}{43}{chapter.3}%
 \contentsline {section}{\numberline {3.1}The Meaning of Entropy}{43}{section.3.1}%
 \contentsline {section}{\numberline {3.2}The Meaning of Temperature}{46}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Proof of Equipartition Theorem}{48}{section.3.3}%
+\contentsline {section}{\numberline {3.4}The Third Law of Thermodynamics}{49}{section.3.4}%

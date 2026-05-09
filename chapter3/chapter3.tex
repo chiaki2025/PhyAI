@@ -137,18 +137,43 @@ We now eventually understood why the unit of entropy is (J/K) (thanks to the uni
 \section{Proof of Equipartition Theorem}\label{sec:proof_of_equipartition_theorem} % (fold)
 In this section, we will provide a simple proof of equipartition theorem (Theorem ~\ref{The Equipartition Theorem}) in the two simplest cases: Einstein solid and ideal monatomic gases. Let's begin with the entropy formula of a solid at high temperature (Subsection ~\ref{sub:_n_and_q_are_large_values}):
 $$ S=k_{B}N \ln{\frac{eq }{N}}=k_{B}N \ln{\frac{eU }{\varepsilon N}}\Rightarrow \frac{1 }{T}=\left(\frac{\partial S }{\partial U}\right)_{N}=\frac{k_{B}N }{U}\Rightarrow U=k_{B}NT $$
-Is there any conflict here? Since we already know that any solid has $6$ degrees of freedom, its internal energy must be: $$ U=\frac{f }{2}k_{B}NT\quad(\text{Corollay ~\ref{Total Internal Energy}}) =3k_{B}NT$$
+Is there any conflict here? Since we already know that any solid has $6$ degrees of freedom, its internal energy must be: $$ U=\frac{f }{2}k_{B}NT=3k_{B}NT\quad(\text{Corollay ~\ref{Total Internal Energy}})$$
 Here is the subtle observation, the key difference is how the quantity $N$ defined:
 \begin{equation*}
 	\begin{split}
-		U&=k_{B}NT\quad\text{($N$ is \textbf{the number of particles inside solid})} \\
-		U&=3k_{B}NT\quad\text{($N$ is \textbf{the number of chemical bonds inside solid})}
+		U&=k_{B}NT\quad\text{($N$ is \textbf{the number of chemical bonds inside solid})} \\
+		U&=3k_{B}NT\quad\text{($N$ is \textbf{the number of particles inside solid})}
 	\end{split}
 \end{equation*}
-Inside crystal lattice, each particle has $3$ chemical bonds, so our proof is correct.
+Inside crystal lattice, each particle has $3$ chemical bonds, so our proof is correct:
+$$ N_{\textbf{bonds}}=3N_{\textbf{particles}} $$
+For convention, we agree that $N$ is \textbf{the number of chemical bonds inside Einstein solid}; so the heat capacity of solid at constant volume is:
+$$ C_{V}=\left(\frac{\partial U }{\partial T}\right)_{N,P}=k_{B}N  $$
+For ideal monatomic gas, from Theorem ~\ref{The Entropy of Ideal Gas}, take the partial derivative with respect to $U$, we obtain:
+$$ \frac{1 }{T}=\left(\frac{\partial S }{\partial U}\right)_{N,P}=\frac{3 }{2}Nk_{B}\frac{1 }{U} \Rightarrow U=\frac{3 }{2}Nk_{B}T $$
+Again, the equipartition theorem still holds true. Similarly, the heat capacity at constant volume is: $$ C_{V}=\left(\frac{\partial U }{\partial T}\right)_{N,P}=\frac{3 }{2}Nk_{B} $$
+
 % subsubsection Eins (end)
 % section Proof of Equipartition Theorem (end)
 % section The Meaning of Temperature (end)
+\section{The Third Law of Thermodynamics}
+From the definition of temperature (Definition ~\ref{The Third Definition of Temperature}):
+$$ \frac{1 }{T}=\frac{\partial S }{\partial U} $$
+An infinitesimally small change in entropy is equivalent to:
+$$ dS=\frac{dU }{T} $$
+We assume that our system does not do any kind of work:
+$$ dS=\frac{dU }{T}=\frac{Q+W }{T}=\frac{Q }{T}=\frac{C_{V}dT}{T}\Rightarrow \Delta S=\int_{T_{i} }^{T_{f}}\frac{C_{V}dT }{T}  $$
+This seems like a very easy way; you can calculate the difference in entropy of any system with constant volume, but here is the tricky part. I set the initial temperature $T_{i}=0$ (K):
+$$ \Delta S=S_{f}-S(0)=\int_{0 }^{T_{f}}\frac{C_{V}dT }{T}=C_{V}.\lim_{t\to 0^+}(\ln{T_{f}}-\ln{t})  $$
+This integral is divergence, and might be $\Delta S\to+\infty$, do you think that makes sense? The answer is no, there is no way entropy (or any other physical quantities) can be infinite. To ensure convergence, our mathematics indicates condition:
+$$ T\to 0\;\text{(K)}\Rightarrow C_{V}\to 0\;\text{(J/K)} $$
+How about $S(0)$? Intuitively, we imagine the state where everything is "frozen", and due to equipartition theorem (Theorem ~\ref{The Equipartition Theorem}), the internal energy is equal zero, leads to number of units energy is also zero; and there is \textbf{only one} configuration that satisfies $q=0$.
+$$ S=k_{B}\ln\Omega=k_{B}\ln{1}=0\;(\text{J/K}) $$
+\begin{theorem}[The Third Law of Thermodynamics]
+	\label{The Third Law of Thermodynamics}
+	At absolute zero temperature a system settles into its unique lowest-energy state:
+	$$ \lim_{T\to 0}S=S(0)=0\;(\text{(J/K)}) $$
+\end{theorem}
 % chapter The Third Law of Thermodynamics (end)
 \end{document}
 

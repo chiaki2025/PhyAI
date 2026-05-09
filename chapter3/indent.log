@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Sat May  9 09:40:20 2026
+       Sat May  9 20:22:30 2026
        Filename: chapter3.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -59,8 +59,37 @@ INFO:  Backup procedure (-w flag active):
        ./chapter3.bak29 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter3.bak30 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter3.bak31 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       copying chapter3.tex to ./chapter3.bak32
-       Backup file: ./chapter3.bak32
+       ./chapter3.bak32 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak33 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak34 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak35 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak36 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak37 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak38 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak39 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak40 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak41 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak42 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak43 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak44 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak45 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak46 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak47 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak48 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak49 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak50 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak51 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak52 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak53 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak54 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak55 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak56 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak57 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak58 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak59 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./chapter3.bak60 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       copying chapter3.tex to ./chapter3.bak61
+       Backup file: ./chapter3.bak61
        chapter3.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
