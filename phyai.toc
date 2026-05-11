@@ -34,3 +34,9 @@
 \contentsline {section}{\numberline {3.2}The Meaning of Temperature}{46}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Proof of Equipartition Theorem}{48}{section.3.3}%
 \contentsline {section}{\numberline {3.4}The Third Law of Thermodynamics}{49}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Various Types of Equilibrium}{50}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Thermal Equilibrium}{50}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Mechanical Equilibrium}{51}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Diffusive Equilibrium}{52}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}The Thermodynamics Identity}{53}{subsection.3.5.4}%
+\contentsline {section}{\numberline {3.6}Heat Engine}{53}{section.3.6}%
