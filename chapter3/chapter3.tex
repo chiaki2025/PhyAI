@@ -286,17 +286,59 @@ $$ -u=-\frac{\partial U }{\partial N}=-T\left(\frac{\partial S }{\partial N}\rig
 That is how I imagine the way of chemical potential $\mu$ was defined. But unlike electrical potential, $\mu_{A}$ and $\mu_{B}$ \textbf{constantly change}, until they are equal in equilibrium state.
 \subsection{The Thermodynamics Identity}\label{sub:the_thermodynamics_identity} % (fold)
 For any changing in entropy in any thermodynamics process:
-$$ dS= \frac{dU }{T}+\frac{PdV }{T}-\frac{\mu dV }{T}$$
+$$ dS= \frac{dU }{T}+\frac{PdV }{T}-\frac{\mu dN }{T}$$
 \begin{theorem}[The Thermodynamics Identity]
 	\label{The Thermodynamics Identity}
 
-	$$ dS= \frac{dU }{T}+\frac{PdV }{T}-\frac{\mu dV }{T}\Leftrightarrow dU=TdS-PdV+\mu dV$$
+	$$ dS= \frac{dU }{T}+\frac{PdV }{T}-\frac{\mu dN }{T}\Leftrightarrow dU=TdS-PdV+\mu dN$$
 \end{theorem}
 This identity will play crucial role in later chapters.
 % subsection The Thermodynamics Identity (end)
 % section Mechanical Equilibrium (end)
-\section{Heat Engine}\label{sec:heat_engine} % (fold)
+\section{Heat Engines and Refrigerators}\label{sec:heat_engine} % (fold)
 \footnote[1]{This section is unrelated to the rest of this book; so you may omit or postpone it if you wish.} In the final section of this chapter, we will study two other versions of the second law of thermodynamics.
+\begin{definition}[Heat Engine]
+	A heat engine is a device that extracts energy from its environment in the form of heat and does useful work.
+\end{definition}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{~/PhyAI/chapter3/3_6.png}
+	\end{center}
+	\caption{Simple schematic of a heat engine}\label{fig:3_6}
+\end{figure}
+The engine receives heat energy $Q_{H}$ from hot reservoir $T_{H}$, converts it into useful work $W$, and some of energy is lost to the cold reservoir $T_{L}$. We define a new quantity:
+\begin{definition}[Efficiency of Heat Engine]
+	$$ \varepsilon=\frac{|W| }{|Q_{H}|}=\frac{|Q_{H}|-|Q_{L}| }{|Q_{H}|} $$
+\end{definition}
+A version of the second law applied to heat engines is:
+\begin{center}
+	\textit{It is impossible to create an ideal heat engine, a type of engine that has $\varepsilon=100\%$.}
+\end{center}
+\begin{definition}[Refrigerator]
+	A refrigerator is a device that uses work in order to transfer energy from a low-temperature reservoir to a high-temperature reservoir.
+\end{definition}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{~/PhyAI/chapter3/3_7.png}
+	\end{center}
+	\caption{Simple schematic of a refrigerator}\label{fig:3_7}
+\end{figure}
+This engine receives work $W$ to transfer heat $Q_{L}$ from cold reservoir $T_{L}$ to hot reservoir $T_{H}$. We define a new quantity:
+\begin{definition}[Coefficient of Peformance]
+	$$ K=\frac{|Q_{L}| }{|W|} $$
+\end{definition}
+A version of the second law applied to refrigerators is:
+\begin{center}
+	\textit{It is impossible to create an ideal refrigerator, a type of engine that has $K=+\infty$.}
+\end{center}
+The Carnot cycle is the simplest thermodynamics process capable of producing work. For simplicity, I will only consider the Carnot cycle for heat engine (for refrigerator, the cycle proceeds in the reverse direction).
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.75\textwidth]{~/PhyAI/chapter3/3_8.png}
+	\end{center}
+	\caption{A very simple Carnot cycle}\label{fig:3_8}
+\end{figure}
+A very interesting consequence of the second law is that, since a perfect Carnot engine can not exist, the Carnot cycle is, in essence, \textbf{irreversible}\footnote[1]{Since this is not our main topic, I briefly introduce some important concepts here. For more details (or explanations) regarding the relationship between entropy and engines, you should refer to sections 20-2, 20-3, Halliday textbook; or chapter 4, "An Introduction to Thermal Physics", Daniel V. Schroeder.}.
 % section Heat Engine (end)
 % chapter The Third Law of Thermodynamics (end)
 \end{document}

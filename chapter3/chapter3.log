@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  11 MAY 2026 23:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  12 MAY 2026 11:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2667,7 +2667,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.298 \section
-              {Heat Engine}\label{sec:heat_engine} % (fold)
+              {Heat Engines and Refrigerators}\label{sec:heat_engine} % (fold)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2697,6 +2697,561 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.300 \begin{definition}
+                        [Heat Engine]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 \end{definition}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 \begin{figure}
+                    [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.305 		\includegraphics
+                        [width=0.65\textwidth]{~/PhyAI/chapter3/3_6.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.305 		\includegraphics[width=0.65\textwidth]
+                                              {~/PhyAI/chapter3/3_6.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.305 		\includegraphics[width=0.65\textwidth]
+                                              {~/PhyAI/chapter3/3_6.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.305 ...width=0.65\textwidth]{~/PhyAI/chapter3/3_
+                                                  6.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.305 ...0.65\textwidth]{~/PhyAI/chapter3/3_6.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.306 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.306 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.306 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.307 	\caption
+               {Simple schematic of a heat engine}\label{fig:3_6}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.308 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.310 \begin{definition}
+                        [Efficiency of Heat Engine]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.312 \end{definition}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.317 \begin{definition}
+                        [Refrigerator]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.319 \end{definition}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.320 \begin{figure}
+                    [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.322 		\includegraphics
+                        [width=0.65\textwidth]{~/PhyAI/chapter3/3_7.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.322 		\includegraphics[width=0.65\textwidth]
+                                              {~/PhyAI/chapter3/3_7.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.322 		\includegraphics[width=0.65\textwidth]
+                                              {~/PhyAI/chapter3/3_7.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.322 ...width=0.65\textwidth]{~/PhyAI/chapter3/3_
+                                                  7.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.322 ...0.65\textwidth]{~/PhyAI/chapter3/3_7.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.323 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.323 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.323 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.324 	\caption
+               {Simple schematic of a refrigerator}\label{fig:3_7}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.325 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment definition undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.327 \begin{definition}
+                        [Coefficient of Peformance]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: \begin{document} ended by \end{definition}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.329 \end{definition}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.335 \begin{figure}
+                    [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.337 		\includegraphics
+                        [width=0.75\textwidth]{~/PhyAI/chapter3/3_8.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.337 		\includegraphics[width=0.75\textwidth]
+                                              {~/PhyAI/chapter3/3_8.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.337 		\includegraphics[width=0.75\textwidth]
+                                              {~/PhyAI/chapter3/3_8.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.337 ...width=0.75\textwidth]{~/PhyAI/chapter3/3_
+                                                  8.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.337 ...0.75\textwidth]{~/PhyAI/chapter3/3_8.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.338 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.338 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.338 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.339 	\caption
+               {A very simple Carnot cycle}\label{fig:3_8}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.340 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.341 ...o Thermal Physics", Daniel V. Schroeder.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.341 ...o Thermal Physics", Daniel V. Schroeder.}
+                                                  .
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
 ! LaTeX Error: The font size command \normalsize is not defined:
                there is probably something wrong with the class file.
 
@@ -2704,7 +3259,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.302 \end{document}
+l.344 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2714,7 +3269,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> ...ird_law_of_thermodynamics}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2725,7 +3280,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:3_1}{{}{\thepage 
                                        }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2736,7 +3291,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:3_2}{{}{\thepage 
                                        }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2747,7 +3302,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:3_3}{{}{\thepage 
                                        }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2758,7 +3313,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:3_4}{{}{\thepage 
                                        }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2769,7 +3324,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...he_meaning_of_temperature}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2780,7 +3335,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:3_5}{{}{\thepage 
                                        }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2791,7 +3346,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...el{Equilibrium Definition}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2802,7 +3357,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...Definition of Temperature}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2813,7 +3368,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ..._of_equipartition_theorem}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2824,7 +3379,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...ird Law of Thermodynamics}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2835,7 +3390,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...croscopic View of Entropy}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2846,7 +3401,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...ious_types_of_equilibrium}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2857,7 +3412,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...on of Thermal Equilibrium}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2868,7 +3423,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...ec:mechanical_equilibrium}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2879,7 +3434,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...of Mechanical Equilibrium}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2890,7 +3445,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...nd Definition of Pressure}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2901,7 +3456,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...l{Definition of Diffusion}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2912,7 +3467,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ... of Diffusive Equilibrium}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2923,7 +3478,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...ion of Chemical Potential}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2934,7 +3489,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...e_thermodynamics_identity}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2945,7 +3500,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...e Thermodynamics Identity}{{}{\thepage 
                                                   }}
-l.302 \end{document}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2956,7 +3511,40 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{sec:heat_engine}{{}{\thepage 
                                                }}
-l.302 \end{document}
+l.344 \end{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> \newlabel{fig:3_6}{{}{\thepage 
+                                       }}
+l.344 \end{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> \newlabel{fig:3_7}{{}{\thepage 
+                                       }}
+l.344 \end{document}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> \newlabel{fig:3_8}{{}{\thepage 
+                                       }}
+l.344 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2976,10 +3564,10 @@ LaTeX Warning: There were undefined references.
 (\end occurred when \ifx on line 35 was incomplete)
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 288 strings out of 476091
- 7408 string characters out of 5794082
- 1938330 words of memory out of 5000000
- 20754 multiletter control sequences out of 15000+600000
+ 291 strings out of 476091
+ 7435 string characters out of 5794082
+ 1944330 words of memory out of 5000000
+ 20757 multiletter control sequences out of 15000+600000
  512941 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  35i,8n,35p,887b,134s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -2994,7 +3582,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on chapter3.pdf (1 page, 165354 bytes).
+Output written on chapter3.pdf (1 page, 167904 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream
