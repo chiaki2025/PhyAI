@@ -40,3 +40,5 @@
 \contentsline {subsection}{\numberline {3.5.3}Diffusive Equilibrium}{52}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}The Thermodynamics Identity}{53}{subsection.3.5.4}%
 \contentsline {section}{\numberline {3.6}Heat Engines and Refrigerators}{53}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Free Energy and Chemical Thermodynamics}{56}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Enthalpy}{56}{section.4.1}%

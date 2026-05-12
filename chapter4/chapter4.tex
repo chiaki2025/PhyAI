@@ -1,0 +1,37 @@
+\documentclass[~/PhyAI/phyai.tex]{subfiles}
+\begin{document}
+\chapter{Free Energy and Chemical Thermodynamics}\label{chap:free_energy_and_chemical_thermodynamics} % (fold)
+If you conduct any chemical experiment; for example, drop an aluminum ball into a drain cleaner solution; they are \textbf{already in constant pressure condition}:
+$$ 2\ce{Al}+2\ce{NaOH}+2\ce{H2O}\rightarrow 2\ce{NaAlO2}+3\ce{H2} \footnote[1]{This is a very interesting experiment that I loved to do when I was a kid. You should try it, but remember to be careful!}$$
+Maintaining the constant volume condition is impossible; because our substances are constantly changing in chemical reactions. The aluminum ball dissolves, heat and $\ce{H2}$ gas are released; nothing remains the same initial state anymore. In this chapter, we will focus only on exploring chemical thermodynamics processes; meaning that all processes take place at \textbf{constant pressure}.
+\section{Enthalpy}\label{sec:enthalpy} % (fold)
+A cup of water is boiling on the stove; you can see the steam rising, and you might wonder how much energy the stove supplied to create that steam?
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.4\textwidth]{~/PhyAI/chapter4/4_1.png}
+	\end{center}
+	\caption{How much energy required to create steam from out of nothing?}\label{fig:4_1}
+\end{figure}
+The answer is quite simple: first you have to create its energy $(U)$, then you add some work needed to make space for it $(PV)$; so the total energy required is $U+PV$. Somehow if you want to annihilate the steam; you must destroy not only its internal energy, but also the work used to make its space.
+\begin{definition}[Enthalpy Definition]
+	\label{Enthalpy Definition}
+	Enthalpy is the sum of a system's internal energy and the product of its pressure and volume.
+	$$ H=U+PV\quad(\text{J}) $$
+\end{definition}
+Like entropy, we actually do not care much about the enthalpy $H$ of a stable system; it is not so meaningful when I say "A cup of water has $H=\cdots$ (J)". The power of this quantity is most clearly demonstrated when we work with chemical reactions (or any transformation process). Let me give you an intuitive example. Back in middle school, I did a danger experiment. I took a long stick, burned one end, and touched it to a balloon filled with $\ce{H2}$ gas. You can probably guess what happened. The balloon exploded and burst into flames instantly; creating a beautiful ring of fire. It is still very impressive, even now as I am adult\footnote[1]{I think you should try it, but remember safety first. This reaction generates much of heat, and you must stand far away from the balloon. }.
+$$ \ce{H2}+\frac{1 }{2}\ce{O2}\rightarrow \ce{H2O}\quad(\Delta H=-286\text{kJ/mol}) $$
+I have always thought of enthalpy as a representation of the state of all substances, in terms of energy. Look at the left side of reaction, to produce a mole of $\ce{H2}$ and a half mole of $\ce{O2}$, we need $H_{i}$ joules. When the reaction occurs, $H_{i}$ loses $286$kJ to the surronding environment to produce $H_f$, which contains only one mole of $\ce{H2O}$. Now I can conclude that because $286$kJ is \textbf{released} to the surrounding environment, our reaction is \textbf{exothermic}.
+$$ \Delta H=H_{f}-H_{i}=-286\text{kJ} $$
+Conversely, the surronding environment needs to \textbf{provide} energy to decompose $\ce{H2O}$ into $\ce{H2}$ and $\ce{O2}$; this is called an \textbf{endothermic} reaction.
+$$ \ce{H2O}\rightarrow \ce{H2}+\frac{1 }{2}\ce{O2}\quad(\Delta H=+286\text{kJ/mol}) $$
+\begin{exmp}
+	The enthalpy of vaporization of water at $100^{\circ}$C is $40.63$ (kJ/mol). How much energy is needed to create space for steam?
+	\\ From Definition ~\ref{Enthalpy Definition}, we see that:
+	$$ H=U+PV $$
+	The amount of work $PV$ can be caculated by using ideal gas law: $$ PV=Nk_{B}T=nRT =RT=3.10\;\text{(kJ)}$$
+
+\end{exmp}
+
+% section Enthalpy (end)
+% chapter Free Energy and Chemical Thermodynamics (end) 
+\end{document}
