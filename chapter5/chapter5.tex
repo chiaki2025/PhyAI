@@ -1,0 +1,55 @@
+\documentclass[subfile]{~/PhyAI/phyai.tex}
+\begin{document}
+\chapter{Boltzmann Statistics}\label{chap:boltzmann_statistics} % (fold)
+\section{Boltzmann Distribution}\label{sec:boltzmann_distribution} % (fold)
+In this chapter, we will learn how to apply some rules of probability and statistics to calculate the probability that a particle is in any given microstate. For example, inside a gas container, we can calculate the probability of finding particles moving with velocity $v_{1}$, or any other states. Firstly, let's derive the probability density function:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter5/5_1.png}
+	\end{center}
+	\caption{An imaginary experiment}\label{fig:5_1}
+\end{figure}
+Consider a system divided into two parts. The first part is the single particle found in a microstate $s$, and the second part is the rest of the container (or what I call the reservoir or environment). For any microstates $s_{1}$ and $s_{2}$, we have:
+\begin{equation*}
+	\begin{split}
+		\frac{\mathcal{P}(s_{1})}{\mathcal{P}(s_{2})}&=\frac{\Omega_{R}(s_{1})}{\Omega_{R}(s_{2})}=\exp{\left(\frac{S_{R}(s_{1})-S_{R}(s_{2})}{k_{B}}\right)}
+	\end{split}
+\end{equation*}
+From the thermodynamics identity (Theorem ~\ref{The Thermodynamics Identity}):
+$$dS=\frac{dU }{T}\quad\text{($V$ and $N$ are held as constants)}$$
+For abbreviation, I denote: $$ \beta=\frac{1 }{k_{B}T} $$
+We obtain:
+\begin{equation*}
+	\begin{split}
+		\frac{\mathcal{P}(s_{1})}{\mathcal{P}(s_{2})}&=\exp{(\beta(U_{R}(s_{1})-U_{R}(s_{2})))}\\
+		&=\exp(-\beta(E(s_{1})-E(s_{2})))\\
+		\Leftrightarrow \frac{\mathcal{P}(s_{1}) }{\mathcal{P}(s_{2})}&=\frac{\exp{(-\beta E(s_{1}))}}{\exp(-\beta E(s_{2}))}
+	\end{split}
+\end{equation*}
+Finally for any microstate $s$, we always have the proportional relationship:
+$$ \mathcal{P}(s)\propto e^{-\beta E(s)} $$
+The probability density $\mathcal{P}(s)$ is formed by normalizing function $Z$ as follows:
+$$ Z=\sum_{s}e^{-\beta E(s)}\Rightarrow \mathcal{P}(s)=\frac{1 }{Z}e^{-\beta E(s)} $$
+$Z$ is the \textbf{partition function}, and exponential factor $e^{-\beta E(s)}$ is called the \textbf{Boltzmann factor}.
+\begin{definition}[Boltzmann Distribution]
+	\label{Boltzmann Distribution}
+	The probability of finding particle in any microstate $s$ is:
+	$$ \mathcal{P}(s)=\frac{1 }{Z}e^{-\beta E(s)} $$
+	with $Z$ is the \textbf{partition function}: $$ Z=\sum_{s}e^{-\beta E(s)} $$
+\end{definition}
+\begin{corollary}[Average Energy]
+	\label{Average Energy}
+	The average energy of any system is:
+	$$ \overline{E}=-\frac{\partial \ln{Z} }{\partial \beta} $$
+\end{corollary}
+\begin{proof}
+	\begin{equation*}
+		\begin{split}
+			\overline{E}&=\sum_{s}E(s)\mathcal{P}(s)=\frac{1 }{Z}\sum_{s}E(s)e^{-\beta E(s)}=-\frac{1 }{Z}\frac{\partial Z }{\partial \beta}=-\frac{\partial \ln{Z} }{\partial \beta}
+		\end{split}
+	\end{equation*}
+\end{proof}
+
+% section Boltzmann Distribution (end)
+% chapter Boltzmann Statistics (end) 
+\end{document}

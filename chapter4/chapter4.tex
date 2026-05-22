@@ -1,9 +1,13 @@
 \documentclass[~/PhyAI/phyai.tex]{subfiles}
 \begin{document}
-\chapter{Free Energy and Chemical Thermodynamics}\label{chap:free_energy_and_chemical_thermodynamics} % (fold)
-If you conduct any chemical experiment; for example, drop an aluminum ball into a drain cleaner solution; they are \textbf{already in constant pressure condition}:
-$$ 2\ce{Al}+2\ce{NaOH}+2\ce{H2O}\rightarrow 2\ce{NaAlO2}+3\ce{H2} \footnote[1]{This is a very interesting experiment that I loved to do when I was a kid. You should try it, but remember to be careful!}$$
-Maintaining the constant volume condition is impossible; because our substances are constantly changing in chemical reactions. The aluminum ball dissolves, heat and $\ce{H2}$ gas are released; nothing remains the same initial state anymore. In this chapter, we will focus only on exploring chemical thermodynamics processes; meaning that all processes take place at \textbf{constant pressure}.
+\chapter{Enthalpy and Free Energies}\label{chap:free_energy_and_chemical_thermodynamics} % (fold)
+If you drop an aluminum ball into a drain cleaner solution; it is already in \textbf{constant pressure condition}:
+$$ 2\ce{Al}+2\ce{NaOH}+2\ce{H2O}\rightarrow 2\ce{NaAlO2}+3\ce{H2} \footnote[1]{You can see the experiment \href{https://youtu.be/ynPyhapUHO4?si=fgPUAgjiMcPY7mCX}{here}.}$$
+Now if you burn hydrogen gas inside a tube filled chlorine gas, you will observe the light blue flame, and hydrochloric gas is created:
+\begin{equation*}
+	\ce{H2}+\ce{Cl2}\rightarrow 2\ce{HCl}\footnote[2]{You can see the experiment \href{https://youtu.be/MtygiCwnEzw?si=TbpJl7YDPMqVemTx}{here}.}
+\end{equation*}
+This experiment is conducted in \textbf{constant volume condition}. When conducting any chemical experiment, we always concern with the operating conditions, either at constant volume or pressure. In this chapter, we study the influence of energy in chemical reactions.
 \section{Enthalpy}\label{sec:enthalpy} % (fold)
 A cup of water is boiling on the stove; you can see the steam rising, and you might wonder how much energy the stove supplied to create that steam?
 \begin{figure}[H]
@@ -15,14 +19,14 @@ A cup of water is boiling on the stove; you can see the steam rising, and you mi
 The answer is quite simple: first you have to create its energy $(U)$, then you add some work needed to make space for it $(PV)$; so the total energy required is $U+PV$. Somehow if you want to annihilate the steam; you must destroy not only its internal energy, but also the work used to make its space.
 \begin{definition}[Enthalpy Definition]
 	\label{Enthalpy Definition}
-	Enthalpy is the sum of a system's internal energy and the product of its pressure and volume.
+	Enthalpy is the sum of a system's internal energy and the product of its pressure and volume:
 	$$ H=U+PV\quad(\text{J}) $$
 \end{definition}
-Like entropy, we actually do not care much about the enthalpy $H$ of a stable system; it is not so meaningful when I say "A cup of water has $H=\cdots$ (J)". The power of this quantity is most clearly demonstrated when we work with chemical reactions (or any transformation process). Let me give you an intuitive example. Back in middle school, I did a danger experiment. I took a long stick, burned one end, and touched it to a balloon filled with $\ce{H2}$ gas. You can probably guess what happened. The balloon exploded and burst into flames instantly; creating a beautiful ring of fire. It is still very impressive, even now as I am adult\footnote[1]{I think you should try it, but remember safety first. This reaction generates much of heat, and you must stand far away from the balloon. }.
+Like entropy, we actually do not care much about the enthalpy $H$ of a stable system; it is not so meaningful when I say "A cup of water has $H=\cdots$ (J)". The power of this quantity is most clearly demonstrated when we work with chemical reactions (or any transformation process). Let me give you an intuitive example:
 $$ \ce{H2}+\frac{1 }{2}\ce{O2}\rightarrow \ce{H2O}\quad(\Delta H=-286\text{kJ/mol}) $$
-I have always thought of enthalpy as a representation of the state of all substances, in terms of energy. Look at the left side of reaction, to produce a mole of $\ce{H2}$ and a half mole of $\ce{O2}$, we need $H_{i}$ joules. When the reaction occurs, $H_{i}$ loses $286$kJ to the surronding environment to produce $H_f$, which contains only one mole of $\ce{H2O}$. Now I can conclude that because $286$kJ is \textbf{released} to the surrounding environment, our reaction is \textbf{exothermic}.
+I have always thought of enthalpy as a representation of the state of all substances, in terms of energy. Look on the left side of reaction, to produce a mole of $\ce{H2}$ and a half mole of $\ce{O2}$, we need $H_{i}$ joules. When the reaction occurs, $H_{i}$ loses $286$kJ to the surrounding environment to produce $H_f$, which contains only one mole of $\ce{H2O}$. Now I can conclude that because $286$kJ is \textbf{released} to the surrounding environment, our reaction is \textbf{exothermic}.
 $$ \Delta H=H_{f}-H_{i}=-286\text{kJ} $$
-Conversely, the surronding environment needs to \textbf{provide} energy to decompose $\ce{H2O}$ into $\ce{H2}$ and $\ce{O2}$; this is called an \textbf{endothermic} reaction.
+Conversely, the surrounding environment needs to \textbf{provide} energy to decompose $\ce{H2O}$ into $\ce{H2}$ and $\ce{O2}$; this is called an \textbf{endothermic} reaction.
 $$ \ce{H2O}\rightarrow \ce{H2}+\frac{1 }{2}\ce{O2}\quad(\Delta H=+286\text{kJ/mol}) $$
 \begin{exmp}
 	The enthalpy of vaporization of water at $100^{\circ}$C is $40.63$ (kJ/mol). How much energy is needed to create space for steam?
@@ -31,7 +35,95 @@ $$ \ce{H2O}\rightarrow \ce{H2}+\frac{1 }{2}\ce{O2}\quad(\Delta H=+286\text{kJ/mo
 	The amount of work $PV$ can be caculated by using ideal gas law: $$ PV=Nk_{B}T=nRT =RT=3.10\;\text{(kJ)}$$
 
 \end{exmp}
-
+Under \textbf{constant pressure} condition, by performing some mathematical transformations, we obtain:
+\begin{equation*}
+	\begin{split}
+		\Delta H&= \Delta U+P\Delta V=(Q+W)+P\Delta V=(Q+W_{\text{other}}-P\Delta V)+P\Delta V\\
+		&= Q+W_{\text{other}}
+	\end{split}
+\end{equation*}
+Have you notice a new quantity $W_{\text{other}}$? Unlike us, chemists have many ways to supply work to system without affecting its volume or pressure, and one of their most common methods is \textbf{electrolysis}. A classical example of electrolysis experiment is decomposing water to hydrogen and oxygen gases. If we do not provide any other types of work rather than $W$, we can redefine the quantity $C_{P}$ as follows:
+$$ C_{P}=\frac{Q }{\Delta T}=\left(\frac{\partial H }{\partial T}\right)_{P} $$
 % section Enthalpy (end)
+\section{Gibbs Free Energy}
+If you take into account the influence of the surrounding environment on the steam rising experiment, you will realize that this process also receives a small amount of "free energy" from the environment, so the total energy we have to provide is smaller than $H$: $$ G=H-TS=U+PV-TS $$
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter4/4_2.png}
+	\end{center}
+	\caption{Definition of Gibbs free energy}\label{fig:4_2}
+\end{figure}
+\begin{definition}[Gibbs Free Energy Definition]
+	\label{Gibbs Free Energy Definition}
+	The Gibbs free energy is defined as: $$ G=H-TS=U+PV-TS\quad\text{(J)} $$
+\end{definition}
+Like enthalpy $H$, we do not really care about the total Gibbs free energy $G$ of a system rather than the difference  $\Delta G$ for any thermodynamics processes. The quantity $\Delta G$ is very useful for chemists to determine if a chemical reaction is \textbf{spontaneous} or not under \textbf{constant pressure condition}:
+$$ \Delta G=\Delta H-T\Delta S $$
+We can find the values of $H$ and $S$ of any substances in the table "Thermodynamics Properties" at $298$K and $1$ bar. But how does it work? Basically, the logic is quite simple:
+\begin{itemize}
+	\item If $\Delta H<0$ and $\Delta S>0$, that means $\Delta G<0$, the reaction is always spontaneous at all temperature.
+	\item If $\Delta H<0$ and $\Delta S<0$, that means the reaction is only spontaneous at low temperature.
+	\item If $\Delta H>0$ and $\Delta S<0$, that means $\Delta G>0$, the reaction is never spontaneous at all temperature.
+	\item If $\Delta H>0$ and $\Delta S>0$, that means the reaction is only spontaneous at high temperature.
+\end{itemize}
+Let's look carefully on our quantities. From definitions above, we already know that both $\Delta H$ and $\Delta G$ indicate how much energy we have to add on our system. If they are negative, the reaction naturally wants to break chemical bonds inside, and releases its energy to the surrounding. The difference $\Delta S$ tells us the tendency of a relation to become chaotic. According to the second law, \textbf{any spontaneous process} tends to become more \textbf{chaotic} (or disordered); therefore, if $\Delta S<0$, it means we must supply some external energy to "reverse" the reaction from chaotic to orderly.
+\begin{exmp}
+	Determine whether this chemical reaction is spontaneous or not:
+	$$ \ce{H2}+\frac{1 }{2}\ce{O2}\rightarrow \ce{H2O} $$
+\end{exmp}
+Everyone knows that $\Delta S<0$ (water is more "ordered" than gases), so can we conclude this reaction is not spontaneous? After searching for values in the table, I found some numerical values:
+$ H_{\ce{H2}}=H_{\ce{O2}}=0$ (kJ), $H_{\ce{H2O}}=-241.82$ (kJ); $S_{\ce{H2}}=130.68$ (J/K), $S_{\ce{O2}}=205.14$ (J/K) and $S_{\ce{H2O}}=188.83$ (J/K). The Gibbs free energy is:
+$$ \Delta G=\Delta H-T\Delta S=1000.(-241.82)-298.\left(188.83-\frac{1 }{2}.205.14-130.68\right) =-228.58\quad\text{(kJ)}$$
+Wow, so even $\Delta S<0$, this reaction is still \textbf{spontaneous} at normal room condition, because $\Delta G<0$. Observing the process, we can see that:
+\begin{equation*}
+	\begin{split}
+		\Delta H&=-241.82\quad\text{(kJ)}\\
+		T\Delta S &=-13.23\quad\text{(kJ)}\\
+	\end{split}
+\end{equation*}
+The amount of energy needed for decreasing entropy is just $13.23$kJ, but the reaction releases $241.82$kJ to surrounding; so we still do not need to supply any energy here, the reaction is already \textbf{spontaneous}.
+\section{Helmholtz Free Energy}\label{sec:helmhotz_free_energy} % (fold)
+Enthalpy $H$ and Gibbs free energy $G$ are very powerful tools when we work with experiments at constant pressure condition. With that same line of thinking, at \textbf{constant volume condition}, the total energy we have to provide to create a system from nothing is:
+$$ F=U-TS $$
+\begin{definition}[Helmholtz Free Energy Definition]
+	The Helmholtz free energy is defined as:
+	\label{Helmholtz Free Energy}
+	$$ F=U-TS\quad(J) $$
+\end{definition}
+We do not have much to discuss  Helmholtz energy here (until the next chapter), because in fact, it is much easier to conduct our experiment at constant pressure condition (yes, we all live in the same atmosphere, under the same pressure); so, to conclude this section, I will introduce a simple "mantra" that I use to remember the relationship between the 4 energy quantities:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{~/PhyAI/chapter4/4_3.png}
+	\end{center}
+	\caption{"Uniform Mercury"}\label{fig:4_3}
+\end{figure}
+% section Helmhotz Free Energy (end)
+\section{Legendre Transformation}\label{sec:legendre_transformation} % (fold)
+By applying the thermodynamics identity (Theorem ~\ref{The Thermodynamics Identity}), we obtain several useful results as follows:
+\begin{equation*}
+	\begin{split}
+		dH&=dU+PdV+VdP\\
+		&=(TdS-PdV+\mu dN)+PdV+VdP\\
+		&=TdS+\mu dN+VdP
+	\end{split}
+\end{equation*}
+This is an example of \textbf{Legendre transformation}; there are many ways you can do transformation between thermodynamics quantities, but here I only care about the two most important results:
+\begin{equation*}
+	\begin{split}
+		dF&=dU-TdS-SdT\\
+		&=(TdS-PdV+\mu dN)-TdS-SdT\\
+		&=-PdV+\mu dN -SdT
+	\end{split}
+\end{equation*}
+$$\Rightarrow S=-\left(\frac{\partial F}{\partial T}\right)_{N,V}$$
+Similarly, for Gibbs free energy:
+\begin{equation*}
+	\begin{split}
+		dG&=dF+PdV+VdP=\mu dN -SdT+VdP
+	\end{split}
+\end{equation*}
+$$ S=-\left(\frac{\partial G}{\partial T}\right)_{N,P} $$
+These $2$ relationships are so important, they verify our intuition is correct: we have to provide more external energy to decrease the system entropy, and vice versa.
+% section Legendre Transformation (end)
 % chapter Free Energy and Chemical Thermodynamics (end) 
 \end{document}
