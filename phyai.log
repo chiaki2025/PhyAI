@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  23 MAY 2026 01:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  25 MAY 2026 00:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -584,7 +584,7 @@ Overfull \hbox (0.22455pt too wide) in paragraph at lines 15--16
 
 ] (./chapter0/chapter0.tex
 Chapter 0.
-<~/PhyAI/chapter0/0_1.png, id=261, 1339.0025pt x 606.265pt>
+<~/PhyAI/chapter0/0_1.png, id=301, 1339.0025pt x 606.265pt>
 File: ~/PhyAI/chapter0/0_1.png Graphic file (type png)
 <use ~/PhyAI/chapter0/0_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter0/0_1.png  used on input line 28.
@@ -605,7 +605,7 @@ or  <return>  to continue without it.
 [7
 
 ]
-<~/PhyAI/chapter0/0_2.png, id=272, 1027.84pt x 575.14874pt>
+<~/PhyAI/chapter0/0_2.png, id=312, 1027.84pt x 575.14874pt>
 File: ~/PhyAI/chapter0/0_2.png Graphic file (type png)
 <use ~/PhyAI/chapter0/0_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter0/0_2.png  used on input line 35.
@@ -622,7 +622,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.0.2}) h
 l.46 	A
         thermodynamics system \textbf{does not} contain heat. </home/Chiaki/PhyAI/chapter0/0_1.png> </home/Chiaki/PhyAI/chapter0/0_2.png>] [9] [10]) (./chapter1/chapter1.tex [11]
 Chapter 1.
-<~/PhyAI/chapter1/1_0.png, id=330, 622.325pt x 432.61626pt>
+<~/PhyAI/chapter1/1_0.png, id=370, 622.325pt x 432.61626pt>
 File: ~/PhyAI/chapter1/1_0.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_0.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_0.png  used on input line 11.
@@ -635,12 +635,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) h
                                                   \__shipout_drop_firstpage_...
 l.24 ...efinition}[The First Definition of Volume]
                                                    </home/Chiaki/PhyAI/chapter1/1_0.png>]
-<~/PhyAI/chapter1/1_1.png, id=339, 816.04875pt x 554.07pt>
+<~/PhyAI/chapter1/1_1.png, id=379, 816.04875pt x 554.07pt>
 File: ~/PhyAI/chapter1/1_1.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_1.png  used on input line 35.
 (pdftex.def)             Requested size: 338.5863pt x 229.89249pt.
-<~/PhyAI/chapter1/1_2.png, id=340, 1051.93pt x 349.305pt>
+<~/PhyAI/chapter1/1_2.png, id=380, 1051.93pt x 349.305pt>
 File: ~/PhyAI/chapter1/1_2.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_2.png  used on input line 42.
@@ -656,12 +656,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.3}) h
                                                   \__shipout_drop_firstpage_...
 l.47 \newpage
               </home/Chiaki/PhyAI/chapter1/1_1.png> </home/Chiaki/PhyAI/chapter1/1_2.png>]
-<~/PhyAI/chapter1/1_3.png, id=353, 610.28pt x 315.1775pt>
+<~/PhyAI/chapter1/1_3.png, id=393, 610.28pt x 315.1775pt>
 File: ~/PhyAI/chapter1/1_3.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_3.png  used on input line 56.
 (pdftex.def)             Requested size: 290.22105pt x 149.88881pt.
-<~/PhyAI/chapter1/1_4.png, id=355, 1090.0725pt x 561.09625pt>
+<~/PhyAI/chapter1/1_4.png, id=395, 1090.0725pt x 561.09625pt>
 File: ~/PhyAI/chapter1/1_4.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_4.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_4.png  used on input line 63.
@@ -677,7 +677,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.5}) h
                                                   \__shipout_drop_firstpage_...
 l.68 \begin{definition}
                        [Definition of Kelvin Scale] </home/Chiaki/PhyAI/chapter1/1_3.png> </home/Chiaki/PhyAI/chapter1/1_4.png>]
-<~/PhyAI/chapter1/1_5.png, id=365, 488.82625pt x 339.2675pt>
+<~/PhyAI/chapter1/1_5.png, id=405, 488.82625pt x 339.2675pt>
 File: ~/PhyAI/chapter1/1_5.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_5.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_5.png  used on input line 100.
@@ -688,13 +688,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.6}) h
                                                   \__shipout_drop_firstpage_...
 l.105 \begin{itemize}
                       </home/Chiaki/PhyAI/chapter1/1_5.png>] [16]
-<~/PhyAI/chapter1/1_6.png, id=386, 860.21375pt x 431.6125pt>
+<~/PhyAI/chapter1/1_6.png, id=426, 860.21375pt x 431.6125pt>
 File: ~/PhyAI/chapter1/1_6.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_6.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_6.png  used on input line 164.
 (pdftex.def)             Requested size: 386.95894pt x 194.15796pt.
  [17]
-<~/PhyAI/chapter1/1_7.png, id=404, 649.42625pt x 363.3575pt>
+<~/PhyAI/chapter1/1_7.png, id=444, 649.42625pt x 363.3575pt>
 File: ~/PhyAI/chapter1/1_7.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_7.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_7.png  used on input line 182.
@@ -705,7 +705,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.7}) h
                                                   \__shipout_drop_firstpage_...
 l.186 I
         think we are all familiar with the definition of work in Classical M... </home/Chiaki/PhyAI/chapter1/1_6.png>]
-<~/PhyAI/chapter1/1_8.png, id=416, 687.56876pt x 278.03876pt>
+<~/PhyAI/chapter1/1_8.png, id=457, 687.56876pt x 278.03876pt>
 File: ~/PhyAI/chapter1/1_8.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_8.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_8.png  used on input line 201.
@@ -716,7 +716,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.8}) h
                                                   \__shipout_drop_firstpage_...
 l.205 U
        sing the definition of work, we obtain: </home/Chiaki/PhyAI/chapter1/1_7.png>]
-<~/PhyAI/chapter1/1_9.png, id=426, 727.71875pt x 387.4475pt>
+<~/PhyAI/chapter1/1_9.png, id=467, 727.71875pt x 387.4475pt>
 File: ~/PhyAI/chapter1/1_9.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_9.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_9.png  used on input line 215.
@@ -732,12 +732,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.10}) 
                                                   \__shipout_drop_firstpage_...
 l.220 ...that: $$ \Delta U=Q+W=0\Rightarrow Q=-W$$
                                                    </home/Chiaki/PhyAI/chapter1/1_8.png> </home/Chiaki/PhyAI/chapter1/1_9.png>]
-<~/PhyAI/chapter1/1_10.png, id=436, 843.15pt x 375.4025pt>
+<~/PhyAI/chapter1/1_10.png, id=476, 843.15pt x 375.4025pt>
 File: ~/PhyAI/chapter1/1_10.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_10.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_10.png  used on input line 226.
 (pdftex.def)             Requested size: 338.5863pt x 150.75406pt.
-<~/PhyAI/chapter1/1_11.png, id=440, 591.20876pt x 385.44pt>
+<~/PhyAI/chapter1/1_11.png, id=480, 591.20876pt x 385.44pt>
 File: ~/PhyAI/chapter1/1_11.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_11.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_11.png  used on input line 240.
@@ -748,7 +748,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1.11}) 
                                                   \__shipout_drop_firstpage_...
 l.244 L
        ike $C_{V}$, we denote $C_{P}$ as \textbf{heat capacity at constant p... </home/Chiaki/PhyAI/chapter1/1_10.png>]
-<~/PhyAI/chapter1/1_12.png, id=450, 622.325pt x 376.40625pt>
+<~/PhyAI/chapter1/1_12.png, id=490, 622.325pt x 376.40625pt>
 File: ~/PhyAI/chapter1/1_12.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_12.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_12.png  used on input line 263.
@@ -775,7 +775,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<~/PhyAI/chapter2/2_1.png, id=472, 792.9625pt x 515.9275pt>
+<~/PhyAI/chapter2/2_1.png, id=512, 792.9625pt x 515.9275pt>
 File: ~/PhyAI/chapter2/2_1.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_1.png  used on input line 21.
@@ -783,7 +783,7 @@ Package pdftex.def Info: ~/PhyAI/chapter2/2_1.png  used on input line 21.
 [24
 
 ]
-<~/PhyAI/chapter2/2_2.png, id=483, 661.47125pt x 329.23pt>
+<~/PhyAI/chapter2/2_2.png, id=523, 661.47125pt x 329.23pt>
 File: ~/PhyAI/chapter2/2_2.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_2.png  used on input line 39.
@@ -799,7 +799,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) h
                                                   \__shipout_drop_firstpage_...
 l.44 ...em}[The Multiplicity of an Einstein solid]
                                                    </home/Chiaki/PhyAI/chapter2/2_1.png> </home/Chiaki/PhyAI/chapter2/2_2.png>] [26]
-<~/PhyAI/chapter2/2_3.png, id=502, 662.475pt x 481.8pt>
+<~/PhyAI/chapter2/2_3.png, id=542, 662.475pt x 481.8pt>
 File: ~/PhyAI/chapter2/2_3.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_3.png  used on input line 109.
@@ -848,12 +848,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 253.
 
 [31] [32]
-<~/PhyAI/chapter2/2_4.png, id=554, 797.98125pt x 275.0275pt>
+<~/PhyAI/chapter2/2_4.png, id=594, 797.98125pt x 275.0275pt>
 File: ~/PhyAI/chapter2/2_4.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_4.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_4.png  used on input line 307.
 (pdftex.def)             Requested size: 338.5863pt x 116.69418pt.
-<~/PhyAI/chapter2/2_5.png, id=555, 873.2625pt x 559.08875pt>
+<~/PhyAI/chapter2/2_5.png, id=595, 873.2625pt x 559.08875pt>
 File: ~/PhyAI/chapter2/2_5.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_5.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_5.png  used on input line 318.
@@ -889,12 +889,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) h
                                                   \__shipout_drop_firstpage_...
 l.330 This statement can be rewritten as: $$
                                              (\Delta x)(\Delta p_{x})\approx... </home/Chiaki/PhyAI/chapter2/2_4.png> </home/Chiaki/PhyAI/chapter2/2_5.png>]
-<~/PhyAI/chapter2/2_6.png, id=562, 1046.91125pt x 259.97125pt>
+<~/PhyAI/chapter2/2_6.png, id=602, 1046.91125pt x 259.97125pt>
 File: ~/PhyAI/chapter2/2_6.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_6.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_6.png  used on input line 334.
 (pdftex.def)             Requested size: 386.95894pt x 96.08868pt.
-<~/PhyAI/chapter2/2_7.png, id=563, 967.615pt x 629.35126pt>
+<~/PhyAI/chapter2/2_7.png, id=603, 967.615pt x 629.35126pt>
 File: ~/PhyAI/chapter2/2_7.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_7.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_7.png  used on input line 347.
@@ -905,7 +905,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) h
                                                   \__shipout_drop_firstpage_...
 l.351 S
        imilarly, we can see that: </home/Chiaki/PhyAI/chapter2/2_6.png>]
-<~/PhyAI/chapter2/2_8.png, id=569, 827.09pt x 485.815pt>
+<~/PhyAI/chapter2/2_8.png, id=609, 827.09pt x 485.815pt>
 File: ~/PhyAI/chapter2/2_8.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_8.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_8.png  used on input line 373.
@@ -944,13 +944,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) h
                                                   \__shipout_drop_firstpage_...
 l.401 	\end{equation*}
                        </home/Chiaki/PhyAI/chapter2/2_8.png>] [37]
-<~/PhyAI/chapter2/2_9.png, id=589, 487.8225pt x 490.83376pt>
+<~/PhyAI/chapter2/2_9.png, id=629, 487.8225pt x 490.83376pt>
 File: ~/PhyAI/chapter2/2_9.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_9.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_9.png  used on input line 456.
 (pdftex.def)             Requested size: 193.47577pt x 194.66734pt.
  [38]
-<~/PhyAI/chapter2/2_10.png, id=598, 413.545pt x 212.795pt>
+<~/PhyAI/chapter2/2_10.png, id=638, 413.545pt x 212.795pt>
 File: ~/PhyAI/chapter2/2_10.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_10.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_10.png  used on input line 482.
@@ -961,7 +961,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) h
                                                   \__shipout_drop_firstpage_...
 l.486 N
        ow we conclude that $q_{A}=\displaystyle\frac{q_{B}N_{A}}{N_{B}}$ is ... </home/Chiaki/PhyAI/chapter2/2_9.png>]
-<~/PhyAI/chapter2/2_11.png, id=607, 528.97626pt x 337.26pt>
+<~/PhyAI/chapter2/2_11.png, id=647, 528.97626pt x 337.26pt>
 File: ~/PhyAI/chapter2/2_11.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_11.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_11.png  used on input line 511.
@@ -977,12 +977,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) 
                                                   \__shipout_drop_firstpage_...
 l.521 \end{equation*}
                       </home/Chiaki/PhyAI/chapter2/2_10.png> </home/Chiaki/PhyAI/chapter2/2_11.png>]
-<~/PhyAI/chapter2/2_12.png, id=614, 566.115pt x 460.72125pt>
+<~/PhyAI/chapter2/2_12.png, id=654, 566.115pt x 460.72125pt>
 File: ~/PhyAI/chapter2/2_12.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_12.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_12.png  used on input line 525.
 (pdftex.def)             Requested size: 290.22105pt x 236.19498pt.
-<~/PhyAI/chapter2/2_13.png, id=615, 866.23625pt x 465.74pt>
+<~/PhyAI/chapter2/2_13.png, id=655, 866.23625pt x 465.74pt>
 File: ~/PhyAI/chapter2/2_13.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_13.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_13.png  used on input line 537.
@@ -993,12 +993,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.12}) 
                                                   \__shipout_drop_firstpage_...
 l.541 D
        ue to Theorem ~\ref{The Entropy of Ideal Gas}, the entropy difference... </home/Chiaki/PhyAI/chapter2/2_12.png>]
-<~/PhyAI/chapter2/2_14.png, id=623, 1082.0425pt x 373.395pt>
+<~/PhyAI/chapter2/2_14.png, id=663, 1082.0425pt x 373.395pt>
 File: ~/PhyAI/chapter2/2_14.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_14.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_14.png  used on input line 549.
 (pdftex.def)             Requested size: 386.95894pt x 133.53328pt.
-<~/PhyAI/chapter2/2_15.png, id=624, 924.45375pt x 597.23125pt>
+<~/PhyAI/chapter2/2_15.png, id=664, 924.45375pt x 597.23125pt>
 File: ~/PhyAI/chapter2/2_15.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_15.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_15.png  used on input line 562.
@@ -1020,12 +1020,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2.15}) 
 l.3 \chapter
             {The Third Law of Thermodynamics}\label{chap:the_third_law_of_th... </home/Chiaki/PhyAI/chapter2/2_15.png>]
 Chapter 3.
-<~/PhyAI/chapter3/3_1.png, id=638, 985.6825pt x 341.275pt>
+<~/PhyAI/chapter3/3_1.png, id=678, 985.6825pt x 341.275pt>
 File: ~/PhyAI/chapter3/3_1.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_1.png  used on input line 10.
 (pdftex.def)             Requested size: 386.95894pt x 133.97676pt.
-<~/PhyAI/chapter3/3_2.png, id=639, 989.6975pt x 469.755pt>
+<~/PhyAI/chapter3/3_2.png, id=679, 989.6975pt x 469.755pt>
 File: ~/PhyAI/chapter3/3_2.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_2.png  used on input line 17.
@@ -1038,7 +1038,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) h
                                                   \__shipout_drop_firstpage_...
 l.21 Y
       ou can also increase the total entropy by sticking more and more pictu... </home/Chiaki/PhyAI/chapter3/3_1.png>]
-<~/PhyAI/chapter3/3_3.png, id=646, 772.8875pt x 526.96875pt>
+<~/PhyAI/chapter3/3_3.png, id=686, 772.8875pt x 526.96875pt>
 File: ~/PhyAI/chapter3/3_3.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_3.png  used on input line 29.
@@ -1054,7 +1054,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) h
                                                   \__shipout_drop_firstpage_...
 l.36 \end{center}
                   </home/Chiaki/PhyAI/chapter3/3_2.png> </home/Chiaki/PhyAI/chapter3/3_3.png>]
-<~/PhyAI/chapter3/3_4.png, id=656, 731.73375pt x 388.45125pt>
+<~/PhyAI/chapter3/3_4.png, id=697, 731.73375pt x 388.45125pt>
 File: ~/PhyAI/chapter3/3_4.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_4.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_4.png  used on input line 44.
@@ -1065,7 +1065,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) h
                                                   \__shipout_drop_firstpage_...
 l.58 \begin{center}
                     </home/Chiaki/PhyAI/chapter3/3_4.png>]
-<~/PhyAI/chapter3/3_5.png, id=667, 849.1725pt x 605.26125pt>
+<~/PhyAI/chapter3/3_5.png, id=708, 849.1725pt x 605.26125pt>
 File: ~/PhyAI/chapter3/3_5.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_5.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_5.png  used on input line 105.
@@ -1081,13 +1081,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) h
                                                   \__shipout_drop_firstpage_...
 l.118 ...value}, or equivalently: $$ \Delta S=0 $$
                                                    </home/Chiaki/PhyAI/chapter3/3_5.png>] [49] [50] [51] [52] [53]
-<~/PhyAI/chapter3/3_6.png, id=735, 640.3925pt x 450.68375pt>
+<~/PhyAI/chapter3/3_6.png, id=775, 640.3925pt x 450.68375pt>
 File: ~/PhyAI/chapter3/3_6.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_6.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_6.png  used on input line 305.
 (pdftex.def)             Requested size: 314.39998pt x 221.26332pt.
  [54]
-<~/PhyAI/chapter3/3_7.png, id=745, 566.115pt x 435.6275pt>
+<~/PhyAI/chapter3/3_7.png, id=785, 566.115pt x 435.6275pt>
 File: ~/PhyAI/chapter3/3_7.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_7.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_7.png  used on input line 322.
@@ -1103,7 +1103,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) h
                                                   \__shipout_drop_firstpage_...
 l.327 \begin{definition}
                         [Coefficient of Peformance] </home/Chiaki/PhyAI/chapter3/3_6.png> </home/Chiaki/PhyAI/chapter3/3_7.png>]
-<~/PhyAI/chapter3/3_8.png, id=754, 738.76pt x 432.61626pt>
+<~/PhyAI/chapter3/3_8.png, id=794, 738.76pt x 432.61626pt>
 File: ~/PhyAI/chapter3/3_8.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_8.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_8.png  used on input line 337.
@@ -1115,7 +1115,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8}) h
 l.3 \chapter
             {Enthalpy and Free Energies}\label{chap:free_energy_and_chemical... </home/Chiaki/PhyAI/chapter3/3_8.png>]
 Chapter 4.
-<~/PhyAI/chapter4/4_1.png, id=767, 457.71pt x 460.72125pt>
+<~/PhyAI/chapter4/4_1.png, id=807, 457.71pt x 460.72125pt>
 File: ~/PhyAI/chapter4/4_1.png Graphic file (type png)
 <use ~/PhyAI/chapter4/4_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter4/4_1.png  used on input line 15.
@@ -1128,7 +1128,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) h
                                                   \__shipout_drop_firstpage_...
 l.20 \begin{definition}
                        [Enthalpy Definition] </home/Chiaki/PhyAI/chapter4/4_1.png>] [58]
-<~/PhyAI/chapter4/4_2.png, id=782, 694.595pt x 551.05875pt>
+<~/PhyAI/chapter4/4_2.png, id=823, 694.595pt x 551.05875pt>
 File: ~/PhyAI/chapter4/4_2.png Graphic file (type png)
 <use ~/PhyAI/chapter4/4_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter4/4_2.png  used on input line 52.
@@ -1139,7 +1139,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) h
                                                   \__shipout_drop_firstpage_...
 l.70 \begin{exmp}
                   </home/Chiaki/PhyAI/chapter4/4_2.png>]
-<~/PhyAI/chapter4/4_3.png, id=789, 508.90125pt x 374.39874pt>
+<~/PhyAI/chapter4/4_3.png, id=830, 508.90125pt x 374.39874pt>
 File: ~/PhyAI/chapter4/4_3.png Graphic file (type png)
 <use ~/PhyAI/chapter4/4_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter4/4_3.png  used on input line 96.
@@ -1151,7 +1151,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) h
 l.3 \chapter
             {Boltzmann Statistics}\label{chap:boltzmann_statistics} % (fold) </home/Chiaki/PhyAI/chapter4/4_3.png>]
 Chapter 5.
-<~/PhyAI/chapter5/5_1.png, id=804, 646.415pt x 468.75125pt>
+<~/PhyAI/chapter5/5_1.png, id=844, 646.415pt x 468.75125pt>
 File: ~/PhyAI/chapter5/5_1.png Graphic file (type png)
 <use ~/PhyAI/chapter5/5_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter5/5_1.png  used on input line 8.
@@ -1163,32 +1163,162 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.28 \end{equation*}
-                     </home/Chiaki/PhyAI/chapter5/5_1.png>]) [63] (./phyai.aux)
+                     </home/Chiaki/PhyAI/chapter5/5_1.png>]
+<~/PhyAI/chapter5/5_2.png, id=853, 588.1975pt x 382.42876pt>
+File: ~/PhyAI/chapter5/5_2.png Graphic file (type png)
+<use ~/PhyAI/chapter5/5_2.png>
+Package pdftex.def Info: ~/PhyAI/chapter5/5_2.png  used on input line 73.
+(pdftex.def)             Requested size: 314.39998pt x 204.41354pt.
+ [63] [64
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.98 \end{equation*}
+                     </home/Chiaki/PhyAI/chapter5/5_2.png>]) (./chapter6/chapter6.tex [65]
+Chapter 6.
+<~/PhyAI/chapter6/6_1.png, id=871, 702.625pt x 457.71pt>
+File: ~/PhyAI/chapter6/6_1.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_1.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_1.png  used on input line 10.
+(pdftex.def)             Requested size: 241.84842pt x 157.54695pt.
+<~/PhyAI/chapter6/6_2.png, id=872, 558.085pt x 441.65pt>
+File: ~/PhyAI/chapter6/6_2.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_2.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_2.png  used on input line 19.
+(pdftex.def)             Requested size: 241.84842pt x 191.38838pt.
+[66
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.22 \end{figure}
+                  </home/Chiaki/PhyAI/chapter6/6_1.png>]
+<~/PhyAI/chapter6/6_3.png, id=880, 781.92125pt x 491.8375pt>
+File: ~/PhyAI/chapter6/6_3.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_3.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_3.png  used on input line 38.
+(pdftex.def)             Requested size: 322.46701pt x 202.83293pt.
+ [67
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.42 T
+      o flip an arrow (magnetic moment vector) down, we must supply $2\mu B$... </home/Chiaki/PhyAI/chapter6/6_2.png>]
+<~/PhyAI/chapter6/6_4.png, id=887, 1161.33875pt x 476.78125pt>
+File: ~/PhyAI/chapter6/6_4.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_4.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_4.png  used on input line 48.
+(pdftex.def)             Requested size: 483.69684pt x 198.58075pt.
+<~/PhyAI/chapter6/6_5.png, id=888, 1136.245pt x 478.78876pt>
+File: ~/PhyAI/chapter6/6_5.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_5.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_5.png  used on input line 55.
+(pdftex.def)             Requested size: 483.69684pt x 203.82224pt.
+<~/PhyAI/chapter6/6_6.png, id=889, 1040.88875pt x 497.86pt>
+File: ~/PhyAI/chapter6/6_6.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_6.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_6.png  used on input line 61.
+(pdftex.def)             Requested size: 459.51051pt x 219.78076pt.
+ [68
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.64 \end{figure}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.64 \end{figure}
+                  </home/Chiaki/PhyAI/chapter6/6_3.png> </home/Chiaki/PhyAI/chapter6/6_4.png>]
+<~/PhyAI/chapter6/6_7.png, id=900, 956.57375pt x 376.40625pt>
+File: ~/PhyAI/chapter6/6_7.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_7.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_7.png  used on input line 71.
+(pdftex.def)             Requested size: 362.77263pt x 142.74867pt.
+ [69
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.74 \end{figure}
+                 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.74 \end{figure}
+                  </home/Chiaki/PhyAI/chapter6/6_5.png> </home/Chiaki/PhyAI/chapter6/6_6.png>]
+<~/PhyAI/chapter6/6_8.png, id=909, 475.7775pt x 304.13625pt>
+File: ~/PhyAI/chapter6/6_8.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_8.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_8.png  used on input line 87.
+(pdftex.def)             Requested size: 241.84842pt x 154.60158pt.
+ [70
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.91 I
+      f I denote $N$ as "the number of", the multiplicity and entropy of the... </home/Chiaki/PhyAI/chapter6/6_7.png>]
+<~/PhyAI/chapter6/6_9.png, id=917, 653.44125pt x 634.37pt>
+File: ~/PhyAI/chapter6/6_9.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_9.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_9.png  used on input line 100.
+(pdftex.def)             Requested size: 241.84842pt x 234.78098pt.
+<~/PhyAI/chapter6/6_10.png, id=918, 1037.8775pt x 468.75125pt>
+File: ~/PhyAI/chapter6/6_10.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_10.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_10.png  used on input line 107.
+(pdftex.def)             Requested size: 386.95894pt x 174.77277pt.
+ [71
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.111 W
+       hat can we see here? Recall the definition of temperature (Definition...
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.111 W
+       hat can we see here? Recall the definition of temperature (Definition... </home/Chiaki/PhyAI/chapter6/6_8.png> </home/Chiaki/PhyAI/chapter6/6_9.png>]
+./chapter6/chapter6.tex:111: Undefined control sequence.
+l.111 ...very unstable, corresponds to $N_{\upward
+                                                  }\to (N/2)^-$ and $N_{\upw...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package rerunfilecheck Warning: File `phyai.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+./chapter6/chapter6.tex:111: Undefined control sequence.
+l.111 ... $N_{\upward}\to (N/2)^-$ and $N_{\upward
+                                                  }\to (N/2)^+$. Maybe the "...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-Package rerunfilecheck Info: Checksums for `phyai.out':
-(rerunfilecheck)             Before: 1A1F86AB2ADEB3CBCF86D6820EFCA3E3;7775
-(rerunfilecheck)             After:  BC19183CA3A3D92566E56B0CF429BD7D;7785.
+) [72
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.51 \end{document}
+                    </home/Chiaki/PhyAI/chapter6/6_10.png>] (./phyai.aux)
+Package rerunfilecheck Info: File `phyai.out' has not changed.
+(rerunfilecheck)             Checksum: 7B96CA1B067F93990E8C9FB358B6EB63;9261.
  ) 
 Here is how much of TeX's memory you used:
- 17417 strings out of 476091
- 341181 string characters out of 5794082
+ 17571 strings out of 476091
+ 344260 string characters out of 5794082
  1872330 words of memory out of 5000000
- 37192 multiletter control sequences out of 15000+600000
- 527634 words of font info for 91 fonts, out of 8000000 for 9000
+ 37293 multiletter control sequences out of 15000+600000
+ 530001 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,21n,76p,1174b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on phyai.pdf (64 pages, 1447845 bytes).
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on phyai.pdf (73 pages, 1824666 bytes).
 PDF statistics:
- 981 PDF objects out of 1000 (max. 8388607)
- 813 compressed objects within 9 object streams
- 278 named destinations out of 1000 (max. 500000)
- 539 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1108 PDF objects out of 1200 (max. 8388607)
+ 917 compressed objects within 10 object streams
+ 312 named destinations out of 1000 (max. 500000)
+ 658 words of extra memory for PDF output out of 10000 (max. 10000000)
 

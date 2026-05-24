@@ -2,7 +2,7 @@
 \begin{document}
 \chapter{Boltzmann Statistics}\label{chap:boltzmann_statistics} % (fold)
 \section{Boltzmann Distribution}\label{sec:boltzmann_distribution} % (fold)
-In this chapter, we will learn how to apply some rules of probability and statistics to calculate the probability that a particle is in any given microstate. For example, inside a gas container, we can calculate the probability of finding particles moving with velocity $v_{1}$, or any other states. Firstly, let's derive the probability density function:
+In this chapter, we will learn how to apply some rules of probability and statistics to calculate the probability that a particle is in any given microstate. For example, inside a gas container, we can calculate the probability of finding particles moving with particular speed range, or any other states. Firstly, let's derive the probability density function:
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.6\textwidth]{~/PhyAI/chapter5/5_1.png}
@@ -49,7 +49,61 @@ $Z$ is the \textbf{partition function}, and exponential factor $e^{-\beta E(s)}$
 		\end{split}
 	\end{equation*}
 \end{proof}
-
+This above result can be used to derive the equipartition theorem (Theorem ~\ref{The Equipartition Theorem}); for any quadratic degree of freedom, its energy has the form:
+$$ E(q)=cq^{2} $$
+The partition function $Z$ is:
+\begin{equation*}
+	\begin{split}
+		Z&=\sum_{s}e^{-\beta E(s)}=\sum_{s}e^{-\beta cq^{2}}=\frac{1 }{\Delta q}\int_{-\infty }^{+\infty}e^{-\beta cq^{2}}dq=\frac{1 }{\Delta q\sqrt{\beta c}}\int_{-\infty }^{+\infty}e^{-q^{2}}dq\\
+		&=\frac{1 }{\Delta q}\sqrt{\frac{\pi }{\beta c}}
+	\end{split}
+\end{equation*}
+We can see that:
+\begin{equation*}
+	\begin{split}
+		\overline{E}&=-\frac{1 }{Z}\frac{\partial Z }{\partial \beta}=\frac{1 }{2}\beta^{-1}=\frac{1 }{2}k_{B}T
+	\end{split}
+\end{equation*}
+Our obtained result once again, verify the correctness of equipartition theorem.
 % section Boltzmann Distribution (end)
+\section{Maxwell Speed Distribution}\label{sec:maxwell_distribution} % (fold)
+What is the probability of finding particle moving at speed range $(v_{1},v_{2})$? Well, the first thing we need to do is deriving a probability density function of speed $\mathcal{D}(v)$. But here is the subtle observation, a particle moving at speed $v$ has an infinite velocity vector $\vec{v}$ representing how it moves in 3D space. All these velocity vectors form a "velocity sphere", which is similar to the concept of momentum space (as we discussed in Section ~\ref{sec:the_ideal_gas_model}):
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{~/PhyAI/chapter5/5_2.png}
+	\end{center}
+	\caption{The velocity sphere and its volume}\label{fig:5_2}
+\end{figure}
+The probability of finding any particle moving at speed $\vec{v}$ is:
+$$ P(\vec{v})\propto \exp{\left(-\beta.\frac{1 }{2}mv^{2}\right)} $$
+We are ready to plug every piece and build the $\mathcal{D}(v)$ function:
+$$ \mathcal{D}(v)\propto \exp{\left(-\beta.\frac{1}{2}mv^{2}\right)} .4\pi v^{2}$$
+The probability density function $\mathcal{D}(v)$ is rewritten as:
+$$ \mathcal{D}(v)=C.\exp{\left(-\beta.\frac{1}{2}mv^{2}\right)}.4\pi v^{2} $$
+Our final step is determining the constant $C$:
+\begin{equation*}
+	\begin{split}
+		1&=C.\int_{0 }^{+\infty} \exp{\left(-\beta.\frac{1}{2}mv^{2}\right)}.4\pi v^{2}dv\\
+		\Rightarrow \frac{1}{C}&=\int_{0 }^{+\infty}\exp{\left(-\beta .\frac{1}{2}mv^{2}\right)}4\pi v^{2}dv \\
+		&=4\pi\left(\beta .\frac{1}{2}m\right)^{-3/2}
+		\int_{0 }^{+\infty}\exp{\left[-\left(v \sqrt{\beta.\frac{1}{2}m}\right)^{2}\right]} \left(v \sqrt{\beta .\frac{1}{2}m}\right)^{2}.d \left(v\sqrt{\beta.\frac{1}{2}m}\right)\\
+		&=4\pi \left(\beta.\frac{1 }{2}m\right)^{-3/2}\int_{0}^{+\infty}e^{-v^{2}}v^{2}dv
+	\end{split}
+\end{equation*}
+Integrating by part yields:
+\begin{equation*}
+	\begin{split}
+		\int_{0}^{+\infty}e^{-v^2}v^{2}dv&=-\frac{1 }{2}.\int_{0 }^{+\infty}v.d(e^{-v^2})=\frac{1 }{2}\int_{0 }^{+\infty}e^{-v^{2}}dv=\frac{\sqrt{\pi }}{4}
+	\end{split}
+\end{equation*}
+We obtain: $$ C=\left(\frac{\beta .m}{2\pi}\right)^{3/2} $$
+\begin{definition}[Maxwell Speed Distribution]
+	The probability density function of finding any particle at a particular speed range is:
+	$$ \mathcal{D}(v)= \left(\frac{\beta.m}{2\pi}\right)^{3/2}.\exp{\left(\frac{-\beta mv^{2}}{2}\right)}.4\pi v^{2}$$
+\end{definition}
+% section Maxwell Distribution (end)
+
+
+% section Partition Function and Helmholtz Free Energy (end)
 % chapter Boltzmann Statistics (end) 
 \end{document}

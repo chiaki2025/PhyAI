@@ -47,3 +47,11 @@
 \contentsline {section}{\numberline {4.4}Legendre Transformation}{61}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Boltzmann Statistics}{62}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Boltzmann Distribution}{62}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Maxwell Speed Distribution}{64}{section.5.2}%
+\contentsline {chapter}{\numberline {6}Magnetism in Matter}{66}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Magnetic Dipoles and Diamagnetism}{66}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Magnetic Dipoles}{66}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Diamagnetism}{68}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}Paramagnetism}{70}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}The Macroscopic View of Paramagnetism}{70}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}The Microscopic View of Paramagnetism}{70}{subsection.6.2.2}%
