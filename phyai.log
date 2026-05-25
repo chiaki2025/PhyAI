@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  25 MAY 2026 00:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  25 MAY 2026 11:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1250,37 +1250,37 @@ l.74 \end{figure}
 <~/PhyAI/chapter6/6_8.png, id=909, 475.7775pt x 304.13625pt>
 File: ~/PhyAI/chapter6/6_8.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_8.png>
-Package pdftex.def Info: ~/PhyAI/chapter6/6_8.png  used on input line 87.
+Package pdftex.def Info: ~/PhyAI/chapter6/6_8.png  used on input line 88.
 (pdftex.def)             Requested size: 241.84842pt x 154.60158pt.
  [70
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.91 I
+l.92 I
       f I denote $N$ as "the number of", the multiplicity and entropy of the... </home/Chiaki/PhyAI/chapter6/6_7.png>]
-<~/PhyAI/chapter6/6_9.png, id=917, 653.44125pt x 634.37pt>
+<~/PhyAI/chapter6/6_9.png, id=918, 653.44125pt x 634.37pt>
 File: ~/PhyAI/chapter6/6_9.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_9.png>
-Package pdftex.def Info: ~/PhyAI/chapter6/6_9.png  used on input line 100.
+Package pdftex.def Info: ~/PhyAI/chapter6/6_9.png  used on input line 101.
 (pdftex.def)             Requested size: 241.84842pt x 234.78098pt.
-<~/PhyAI/chapter6/6_10.png, id=918, 1037.8775pt x 468.75125pt>
+<~/PhyAI/chapter6/6_10.png, id=919, 1037.8775pt x 468.75125pt>
 File: ~/PhyAI/chapter6/6_10.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_10.png>
-Package pdftex.def Info: ~/PhyAI/chapter6/6_10.png  used on input line 107.
+Package pdftex.def Info: ~/PhyAI/chapter6/6_10.png  used on input line 108.
 (pdftex.def)             Requested size: 386.95894pt x 174.77277pt.
  [71
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.111 W
+l.112 W
        hat can we see here? Recall the definition of temperature (Definition...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.111 W
+l.112 W
        hat can we see here? Recall the definition of temperature (Definition... </home/Chiaki/PhyAI/chapter6/6_8.png> </home/Chiaki/PhyAI/chapter6/6_9.png>]
-./chapter6/chapter6.tex:111: Undefined control sequence.
-l.111 ...very unstable, corresponds to $N_{\upward
+./chapter6/chapter6.tex:112: Undefined control sequence.
+l.112 ...very unstable, corresponds to $N_{\upward
                                                   }\to (N/2)^-$ and $N_{\upw...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1288,8 +1288,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./chapter6/chapter6.tex:111: Undefined control sequence.
-l.111 ... $N_{\upward}\to (N/2)^-$ and $N_{\upward
+./chapter6/chapter6.tex:112: Undefined control sequence.
+l.112 ... $N_{\upward}\to (N/2)^-$ and $N_{\upward
                                                   }\to (N/2)^+$. Maybe the "...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1297,28 +1297,38 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [72
+<~/PhyAI/chapter6/6_11.png, id=928, 1115.16624pt x 458.71375pt>
+File: ~/PhyAI/chapter6/6_11.png Graphic file (type png)
+<use ~/PhyAI/chapter6/6_11.png>
+Package pdftex.def Info: ~/PhyAI/chapter6/6_11.png  used on input line 115.
+(pdftex.def)             Requested size: 386.95894pt x 159.16634pt.
+[72
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.51 \end{document}
-                    </home/Chiaki/PhyAI/chapter6/6_10.png>] (./phyai.aux)
+l.134 \end{equation*}
+                     
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.134 \end{equation*}
+                      </home/Chiaki/PhyAI/chapter6/6_10.png> </home/Chiaki/PhyAI/chapter6/6_11.png>]) [73] (./phyai.aux)
 Package rerunfilecheck Info: File `phyai.out' has not changed.
 (rerunfilecheck)             Checksum: 7B96CA1B067F93990E8C9FB358B6EB63;9261.
  ) 
 Here is how much of TeX's memory you used:
- 17571 strings out of 476091
- 344260 string characters out of 5794082
+ 17584 strings out of 476091
+ 344510 string characters out of 5794082
  1872330 words of memory out of 5000000
- 37293 multiletter control sequences out of 15000+600000
+ 37300 multiletter control sequences out of 15000+600000
  530001 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,21n,76p,1174b,1164s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on phyai.pdf (73 pages, 1824666 bytes).
+Output written on phyai.pdf (74 pages, 1851697 bytes).
 PDF statistics:
- 1108 PDF objects out of 1200 (max. 8388607)
- 917 compressed objects within 10 object streams
- 312 named destinations out of 1000 (max. 500000)
- 658 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1118 PDF objects out of 1200 (max. 8388607)
+ 925 compressed objects within 10 object streams
+ 317 named destinations out of 1000 (max. 500000)
+ 663 words of extra memory for PDF output out of 10000 (max. 10000000)
 

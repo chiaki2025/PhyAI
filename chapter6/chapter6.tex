@@ -81,6 +81,7 @@ $$ M\propto \frac{B }{T} $$
 This proportional relationship seems like very obvious; the higher the temperature, the harder the alignment of magnetic moment vectors, and vice versa.
 % subsection Macroscopic view of Paramagnetism (end)
 \subsection{The Microscopic View of Paramagnetism}
+\subsubsection{Qualitative Perspective}
 To examine the paramagnetic material, and explain some surprising phenomenons, we have to equip statistical tool. For simplicity, I restrict our concern to \textbf{two-state paramagnet}. Two-state paramagnet are the materials in which the magnetic moment vector can only point either up or down.
 \begin{figure}[H]
 	\begin{center}
@@ -99,7 +100,7 @@ Before we look for an analytical solution, let's consider the visual representat
 	\begin{center}
 		\includegraphics[width=0.5\textwidth]{~/PhyAI/chapter6/6_9.png}
 	\end{center}
-	\caption{Relationship between $N_{\updownarrow}, S,U,M$}\label{fig:6_9}
+	\caption{Relationship between $N_{\uparrow}, S,U,M$}\label{fig:6_9}
 \end{figure}
 If our two-state paramagnet starts moving from state $N_{\uparrow}=0$ to $N_{\uparrow}=N$, I can plot the graph of $(U,S)$:
 \begin{figure}[H]
@@ -108,7 +109,58 @@ If our two-state paramagnet starts moving from state $N_{\uparrow}=0$ to $N_{\up
 	\end{center}
 	\caption{The graph of $(U,S)$}\label{fig:6_10}
 \end{figure}
-What can we see here? Recall the definition of temperature (Definition ~\ref{The Third Definition of Temperature}), we determine the temperature of our system at $4$ special labeled points. Wow, this is the first time we observe the \textbf{negative temperature} appears; and seems like these states $U\to 0^+$ and $U\to 0^-$ are very unstable, corresponds to $N_{\upward}\to (N/2)^-$ and $N_{\upward}\to (N/2)^+$. Maybe the "exact state", where $S$ is exactly equal to zero, can not happen.
+What can we see here? Recall the definition of temperature (Definition ~\ref{The Third Definition of Temperature}), we determine the temperature of our system at $4$ special labeled points. Wow, this is the first time we observe the \textbf{negative temperature} appears; and seems like these states $U\to 0^+$ and $U\to 0^-$ are very unstable, corresponds to $N_{\upward}\to (N/2)^-$ and $N_{\upward}\to (N/2)^+$. Maybe the "exact state", where $S$ is exactly equal to zero, can not happen. I might guess the graphs of $(U,T)$ and $(T,M)$ should look like this:
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter6/6_11.png}
+	\end{center}
+	\caption{$(U,T)$ and $(T,M)$ graphs}\label{fig:6_11}
+\end{figure}
+By sketching our data on graphs, the fact that $M\propto \displaystyle\frac{1 }{T}$ still holds, and confirm Currie's empirical result we discussed above.
+\subsubsection{Quantitative Perspective}
+From the entropy formula and Stirling's weak approximation, I calculate the entropy $S$ of any huge paramagnet:
+\begin{equation*}
+	\begin{split}
+		S&=k_{B}\ln\binom{N}{N_{\uparrow}}=k_{B}.\frac{N!}{N_{\uparrow}!(N-N_{\uparrow})!}\\&\approx k_{B}[N\ln{N}-N_{\uparrow}\ln{N_{\uparrow}}-(N-N_{\uparrow})\ln{(N-N_{\uparrow})}]
+	\end{split}
+\end{equation*}
+The temperature function is:
+\begin{equation*}
+	\begin{split}
+		\frac{1}{T}&=\left( \frac{\partial S }{\partial U}\right)_{N,V,B}=\frac{\partial S }{\partial N_{\uparrow}}.\frac{\partial N_{\uparrow}}{\partial U}=\frac{\partial S }{\partial N_{\uparrow}}.\left(\frac{\partial U}{\partial N_{\uparrow}}\right)^{-1}\\
+		&=k_{B}[-\ln{N_{\uparrow}}-1-(-\ln{(N-N_{\uparrow})}-1)].(-2\mu B)^{-1}\\
+		&=k_{B}\ln\left(\frac{N_{\downarrow}}{N_{\uparrow}}\right).(-2\mu B)^{-1}\\
+	\end{split}
+\end{equation*}
+I rewrite $N_{\uparrow}$ and $N_{\downarrow}$ functions with respect to $U$:
+\begin{equation*}
+	U=\mu B(N-2N_{\uparrow})\Leftrightarrow
+	\begin{cases}
+		N_{\uparrow}=\frac{N-U/\mu B}{2}   \\
+		N_{\downarrow}=\frac{N+U/\mu B}{2} \\
+	\end{cases}
+\end{equation*}
+We obtain:
+$$ \frac{1 }{T}=\frac{k_{B}}{2\mu B}\ln\left(\frac{N-U/\mu B}{N+U/\mu B}\right) $$
+I rearrange some terms here:
+\begin{equation*}
+	\begin{split}
+		\exp{\left(\frac{2\mu B}{k_{B}T}\right)}&=\frac{N-U/\mu B}{N+U/\mu B}\\
+		\Leftrightarrow \frac{N\mu B -U }{N\mu B +U}&=\exp{\left(\frac{2\mu B}{k_{B}T}\right)}\\
+		\Leftrightarrow N\mu B - U&=(N\mu B+U)\exp{\left(\frac{2\mu B}{k_{B}T}\right)}\\
+		\Leftrightarrow N\mu B \left[1-\exp{\left(\frac{2\mu B}{k_{B}T}\right)}\right]&=U\left[1+\exp{\left(\frac{2\mu B}{k_{B}T}\right)}\right]\\
+		\Leftrightarrow U&=N\mu B \left[\frac{1-\exp{(2\mu B/k_{B}T)}}{1+\exp{(2\mu B/k_{B}T)}}\right]
+	\end{split}
+\end{equation*}
+From the definition of $\tanh{x}$ function:
+$$ \tanh{x}=\frac{\sinh{x}}{\cosh{x}}=\frac{1/2(e^{x}-e^{-x})}{1/2(e^{x}+e^{-x})}=\frac{1-e^{-2x}}{1+e^{-2x}} $$
+Finally obtain the function of $U$, with respect to $T$ and constants $\mu$ and $B$:
+$$ U=-N\mu B\tanh{\left(\frac{\mu B}{k_{B}T}\right)} $$
+Similarly, for the magnetization function $M$:
+$$ M=-\frac{U}{B}=N\mu\tanh{\left(\frac{\mu B}{k_{B}T}\right)} $$
+The numerical function strongly verify our intuition is correct.
+\subsubsection{Partition Function Perspective}
+I will now use a completely different tool to determine $U$ and $M$ functions of two-state paramagnet.
 % section Paramagnetism (end)
 % chapter Magnetism of Matters (end) 
 \end{document}

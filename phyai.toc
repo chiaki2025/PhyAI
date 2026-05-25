@@ -55,3 +55,6 @@
 \contentsline {section}{\numberline {6.2}Paramagnetism}{70}{section.6.2}%
 \contentsline {subsection}{\numberline {6.2.1}The Macroscopic View of Paramagnetism}{70}{subsection.6.2.1}%
 \contentsline {subsection}{\numberline {6.2.2}The Microscopic View of Paramagnetism}{70}{subsection.6.2.2}%
+\contentsline {subsubsection}{Qualitative Perspective}{70}{section*.10}%
+\contentsline {subsubsection}{Quantitative Perspective}{72}{section*.11}%
+\contentsline {subsubsection}{Partition Function Perspective}{73}{section*.12}%
