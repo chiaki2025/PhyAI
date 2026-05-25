@@ -160,7 +160,28 @@ Similarly, for the magnetization function $M$:
 $$ M=-\frac{U}{B}=N\mu\tanh{\left(\frac{\mu B}{k_{B}T}\right)} $$
 The numerical function strongly verify our intuition is correct.
 \subsubsection{Partition Function Perspective}
-I will now use a completely different tool to determine $U$ and $M$ functions of two-state paramagnet.
+I will now use a completely different tool to determine $U$ and $M$ functions of two-state paramagnet. Consider a piece of two-state paramagnetic material under an external magnetic source $\vec{B}$, contains \textbf{only one magnetic moment vector}. Applying Boltzmann distribution (Theorem ~\ref{Boltzmann Distribution}), I obtain some important results:
+\begin{equation*}
+	\begin{split}
+		Z&=\sum_{s}\exp(-\beta E(s))=\exp(-\beta E_{\uparrow})+\exp(-\beta E_{\downarrow})=\exp(\beta\mu B )+\exp(-\beta\mu B )=2\cosh{(\beta \mu B)}\\
+		\mathcal{P}_{\uparrow}&=\frac{1 }{Z}\exp{(-\beta E_{\uparrow})}=\frac{1 }{2\cosh(\beta \mu B)}\exp{(\beta \mu B)}\\
+		\mathcal{P}_{\downarrow}&=\frac{1 }{Z}\exp{(-\beta E_{\downarrow})}=\frac{1 }{2\cosh(\beta \mu B)}\exp{(-\beta \mu B)}\\
+	\end{split}
+\end{equation*}
+The average energy of our system can be determined in two ways:
+\begin{equation*}
+	\begin{split}
+		\overline{E}&=\sum_{s}\mathcal{P}(s)E(s)=\mathcal{P}_{\uparrow}E_{\uparrow}+\mathcal{P}_{\downarrow}E_{\downarrow}=\frac{-\mu B \exp{(\beta \mu B)}+\mu  B\exp{(-\beta \mu B)}}{2\cosh(\beta \mu B)}\\
+		&=\frac{-\mu B[2\sinh{(\beta \mu B)}]}{2\cosh{(\beta \mu B)}}=-\mu B\tanh{(\beta \mu B)}
+	\end{split}
+\end{equation*}
+Or:
+$$ \overline{E}=-\frac{1 }{Z}\frac{\partial Z }{\partial \beta}=-\frac{1 }{2\cosh(\beta\mu B)}.\mu B\sinh{(\beta \mu B)}=-\mu B \tanh{(\beta \mu B)}$$
+If our system is very huge and contains $N$ magnetic moment vector, then we have:
+$$ U=N\overline{E}=-N\mu B\tanh{(\beta \mu B)}=-N\mu B\tanh{\left(\frac{\mu B}{k_{B}T}\right)} $$
 % section Paramagnetism (end)
+\section{Ferromagnetism and Ising Model}\label{sec:ferromagnetism_and_ising_model} % (fold)
+
+% section Ferromagnetism and Ising Model (end)
 % chapter Magnetism of Matters (end) 
 \end{document}

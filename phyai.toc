@@ -58,3 +58,4 @@
 \contentsline {subsubsection}{Qualitative Perspective}{70}{section*.10}%
 \contentsline {subsubsection}{Quantitative Perspective}{72}{section*.11}%
 \contentsline {subsubsection}{Partition Function Perspective}{73}{section*.12}%
+\contentsline {section}{\numberline {6.3}Ferromagnetism and Ising Model}{74}{section.6.3}%
