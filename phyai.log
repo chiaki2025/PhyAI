@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  26 MAY 2026 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  27 MAY 2026 01:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -811,14 +811,42 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6052.
 Package hyperref Info: PDF/A mode OFF on input line 6057.
  (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
-package wirehensive (SI) units package
+package with kernel methods
+)
+\Hy@abspage=\count347
+\c@Item=\count348
+\c@Hfootnote=\count349
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count350
+\c@bookmark@seq@number=\count351
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip75
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/comment/comment.sty
+\CommentStream=\write4
+ Excluding comment 'comment') (/usr/share/texlive/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-01-03 v3.2.0 A comprehensive (SI) units package
 \l__siunitx_angle_tmp_dim=\dimen278
 \l__siunitx_angle_marker_box=\box69
 \l__siunitx_angle_unit_box=\box70
 \l__siunitx_compound_count_int=\count352
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
+ (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
 \l__siunitx_number_exponent_fixed_int=\count353
 \l__siunitx_number_min_decimal_int=\count354
@@ -842,7 +870,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_unit_tmp_int=\count362
 \l__siunitx_unit_position_int=\count363
 \l__siunitx_unit_total_int=\count364
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
 Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen283
 \ar@mcellbox=\box77
@@ -856,10 +884,10 @@ Package: babel 2022/12/26 3.84 The Babel package
 \babel@savecnt=\count365
 \U@D=\dimen285
 \l@unhyphenated=\language87
-(/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count366
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -872,11 +900,11 @@ Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 11.
 ) (/usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
-(/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 )) (/usr/share/texlive/texmf-dist/tex/latex/mhchem/mhchem.sty
 Package: mhchem 2021/12/31 v4.09 for typesetting chemical formulae
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count367
 \calc@Bcount=\count368
@@ -889,8 +917,7 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count369
 \calc@Cskip=\skip80
 ) (/usr/share/texlive/texmf-dist/tex/latex/chemgreek/chemgreek.sty
-Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
- in chemistry (CN)
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
 \l__chemgreek_tmpa_int=\count370
 \g__chemgreek_tmpa_int=\count371
 )
@@ -915,18 +942,7 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
 \c@corollary=\count375
 \c@definition=\count376
 \c@exmp=\count377
-(./phyai.aux)
-Runaway argument?
-! File ended while scanning use of \@writefile.
-<inserted text> 
-                \par 
-l.37 \begin{document}
-                     
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
-
+ (./phyai.aux)
 \openout1 = `phyai.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
@@ -947,7 +963,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count378
 \scratchdimen=\dimen292
@@ -962,11 +978,9 @@ LaTeX Font Info:    ... okay on input line 37.
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1007,109 +1021,92 @@ Package hyperref Info: Link coloring OFF on input line 37.
 \@outlinefile=\write5
 \openout5 = `phyai.out'.
 
-
-(/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictio
-nary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `tra
-nslations-basic-dictionary')
+ (/usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 37.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 37.
 
 Package chemgreek Info: Activating mapping `default' on line 37.
 
-[1
+ [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 39
-.
-(/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 39.
+ (/usr/share/texlive/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.39 \newpage
               [1]
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.43 \tableofcontents
-                      [1] (./phyai.toc)
+                      [1] (./phyai.toc [2
+
+])
 \tf@toc=\write6
 \openout6 = `phyai.toc'.
 
-(./preface.tex [2
+ [3] (./phyai.lof [4
+
+])
+\tf@lof=\write7
+\openout7 = `phyai.lof'.
+
+ (./acknowledgements/acknowledgements.tex [5]) (./preface.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--3
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--3
+
+ []
+
+[6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
+Underfull \hbox (badness 10000) in paragraph at lines 5--10
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
+[7
 
-Underfull \hbox (badness 10000) in paragraph at lines 5--8
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--12
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--12
-
- []
-
-[3
-
-]
-Overfull \hbox (0.22455pt too wide) in paragraph at lines 15--16
-[]\OT1/cmr/m/n/12 Probability and Statis-tics: Prob-a-bil-ity and Statis-tics f
-or En-gi-neers and Sci-en-tists, Walpole
- []
-
-) (./chapter0/chapter0.tex [4]
+]) (./chapter0/chapter0.tex [8]
 Chapter 0.
-<~/PhyAI/chapter0/0_1.png, id=52, 1339.0025pt x 606.265pt>
+<~/PhyAI/chapter0/0_1.png, id=444, 1339.0025pt x 606.265pt>
 File: ~/PhyAI/chapter0/0_1.png Graphic file (type png)
 <use ~/PhyAI/chapter0/0_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter0/0_1.png  used on input line 28.
 (pdftex.def)             Requested size: 435.32419pt x 197.09854pt.
 
-! LaTeX Error: There's no line here to end.
+./chapter0/chapter0.tex:32: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1117,120 +1114,97 @@ Type  H <return>  for immediate help.
                                                   
 l.32 \\A
         s you can see here, the time interval $(0,t_{0})$ is very short comp...
-
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5
+[9
 
 ]
-<~/PhyAI/chapter0/0_2.png, id=69, 1027.84pt x 575.14874pt>
+<~/PhyAI/chapter0/0_2.png, id=454, 1027.84pt x 575.14874pt>
 File: ~/PhyAI/chapter0/0_2.png Graphic file (type png)
 <use ~/PhyAI/chapter0/0_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter0/0_2.png  used on input line 35.
 (pdftex.def)             Requested size: 435.32419pt x 243.59686pt.
-[6 </home/Chiaki/PhyAI/chapter0/0_1.png> </home/Chiaki/PhyAI/chapter0/0_2.png>]
-[7] [8]) (./chapter1/chapter1.tex [9]
+ [10 </home/Chiaki/PhyAI/chapter0/0_1.png> </home/Chiaki/PhyAI/chapter0/0_2.png>] [11] [12]) (./chapter1/chapter1.tex [13]
 Chapter 1.
-<~/PhyAI/chapter1/1_0.png, id=130, 622.325pt x 432.61626pt>
+<~/PhyAI/chapter1/1_0.png, id=508, 622.325pt x 432.61626pt>
 File: ~/PhyAI/chapter1/1_0.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_0.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_0.png  used on input line 11.
 (pdftex.def)             Requested size: 290.22105pt x 201.75198pt.
-[10
+[14
 
  </home/Chiaki/PhyAI/chapter1/1_0.png>]
-<~/PhyAI/chapter1/1_1.png, id=140, 816.04875pt x 554.07pt>
+<~/PhyAI/chapter1/1_1.png, id=515, 816.04875pt x 554.07pt>
 File: ~/PhyAI/chapter1/1_1.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_1.png  used on input line 35.
 (pdftex.def)             Requested size: 338.5863pt x 229.89249pt.
-<~/PhyAI/chapter1/1_2.png, id=141, 1051.93pt x 349.305pt>
+<~/PhyAI/chapter1/1_2.png, id=516, 1051.93pt x 349.305pt>
 File: ~/PhyAI/chapter1/1_2.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_2.png  used on input line 42.
 (pdftex.def)             Requested size: 338.5863pt x 112.43013pt.
-[11 </home/Chiaki/PhyAI/chapter1/1_1.png> </home/Chiaki/PhyAI/chapter1/1_2.png>
-]
-<~/PhyAI/chapter1/1_3.png, id=157, 610.28pt x 315.1775pt>
+ [15 </home/Chiaki/PhyAI/chapter1/1_1.png> </home/Chiaki/PhyAI/chapter1/1_2.png>]
+<~/PhyAI/chapter1/1_3.png, id=527, 610.28pt x 315.1775pt>
 File: ~/PhyAI/chapter1/1_3.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_3.png  used on input line 56.
 (pdftex.def)             Requested size: 290.22105pt x 149.88881pt.
-<~/PhyAI/chapter1/1_4.png, id=159, 1090.0725pt x 561.09625pt>
+<~/PhyAI/chapter1/1_4.png, id=529, 1090.0725pt x 561.09625pt>
 File: ~/PhyAI/chapter1/1_4.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_4.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_4.png  used on input line 63.
 (pdftex.def)             Requested size: 386.95894pt x 199.17772pt.
-[12 </home/Chiaki/PhyAI/chapter1/1_3.png> </home/Chiaki/PhyAI/chapter1/1_4.png>
-]
-<~/PhyAI/chapter1/1_5.png, id=169, 488.82625pt x 339.2675pt>
+ [16 </home/Chiaki/PhyAI/chapter1/1_3.png> </home/Chiaki/PhyAI/chapter1/1_4.png>]
+<~/PhyAI/chapter1/1_5.png, id=537, 488.82625pt x 339.2675pt>
 File: ~/PhyAI/chapter1/1_5.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_5.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_5.png  used on input line 100.
 (pdftex.def)             Requested size: 241.84842pt x 167.85768pt.
-[13 </home/Chiaki/PhyAI/chapter1/1_5.png>]
-
-LaTeX Warning: Reference `Definition of Pressure' on page 14 undefined on input
- line 110.
-
-[14]
-<~/PhyAI/chapter1/1_6.png, id=191, 860.21375pt x 431.6125pt>
+ [17 </home/Chiaki/PhyAI/chapter1/1_5.png>] [18]
+<~/PhyAI/chapter1/1_6.png, id=558, 860.21375pt x 431.6125pt>
 File: ~/PhyAI/chapter1/1_6.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_6.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_6.png  used on input line 164.
 (pdftex.def)             Requested size: 386.95894pt x 194.15796pt.
-[15]
-
-LaTeX Warning: Reference `Total Internal Energy' on page 16 undefined on input 
-line 174.
-
-<~/PhyAI/chapter1/1_7.png, id=209, 649.42625pt x 363.3575pt>
+ [19]
+<~/PhyAI/chapter1/1_7.png, id=576, 649.42625pt x 363.3575pt>
 File: ~/PhyAI/chapter1/1_7.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_7.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_7.png  used on input line 182.
 (pdftex.def)             Requested size: 338.5863pt x 189.44597pt.
-[16 </home/Chiaki/PhyAI/chapter1/1_6.png>]
-<~/PhyAI/chapter1/1_8.png, id=222, 687.56876pt x 278.03876pt>
+ [20 </home/Chiaki/PhyAI/chapter1/1_6.png>]
+<~/PhyAI/chapter1/1_8.png, id=586, 687.56876pt x 278.03876pt>
 File: ~/PhyAI/chapter1/1_8.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_8.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_8.png  used on input line 201.
 (pdftex.def)             Requested size: 338.5863pt x 136.91473pt.
-[17 </home/Chiaki/PhyAI/chapter1/1_7.png>]
-<~/PhyAI/chapter1/1_9.png, id=233, 727.71875pt x 387.4475pt>
+ [21 </home/Chiaki/PhyAI/chapter1/1_7.png>]
+<~/PhyAI/chapter1/1_9.png, id=595, 727.71875pt x 387.4475pt>
 File: ~/PhyAI/chapter1/1_9.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_9.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_9.png  used on input line 215.
 (pdftex.def)             Requested size: 338.5863pt x 180.27354pt.
-
-LaTeX Warning: Reference `Total Internal Energy' on page 18 undefined on input 
-line 219.
-
-[18 </home/Chiaki/PhyAI/chapter1/1_8.png> </home/Chiaki/PhyAI/chapter1/1_9.png>
-]
-<~/PhyAI/chapter1/1_10.png, id=242, 843.15pt x 375.4025pt>
+ [22 </home/Chiaki/PhyAI/chapter1/1_8.png> </home/Chiaki/PhyAI/chapter1/1_9.png>]
+<~/PhyAI/chapter1/1_10.png, id=602, 843.15pt x 375.4025pt>
 File: ~/PhyAI/chapter1/1_10.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_10.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_10.png  used on input line 226.
 (pdftex.def)             Requested size: 338.5863pt x 150.75406pt.
-<~/PhyAI/chapter1/1_11.png, id=246, 591.20876pt x 385.44pt>
+<~/PhyAI/chapter1/1_11.png, id=606, 591.20876pt x 385.44pt>
 File: ~/PhyAI/chapter1/1_11.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_11.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_11.png  used on input line 240.
 (pdftex.def)             Requested size: 338.5863pt x 220.74408pt.
-[19 </home/Chiaki/PhyAI/chapter1/1_10.png>]
-<~/PhyAI/chapter1/1_12.png, id=257, 622.325pt x 376.40625pt>
+ [23 </home/Chiaki/PhyAI/chapter1/1_10.png>]
+<~/PhyAI/chapter1/1_12.png, id=617, 622.325pt x 376.40625pt>
 File: ~/PhyAI/chapter1/1_12.png Graphic file (type png)
 <use ~/PhyAI/chapter1/1_12.png>
 Package pdftex.def Info: ~/PhyAI/chapter1/1_12.png  used on input line 263.
 (pdftex.def)             Requested size: 338.5863pt x 204.78986pt.
-[20 </home/Chiaki/PhyAI/chapter1/1_11.png>]
-
-LaTeX Warning: Reference `Total Internal Energy' on page 21 undefined on input 
-line 274.
-
-) (./chapter2/chapter2.tex [21 </home/Chiaki/PhyAI/chapter1/1_12.png>]
+ [24 </home/Chiaki/PhyAI/chapter1/1_11.png>]) (./chapter2/chapter2.tex [25 </home/Chiaki/PhyAI/chapter1/1_12.png>]
 Chapter 2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
@@ -1242,50 +1216,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
-<~/PhyAI/chapter2/2_1.png, id=278, 792.9625pt x 515.9275pt>
+<~/PhyAI/chapter2/2_1.png, id=637, 792.9625pt x 515.9275pt>
 File: ~/PhyAI/chapter2/2_1.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_1.png  used on input line 21.
 (pdftex.def)             Requested size: 338.5863pt x 220.3015pt.
-[22
+[26
 
 ]
-<~/PhyAI/chapter2/2_2.png, id=292, 661.47125pt x 329.23pt>
+<~/PhyAI/chapter2/2_2.png, id=647, 661.47125pt x 329.23pt>
 File: ~/PhyAI/chapter2/2_2.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_2.png  used on input line 39.
 (pdftex.def)             Requested size: 338.5863pt x 168.51796pt.
-[23 </home/Chiaki/PhyAI/chapter2/2_1.png> </home/Chiaki/PhyAI/chapter2/2_2.png>
-]
-
-LaTeX Warning: Reference `fig:2_1' on page 24 undefined on input line 51.
-
-[24]
-<~/PhyAI/chapter2/2_3.png, id=311, 662.475pt x 481.8pt>
+ [27 </home/Chiaki/PhyAI/chapter2/2_1.png> </home/Chiaki/PhyAI/chapter2/2_2.png>] [28]
+<~/PhyAI/chapter2/2_3.png, id=664, 662.475pt x 481.8pt>
 File: ~/PhyAI/chapter2/2_3.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_3.png  used on input line 109.
 (pdftex.def)             Requested size: 338.5863pt x 246.24406pt.
-
-LaTeX Warning: Reference `The Multiplicity of an Einstein solid' on page 25 und
-efined on input line 113.
-
-[25 </home/Chiaki/PhyAI/chapter2/2_3.png>]
-
-LaTeX Warning: Reference `Weak Stirling's Approximation' on page 26 undefined o
-n input line 143.
-
-
+ [29 </home/Chiaki/PhyAI/chapter2/2_3.png>]
 Overfull \hbox (11.92653pt too wide) detected at line 149
 []
  []
 
-[26] [27]
-
-LaTeX Warning: Reference `The Second Law of Thermodynamics' on page 28 undefine
-d on input line 243.
-
-[28]
+[30] [31] [32]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 248.
@@ -1318,13 +1273,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 253.
 
-[29] [30]
-<~/PhyAI/chapter2/2_4.png, id=363, 797.98125pt x 275.0275pt>
+[33] [34]
+<~/PhyAI/chapter2/2_4.png, id=714, 797.98125pt x 275.0275pt>
 File: ~/PhyAI/chapter2/2_4.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_4.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_4.png  used on input line 307.
 (pdftex.def)             Requested size: 338.5863pt x 116.69418pt.
-<~/PhyAI/chapter2/2_5.png, id=364, 873.2625pt x 559.08875pt>
+<~/PhyAI/chapter2/2_5.png, id=715, 873.2625pt x 559.08875pt>
 File: ~/PhyAI/chapter2/2_5.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_5.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_5.png  used on input line 318.
@@ -1349,26 +1304,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 322--330
 
  []
 
-[31 </home/Chiaki/PhyAI/chapter2/2_4.png> </home/Chiaki/PhyAI/chapter2/2_5.png>
-]
-<~/PhyAI/chapter2/2_6.png, id=371, 1046.91125pt x 259.97125pt>
+[35 </home/Chiaki/PhyAI/chapter2/2_4.png> </home/Chiaki/PhyAI/chapter2/2_5.png>]
+<~/PhyAI/chapter2/2_6.png, id=722, 1046.91125pt x 259.97125pt>
 File: ~/PhyAI/chapter2/2_6.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_6.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_6.png  used on input line 334.
 (pdftex.def)             Requested size: 386.95894pt x 96.08868pt.
-<~/PhyAI/chapter2/2_7.png, id=372, 967.615pt x 629.35126pt>
+<~/PhyAI/chapter2/2_7.png, id=723, 967.615pt x 629.35126pt>
 File: ~/PhyAI/chapter2/2_7.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_7.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_7.png  used on input line 347.
 (pdftex.def)             Requested size: 386.95894pt x 251.68802pt.
-[32 </home/Chiaki/PhyAI/chapter2/2_6.png>]
-<~/PhyAI/chapter2/2_8.png, id=379, 827.09pt x 485.815pt>
+ [36 </home/Chiaki/PhyAI/chapter2/2_6.png>]
+<~/PhyAI/chapter2/2_8.png, id=728, 827.09pt x 485.815pt>
 File: ~/PhyAI/chapter2/2_8.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_8.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_8.png  used on input line 373.
 (pdftex.def)             Requested size: 386.95894pt x 227.29527pt.
-[33 </home/Chiaki/PhyAI/chapter2/2_7.png>]
-! Undefined control sequence.
+ [37 </home/Chiaki/PhyAI/chapter2/2_7.png>]
+./chapter2/chapter2.tex:400: Undefined control sequence.
 <argument> ...\int _{0 }^{\pi }\sin ^{n-2}\thetad 
                                                   \theta -\int _{0 }^{\pi }\...
 l.400 		\end{split}
@@ -1379,7 +1333,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./chapter2/chapter2.tex:400: Undefined control sequence.
 <argument> ...\int _{0 }^{\pi }\sin ^{n-2}\thetad 
                                                   \theta -\int _{0 }^{\pi }\...
 l.400 		\end{split}
@@ -1390,302 +1344,198 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[34 </home/Chiaki/PhyAI/chapter2/2_8.png>] [35]
-
-LaTeX Warning: Reference `sub: n and q are relatively small' on page 36 undefin
-ed on input line 453.
-
-
-LaTeX Warning: Reference `sub:_n_and_q_are_large_values' on page 36 undefined o
-n input line 453.
-
-<~/PhyAI/chapter2/2_9.png, id=397, 487.8225pt x 490.83376pt>
+[38 </home/Chiaki/PhyAI/chapter2/2_8.png>] [39]
+<~/PhyAI/chapter2/2_9.png, id=745, 487.8225pt x 490.83376pt>
 File: ~/PhyAI/chapter2/2_9.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_9.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_9.png  used on input line 456.
 (pdftex.def)             Requested size: 193.47577pt x 194.66734pt.
-[36]
-<~/PhyAI/chapter2/2_10.png, id=408, 413.545pt x 212.795pt>
+ [40]
+<~/PhyAI/chapter2/2_10.png, id=754, 413.545pt x 212.795pt>
 File: ~/PhyAI/chapter2/2_10.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_10.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_10.png  used on input line 482.
 (pdftex.def)             Requested size: 241.84842pt x 124.44722pt.
-[37 </home/Chiaki/PhyAI/chapter2/2_9.png>]
-
-LaTeX Warning: Reference `The Multiplicity of Ideal Gas' on page 38 undefined o
-n input line 507.
-
-<~/PhyAI/chapter2/2_11.png, id=416, 528.97626pt x 337.26pt>
+ [41 </home/Chiaki/PhyAI/chapter2/2_9.png>]
+<~/PhyAI/chapter2/2_11.png, id=763, 528.97626pt x 337.26pt>
 File: ~/PhyAI/chapter2/2_11.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_11.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_11.png  used on input line 511.
 (pdftex.def)             Requested size: 290.22105pt x 185.03555pt.
-[38 </home/Chiaki/PhyAI/chapter2/2_10.png> </home/Chiaki/PhyAI/chapter2/2_11.pn
-g>]
-<~/PhyAI/chapter2/2_12.png, id=423, 566.115pt x 460.72125pt>
+ [42 </home/Chiaki/PhyAI/chapter2/2_10.png> </home/Chiaki/PhyAI/chapter2/2_11.png>]
+<~/PhyAI/chapter2/2_12.png, id=768, 566.115pt x 460.72125pt>
 File: ~/PhyAI/chapter2/2_12.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_12.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_12.png  used on input line 525.
 (pdftex.def)             Requested size: 290.22105pt x 236.19498pt.
-<~/PhyAI/chapter2/2_13.png, id=424, 866.23625pt x 465.74pt>
+<~/PhyAI/chapter2/2_13.png, id=769, 866.23625pt x 465.74pt>
 File: ~/PhyAI/chapter2/2_13.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_13.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_13.png  used on input line 537.
 (pdftex.def)             Requested size: 338.5863pt x 182.04294pt.
-[39 </home/Chiaki/PhyAI/chapter2/2_12.png>]
-
-LaTeX Warning: Reference `The Entropy of Ideal Gas' on page 40 undefined on inp
-ut line 541.
-
-<~/PhyAI/chapter2/2_14.png, id=431, 1082.0425pt x 373.395pt>
+ [43 </home/Chiaki/PhyAI/chapter2/2_12.png>]
+<~/PhyAI/chapter2/2_14.png, id=776, 1082.0425pt x 373.395pt>
 File: ~/PhyAI/chapter2/2_14.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_14.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_14.png  used on input line 549.
 (pdftex.def)             Requested size: 386.95894pt x 133.53328pt.
-<~/PhyAI/chapter2/2_15.png, id=432, 924.45375pt x 597.23125pt>
+<~/PhyAI/chapter2/2_15.png, id=777, 924.45375pt x 597.23125pt>
 File: ~/PhyAI/chapter2/2_15.png Graphic file (type png)
 <use ~/PhyAI/chapter2/2_15.png>
 Package pdftex.def Info: ~/PhyAI/chapter2/2_15.png  used on input line 562.
 (pdftex.def)             Requested size: 411.14526pt x 265.6167pt.
-[40 </home/Chiaki/PhyAI/chapter2/2_13.png> </home/Chiaki/PhyAI/chapter2/2_14.pn
-g>]) (./chapter3/chapter3.tex [41 </home/Chiaki/PhyAI/chapter2/2_15.png>]
+ [44 </home/Chiaki/PhyAI/chapter2/2_13.png> </home/Chiaki/PhyAI/chapter2/2_14.png>]) (./chapter3/chapter3.tex [45 </home/Chiaki/PhyAI/chapter2/2_15.png>]
 Chapter 3.
-<~/PhyAI/chapter3/3_1.png, id=446, 985.6825pt x 341.275pt>
+<~/PhyAI/chapter3/3_1.png, id=787, 985.6825pt x 341.275pt>
 File: ~/PhyAI/chapter3/3_1.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_1.png  used on input line 10.
 (pdftex.def)             Requested size: 386.95894pt x 133.97676pt.
-<~/PhyAI/chapter3/3_2.png, id=447, 989.6975pt x 469.755pt>
+<~/PhyAI/chapter3/3_2.png, id=788, 989.6975pt x 469.755pt>
 File: ~/PhyAI/chapter3/3_2.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_2.png  used on input line 17.
 (pdftex.def)             Requested size: 338.5863pt x 160.70375pt.
-[42
+[46
 
  </home/Chiaki/PhyAI/chapter3/3_1.png>]
-<~/PhyAI/chapter3/3_3.png, id=456, 772.8875pt x 526.96875pt>
+<~/PhyAI/chapter3/3_3.png, id=794, 772.8875pt x 526.96875pt>
 File: ~/PhyAI/chapter3/3_3.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_3.png  used on input line 29.
 (pdftex.def)             Requested size: 290.22105pt x 197.87814pt.
-
-LaTeX Warning: Reference `chap:the_second_law_of_thermodynamics' on page 43 und
-efined on input line 33.
-
-[43 </home/Chiaki/PhyAI/chapter3/3_2.png> </home/Chiaki/PhyAI/chapter3/3_3.png>
-]
-<~/PhyAI/chapter3/3_4.png, id=465, 731.73375pt x 388.45125pt>
+ [47 </home/Chiaki/PhyAI/chapter3/3_2.png> </home/Chiaki/PhyAI/chapter3/3_3.png>]
+<~/PhyAI/chapter3/3_4.png, id=803, 731.73375pt x 388.45125pt>
 File: ~/PhyAI/chapter3/3_4.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_4.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_4.png  used on input line 44.
 (pdftex.def)             Requested size: 362.77263pt x 192.58328pt.
-[44 </home/Chiaki/PhyAI/chapter3/3_4.png>]
-
-LaTeX Warning: Reference `chap:the_second_law_of_thermodynamics' on page 45 und
-efined on input line 69.
-
-<~/PhyAI/chapter3/3_5.png, id=475, 849.1725pt x 605.26125pt>
+ [48 </home/Chiaki/PhyAI/chapter3/3_4.png>]
+<~/PhyAI/chapter3/3_5.png, id=813, 849.1725pt x 605.26125pt>
 File: ~/PhyAI/chapter3/3_5.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_5.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_5.png  used on input line 105.
 (pdftex.def)             Requested size: 338.5863pt x 241.33365pt.
 
 Overfull \hbox (26.12953pt too wide) in paragraph at lines 69--108
-\OT1/cmr/m/n/12 In this sec-tion, we de-velop the con-nec-tion among three phys
--i-cal quan-ti-ties: $([]\OML/cmm/m/it/12 ; []; []\OT1/cmr/m/n/12 )$.
+\OT1/cmr/m/n/12 In this sec-tion, we de-velop the con-nec-tion among three phys-i-cal quan-ti-ties: $([]\OML/cmm/m/it/12 ; []; []\OT1/cmr/m/n/12 )$.
  []
 
-[45] [46 </home/Chiaki/PhyAI/chapter3/3_5.png>]
-
-LaTeX Warning: Reference `The Equipartition Theorem' on page 47 undefined on in
-put line 138.
-
-
-LaTeX Warning: Reference `sub:_n_and_q_are_large_values' on page 47 undefined o
-n input line 138.
-
-
-LaTeX Warning: Reference `Total Internal Energy' on page 47 undefined on input 
-line 140.
-
-[47]
-
-LaTeX Warning: Reference `The Entropy of Ideal Gas' on page 48 undefined on inp
-ut line 152.
-
-
-LaTeX Warning: Reference `The Third Definition of Temperature' on page 48 undef
-ined on input line 160.
-
-
-LaTeX Warning: Reference `The Equipartition Theorem' on page 48 undefined on in
-put line 170.
-
-[48]
-
-LaTeX Warning: Reference `The Third Definition of Temperature' on page 49 undef
-ined on input line 196.
-
-[49]
-
-LaTeX Warning: Reference `fig:2_11' on page 50 undefined on input line 220.
-
-
-LaTeX Warning: Reference `fig:2_12' on page 50 undefined on input line 220.
-
-[50]
-
-LaTeX Warning: Reference `The Macroscopic View of Entropy' on page 51 undefined
- on input line 244.
-
-
-LaTeX Warning: Reference `fig:2_14' on page 51 undefined on input line 249.
-
-[51]
-<~/PhyAI/chapter3/3_6.png, id=535, 640.3925pt x 450.68375pt>
+[49] [50 </home/Chiaki/PhyAI/chapter3/3_5.png>] [51] [52] [53] [54] [55]
+<~/PhyAI/chapter3/3_6.png, id=880, 640.3925pt x 450.68375pt>
 File: ~/PhyAI/chapter3/3_6.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_6.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_6.png  used on input line 305.
 (pdftex.def)             Requested size: 314.39998pt x 221.26332pt.
-[52]
-<~/PhyAI/chapter3/3_7.png, id=547, 566.115pt x 435.6275pt>
+ [56]
+<~/PhyAI/chapter3/3_7.png, id=889, 566.115pt x 435.6275pt>
 File: ~/PhyAI/chapter3/3_7.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_7.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_7.png  used on input line 322.
 (pdftex.def)             Requested size: 314.39998pt x 241.93565pt.
-[53 </home/Chiaki/PhyAI/chapter3/3_6.png> </home/Chiaki/PhyAI/chapter3/3_7.png>
-]
-<~/PhyAI/chapter3/3_8.png, id=557, 738.76pt x 432.61626pt>
+ [57 </home/Chiaki/PhyAI/chapter3/3_6.png> </home/Chiaki/PhyAI/chapter3/3_7.png>]
+<~/PhyAI/chapter3/3_8.png, id=896, 738.76pt x 432.61626pt>
 File: ~/PhyAI/chapter3/3_8.png Graphic file (type png)
 <use ~/PhyAI/chapter3/3_8.png>
 Package pdftex.def Info: ~/PhyAI/chapter3/3_8.png  used on input line 337.
 (pdftex.def)             Requested size: 362.77263pt x 212.4393pt.
-) (./chapter4/chapter4.tex [54 </home/Chiaki/PhyAI/chapter3/3_8.png>]
+) (./chapter4/chapter4.tex [58 </home/Chiaki/PhyAI/chapter3/3_8.png>]
 Chapter 4.
-<~/PhyAI/chapter4/4_1.png, id=570, 457.71pt x 460.72125pt>
+<~/PhyAI/chapter4/4_1.png, id=908, 457.71pt x 460.72125pt>
 File: ~/PhyAI/chapter4/4_1.png Graphic file (type png)
 <use ~/PhyAI/chapter4/4_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter4/4_1.png  used on input line 15.
 (pdftex.def)             Requested size: 193.47577pt x 194.74591pt.
-[55
+[59
 
- </home/Chiaki/PhyAI/chapter4/4_1.png>]
-
-LaTeX Warning: Reference `Enthalpy Definition' on page 56 undefined on input li
-ne 33.
-
-[56]
-<~/PhyAI/chapter4/4_2.png, id=586, 694.595pt x 551.05875pt>
+ </home/Chiaki/PhyAI/chapter4/4_1.png>] [60]
+<~/PhyAI/chapter4/4_2.png, id=923, 694.595pt x 551.05875pt>
 File: ~/PhyAI/chapter4/4_2.png Graphic file (type png)
 <use ~/PhyAI/chapter4/4_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter4/4_2.png  used on input line 52.
 (pdftex.def)             Requested size: 290.22105pt x 230.25749pt.
-[57 </home/Chiaki/PhyAI/chapter4/4_2.png>]
-<~/PhyAI/chapter4/4_3.png, id=594, 508.90125pt x 374.39874pt>
+ [61 </home/Chiaki/PhyAI/chapter4/4_2.png>]
+<~/PhyAI/chapter4/4_3.png, id=929, 508.90125pt x 374.39874pt>
 File: ~/PhyAI/chapter4/4_3.png Graphic file (type png)
 <use ~/PhyAI/chapter4/4_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter4/4_3.png  used on input line 96.
 (pdftex.def)             Requested size: 241.84842pt x 177.92694pt.
-[58]
-
-LaTeX Warning: Reference `The Thermodynamics Identity' on page 59 undefined on 
-input line 102.
-
-) (./chapter5/chapter5.tex [59 </home/Chiaki/PhyAI/chapter4/4_3.png>]
+ [62]) (./chapter5/chapter5.tex [63 </home/Chiaki/PhyAI/chapter4/4_3.png>]
 Chapter 5.
-<~/PhyAI/chapter5/5_1.png, id=609, 646.415pt x 468.75125pt>
+<~/PhyAI/chapter5/5_1.png, id=942, 646.415pt x 468.75125pt>
 File: ~/PhyAI/chapter5/5_1.png Graphic file (type png)
 <use ~/PhyAI/chapter5/5_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter5/5_1.png  used on input line 8.
 (pdftex.def)             Requested size: 290.22105pt x 210.45688pt.
-
-LaTeX Warning: Reference `The Thermodynamics Identity' on page 60 undefined on 
-input line 18.
-
-[60
+[64
 
  </home/Chiaki/PhyAI/chapter5/5_1.png>]
-
-LaTeX Warning: Reference `The Equipartition Theorem' on page 61 undefined on in
-put line 52.
-
-
-LaTeX Warning: Reference `sec:the_ideal_gas_model' on page 61 undefined on inpu
-t line 70.
-
-<~/PhyAI/chapter5/5_2.png, id=617, 588.1975pt x 382.42876pt>
+<~/PhyAI/chapter5/5_2.png, id=950, 588.1975pt x 382.42876pt>
 File: ~/PhyAI/chapter5/5_2.png Graphic file (type png)
 <use ~/PhyAI/chapter5/5_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter5/5_2.png  used on input line 73.
 (pdftex.def)             Requested size: 314.39998pt x 204.41354pt.
-[61] [62 </home/Chiaki/PhyAI/chapter5/5_2.png>]) (./chapter6/chapter6.tex [63]
+ [65] [66 </home/Chiaki/PhyAI/chapter5/5_2.png>]) (./chapter6/chapter6.tex [67]
 Chapter 6.
-<~/PhyAI/chapter6/6_1.png, id=636, 702.625pt x 457.71pt>
+<~/PhyAI/chapter6/6_1.png, id=968, 702.625pt x 457.71pt>
 File: ~/PhyAI/chapter6/6_1.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_1.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_1.png  used on input line 10.
 (pdftex.def)             Requested size: 241.84842pt x 157.54695pt.
-<~/PhyAI/chapter6/6_2.png, id=637, 558.085pt x 441.65pt>
+<~/PhyAI/chapter6/6_2.png, id=969, 558.085pt x 441.65pt>
 File: ~/PhyAI/chapter6/6_2.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_2.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_2.png  used on input line 19.
 (pdftex.def)             Requested size: 241.84842pt x 191.38838pt.
-[64
+[68
 
  </home/Chiaki/PhyAI/chapter6/6_1.png>]
-<~/PhyAI/chapter6/6_3.png, id=647, 781.92125pt x 491.8375pt>
+<~/PhyAI/chapter6/6_3.png, id=975, 781.92125pt x 491.8375pt>
 File: ~/PhyAI/chapter6/6_3.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_3.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_3.png  used on input line 38.
 (pdftex.def)             Requested size: 322.46701pt x 202.83293pt.
-[65 </home/Chiaki/PhyAI/chapter6/6_2.png>]
-<~/PhyAI/chapter6/6_4.png, id=655, 1161.33875pt x 476.78125pt>
+ [69 </home/Chiaki/PhyAI/chapter6/6_2.png>]
+<~/PhyAI/chapter6/6_4.png, id=981, 1161.33875pt x 476.78125pt>
 File: ~/PhyAI/chapter6/6_4.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_4.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_4.png  used on input line 48.
 (pdftex.def)             Requested size: 483.69684pt x 198.58075pt.
-<~/PhyAI/chapter6/6_5.png, id=656, 1136.245pt x 478.78876pt>
+<~/PhyAI/chapter6/6_5.png, id=982, 1136.245pt x 478.78876pt>
 File: ~/PhyAI/chapter6/6_5.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_5.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_5.png  used on input line 55.
 (pdftex.def)             Requested size: 483.69684pt x 203.82224pt.
-<~/PhyAI/chapter6/6_6.png, id=657, 1040.88875pt x 497.86pt>
+<~/PhyAI/chapter6/6_6.png, id=983, 1040.88875pt x 497.86pt>
 File: ~/PhyAI/chapter6/6_6.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_6.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_6.png  used on input line 61.
 (pdftex.def)             Requested size: 459.51051pt x 219.78076pt.
-[66 </home/Chiaki/PhyAI/chapter6/6_3.png> </home/Chiaki/PhyAI/chapter6/6_4.png>
-]
-<~/PhyAI/chapter6/6_7.png, id=669, 956.57375pt x 376.40625pt>
+ [70 </home/Chiaki/PhyAI/chapter6/6_3.png> </home/Chiaki/PhyAI/chapter6/6_4.png>]
+<~/PhyAI/chapter6/6_7.png, id=992, 956.57375pt x 376.40625pt>
 File: ~/PhyAI/chapter6/6_7.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_7.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_7.png  used on input line 71.
 (pdftex.def)             Requested size: 362.77263pt x 142.74867pt.
-[67 </home/Chiaki/PhyAI/chapter6/6_5.png> </home/Chiaki/PhyAI/chapter6/6_6.png>
-]
-<~/PhyAI/chapter6/6_8.png, id=679, 475.7775pt x 304.13625pt>
+ [71 </home/Chiaki/PhyAI/chapter6/6_5.png> </home/Chiaki/PhyAI/chapter6/6_6.png>]
+<~/PhyAI/chapter6/6_8.png, id=1000, 475.7775pt x 304.13625pt>
 File: ~/PhyAI/chapter6/6_8.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_8.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_8.png  used on input line 88.
 (pdftex.def)             Requested size: 241.84842pt x 154.60158pt.
-[68 </home/Chiaki/PhyAI/chapter6/6_7.png>]
-<~/PhyAI/chapter6/6_9.png, id=691, 653.44125pt x 634.37pt>
+ [72 </home/Chiaki/PhyAI/chapter6/6_7.png>]
+<~/PhyAI/chapter6/6_9.png, id=1008, 653.44125pt x 634.37pt>
 File: ~/PhyAI/chapter6/6_9.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_9.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_9.png  used on input line 101.
 (pdftex.def)             Requested size: 241.84842pt x 234.78098pt.
-<~/PhyAI/chapter6/6_10.png, id=692, 1037.8775pt x 468.75125pt>
+<~/PhyAI/chapter6/6_10.png, id=1009, 1037.8775pt x 468.75125pt>
 File: ~/PhyAI/chapter6/6_10.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_10.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_10.png  used on input line 108.
 (pdftex.def)             Requested size: 386.95894pt x 174.77277pt.
-[69 </home/Chiaki/PhyAI/chapter6/6_8.png> </home/Chiaki/PhyAI/chapter6/6_9.png>
-]
-
-LaTeX Warning: Reference `The Third Definition of Temperature' on page 70 undef
-ined on input line 112.
-
-! Undefined control sequence.
+ [73 </home/Chiaki/PhyAI/chapter6/6_8.png> </home/Chiaki/PhyAI/chapter6/6_9.png>]
+./chapter6/chapter6.tex:112: Undefined control sequence.
 l.112 ...very unstable, corresponds to $N_{\upward
                                                   }\to (N/2)^-$ and $N_{\upw...
 The control sequence at the end of the top line
@@ -1694,7 +1544,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
+./chapter6/chapter6.tex:112: Undefined control sequence.
 l.112 ... $N_{\upward}\to (N/2)^-$ and $N_{\upward
                                                   }\to (N/2)^+$. Maybe the "...
 The control sequence at the end of the top line
@@ -1703,45 +1553,39 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<~/PhyAI/chapter6/6_11.png, id=699, 1115.16624pt x 458.71375pt>
+<~/PhyAI/chapter6/6_11.png, id=1015, 1115.16624pt x 458.71375pt>
 File: ~/PhyAI/chapter6/6_11.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_11.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_11.png  used on input line 115.
 (pdftex.def)             Requested size: 386.95894pt x 159.16634pt.
-[70 </home/Chiaki/PhyAI/chapter6/6_10.png> </home/Chiaki/PhyAI/chapter6/6_11.pn
-g>]
-
-LaTeX Warning: Reference `Boltzmann Distribution' on page 71 undefined on input
- line 163.
-
-[71]
-<~/PhyAI/chapter6/6_12.png, id=713, 943.525pt x 424.58624pt>
+[74 </home/Chiaki/PhyAI/chapter6/6_10.png> </home/Chiaki/PhyAI/chapter6/6_11.png>] [75]
+<~/PhyAI/chapter6/6_12.png, id=1027, 943.525pt x 424.58624pt>
 File: ~/PhyAI/chapter6/6_12.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_12.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_12.png  used on input line 187.
 (pdftex.def)             Requested size: 411.14526pt x 185.01746pt.
-[72 </home/Chiaki/PhyAI/chapter6/6_12.png>]
-<~/PhyAI/chapter6/6_13.png, id=720, 457.71pt x 272.01625pt>
+ [76 </home/Chiaki/PhyAI/chapter6/6_12.png>]
+<~/PhyAI/chapter6/6_13.png, id=1032, 457.71pt x 272.01625pt>
 File: ~/PhyAI/chapter6/6_13.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_13.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_13.png  used on input line 198.
 (pdftex.def)             Requested size: 241.84842pt x 143.72795pt.
-<~/PhyAI/chapter6/6_14.png, id=721, 480.79625pt x 327.2225pt>
+<~/PhyAI/chapter6/6_14.png, id=1033, 480.79625pt x 327.2225pt>
 File: ~/PhyAI/chapter6/6_14.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_14.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_14.png  used on input line 210.
 (pdftex.def)             Requested size: 314.39998pt x 213.98029pt.
-[73 </home/Chiaki/PhyAI/chapter6/6_13.png>]
-<~/PhyAI/chapter6/6_15.png, id=729, 785.93625pt x 541.02126pt>
+ [77 </home/Chiaki/PhyAI/chapter6/6_13.png>]
+<~/PhyAI/chapter6/6_15.png, id=1039, 785.93625pt x 541.02126pt>
 File: ~/PhyAI/chapter6/6_15.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_15.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_15.png  used on input line 229.
 (pdftex.def)             Requested size: 314.39998pt x 216.42943pt.
-[74 </home/Chiaki/PhyAI/chapter6/6_14.png>]
-Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on in
-put line 240.
+ [78 </home/Chiaki/PhyAI/chapter6/6_14.png>]
+Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 240.
 
-! LaTeX Error: There's no line here to end.
+
+./chapter6/chapter6.tex:252: LaTeX Error: There's no line here to end.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -1749,23 +1593,23 @@ Type  H <return>  for immediate help.
                                                   
 l.252 \\T
          o fully understand how it works, I will try to explain using the ex...
-
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<~/PhyAI/chapter6/6_16.png, id=736, 774.895pt x 492.84125pt>
+<~/PhyAI/chapter6/6_16.png, id=1044, 774.895pt x 492.84125pt>
 File: ~/PhyAI/chapter6/6_16.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_16.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_16.png  used on input line 256.
 (pdftex.def)             Requested size: 314.39998pt x 199.96057pt.
-[75 </home/Chiaki/PhyAI/chapter6/6_15.png>]
-<~/PhyAI/chapter6/6_17.png, id=743, 926.46124pt x 469.755pt>
+[79 </home/Chiaki/PhyAI/chapter6/6_15.png>]
+<~/PhyAI/chapter6/6_17.png, id=1051, 926.46124pt x 469.755pt>
 File: ~/PhyAI/chapter6/6_17.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_17.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_17.png  used on input line 264.
 (pdftex.def)             Requested size: 411.14526pt x 208.47047pt.
-! Missing \endcsname inserted.
+
+./chapter6/chapter6.tex:275: Missing \endcsname inserted.
 <to be read again> 
                    \ALG@currentblock@0 
 l.275 		\State
@@ -1773,14 +1617,14 @@ l.275 		\State
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
-! Extra \endcsname.
+./chapter6/chapter6.tex:275: Extra \endcsname.
 \ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
                                                   \relax \def \ALG@thisblock...
 l.275 		\State
                \text{Generate a random $N\times N$ Ising model}
 I'm ignoring this, since I wasn't doing a \csname.
 
-! Missing \endcsname inserted.
+./chapter6/chapter6.tex:276: Missing \endcsname inserted.
 <to be read again> 
                    \ALG@currentblock@0 
 l.276 		\For
@@ -1788,72 +1632,11 @@ l.276 		\For
 The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
-! Extra \endcsname.
+./chapter6/chapter6.tex:276: Extra \endcsname.
 \ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
                                                   \relax \def \ALG@thisblock...
 l.276 		\For
              {$\text{interation}=1$ \text{to} $\text{interation}=10000$}
-I'm ignoring this, since I wasn't doing a \csname.
-
-! Missing \endcsname inserted.
-<to be read again> 
-                   \ALG@currentblock@0 
-l.287 		\Function
-                 {DeltaU}{$i,j$}
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
-
-! Extra \endcsname.
-\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
-                                                  \relax \def \ALG@thisblock...
-l.287 		\Function
-                 {DeltaU}{$i,j$}
-I'm ignoring this, since I wasn't doing a \csname.
-
-<~/PhyAI/chapter6/6_19.png, id=744, 1058.95625pt x 615.29875pt>
-File: ~/PhyAI/chapter6/6_19.png Graphic file (type png)
-<use ~/PhyAI/chapter6/6_19.png>
-Package pdftex.def Info: ~/PhyAI/chapter6/6_19.png  used on input line 295.
-(pdftex.def)             Requested size: 411.14526pt x 238.89523pt.
-[76 </home/Chiaki/PhyAI/chapter6/6_16.png> </home/Chiaki/PhyAI/chapter6/6_17.pn
-g>]) [77 </home/Chiaki/PhyAI/chapter6/6_19.png>] (./phyai.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `phyai.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `phyai.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  A476CD1F1FF8FCF16819388D1226EBA5;9824.
- ) 
-Here is how much of TeX's memory you used:
- 29497 strings out of 476091
- 600348 string characters out of 5794082
- 1872330 words of memory out of 5000000
- 48939 multiletter control sequences out of 15000+600000
- 530302 words of font info for 101 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 99i,21n,103p,1174b,1167s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{definition.1.3.2} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{theorem.2.1.1} has been referenced but does not exi
-st, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{definition.1.3.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{}=1$ \text{to} $\text{interation}=10000$}
 I'm ignoring this, since I wasn't doing a \csname.
 
 ./chapter6/chapter6.tex:287: Missing \endcsname inserted.
@@ -1871,40 +1654,28 @@ l.287 		\Function
                  {DeltaU}{$i,j$}
 I'm ignoring this, since I wasn't doing a \csname.
 
-<~/PhyAI/chapter6/6_19.png, id=726, 1058.95625pt x 615.29875pt>
+<~/PhyAI/chapter6/6_19.png, id=1052, 1058.95625pt x 615.29875pt>
 File: ~/PhyAI/chapter6/6_19.png Graphic file (type png)
 <use ~/PhyAI/chapter6/6_19.png>
 Package pdftex.def Info: ~/PhyAI/chapter6/6_19.png  used on input line 295.
 (pdftex.def)             Requested size: 411.14526pt x 238.89523pt.
-[76 </home/Chiaki/PhyAI/chapter6/6_16.png> </home/Chiaki/PhyAI/chapter6/6_17.png>]) [77 </home/Chiaki/PhyAI/chapter6/6_19.png>] (./phyai.aux)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `phyai.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `phyai.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  A476CD1F1FF8FCF16819388D1226EBA5;9824.
+[80 </home/Chiaki/PhyAI/chapter6/6_16.png> </home/Chiaki/PhyAI/chapter6/6_17.png>]) [81 </home/Chiaki/PhyAI/chapter6/6_19.png>] (./phyai.aux)
+Package rerunfilecheck Info: File `phyai.out' has not changed.
+(rerunfilecheck)             Checksum: A476CD1F1FF8FCF16819388D1226EBA5;9824.
  ) 
 Here is how much of TeX's memory you used:
- 29491 strings out of 476091
- 600253 string characters out of 5794082
+ 29555 strings out of 476091
+ 601315 string characters out of 5794082
  1873330 words of memory out of 5000000
- 48939 multiletter control sequences out of 15000+600000
- 530302 words of font info for 101 fonts, out of 8000000 for 9000
+ 48997 multiletter control sequences out of 15000+600000
+ 530133 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,21n,103p,1174b,1163s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on phyai.pdf (79 pages, 2080679 bytes).
+ 99i,21n,103p,1174b,1162s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on phyai.pdf (83 pages, 2087246 bytes).
 PDF statistics:
- 924 PDF objects out of 1000 (max. 8388607)
- 722 compressed objects within 8 object streams
- 333 named destinations out of 1000 (max. 500000)
- 318 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1243 PDF objects out of 1440 (max. 8388607)
+ 1033 compressed objects within 11 object streams
+ 332 named destinations out of 1000 (max. 500000)
+ 734 words of extra memory for PDF output out of 10000 (max. 10000000)
 

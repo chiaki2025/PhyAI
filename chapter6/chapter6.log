@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  26 MAY 2026 21:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  26 MAY 2026 21:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -4382,7 +4382,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.303 \end{document}
+l.302 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4392,7 +4392,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> ...chap:magnetism_of_matters}{{}{\thepage 
                                                   }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4403,7 +4403,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...c_dipoles_and_diamagnetic}{{}{\thepage 
                                                   }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4414,7 +4414,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_1}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4425,7 +4425,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_2}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4436,7 +4436,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_3}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4447,7 +4447,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_4}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4458,7 +4458,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_5}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4469,7 +4469,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_6}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4480,7 +4480,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{sec:paramagnetism}{{}{\thepage 
                                                  }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4491,7 +4491,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...pic_view_of_paramagnetism}{{}{\thepage 
                                                   }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4502,7 +4502,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_7}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4513,7 +4513,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_8}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4524,7 +4524,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_9}{{}{\thepage 
                                        }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4535,7 +4535,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_10}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4546,7 +4546,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_11}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4557,7 +4557,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...magnetism_and_ising_model}{{}{\thepage 
                                                   }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4568,7 +4568,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_12}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4579,7 +4579,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_13}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4590,7 +4590,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_14}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4601,7 +4601,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_15}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4612,7 +4612,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{alg:1}{{}{\thepage 
                                      }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4623,7 +4623,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_16}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4634,7 +4634,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_17}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4645,7 +4645,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{alg:2}{{}{\thepage 
                                      }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4656,7 +4656,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:6_19}{{}{\thepage 
                                         }}
-l.303 \end{document}
+l.302 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have

@@ -1,7 +1,7 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Tue May 26 21:48:54 2026
-       Filename: chapter6.tex
+       Tue May 26 22:19:42 2026
+       Filename: acknowledgements.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
        -w|--overwrite: Overwrite mode active, will make a back up before overwriting
@@ -27,15 +27,29 @@ INFO:  YAML settings read: -y switch
        YAML setting: backup:0
        Updating mainSettings with backup: 0
 INFO:  Backup procedure (-w flag active):
-       copying chapter6.tex to ./chapter6.bak0
-       Backup file: ./chapter6.bak0
-       chapter6.tex will be overwritten after indentation
+       ./acknowledgements.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak3 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak4 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak5 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak6 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak7 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak8 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak9 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak10 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak11 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak12 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       ./acknowledgements.bak13 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
+       copying acknowledgements.tex to ./acknowledgements.bak14
+       Backup file: ./acknowledgements.bak14
+       acknowledgements.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation
 INFO:  Phase 3: indenting objects
 INFO:  Phase 4: final indentation check
 INFO:  Output routine:
-       Overwriting file chapter6.tex
+       Overwriting file acknowledgements.tex
        --------------
 INFO:  Please direct all communication/issues to:
         https://github.com/cmhughes/latexindent.pl

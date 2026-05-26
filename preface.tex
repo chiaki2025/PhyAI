@@ -2,23 +2,28 @@
 \begin{document}
 \chapter*{Preface}\label{chap:motivation} % (fold)
 % chapter Motivation (end)
-\indent Actually, I am not an AI or CS student. When the AI explosion occurred $3$ years ago, I did not care about it so much. I thought it was a scam; created by the billionaires, who want to take control of the new world. I was not interested in AI in the first place.  Everything was nonsense and meaningless, why did I have to care about it?
-\\ \\ \\ \indent Like every student living in AI-era, I was forced to learn a subject called "Fundamentals of Artificial Intelligence", $3$ credits, in my third year. When the midterm came, I realized that I did not know anything; and the risk of failing this subject was real. $2$ hours before midterm, I came to the library and tried to learn something that could save my grade above $4$ points. To be honest, the feeling of just studying to merely pass a stupid test and then being done with it was so frustrating. I was watching many tutorial videos on YouTube, and thought "OK, the game is over. I am done.". My brain could not consume any knowledge from them. I was a failure.
-\\ \\ \\ \indent Instead of learning like crazy in the last $2$ hours left, I just skimmed all the stuffs for $1$ hour, and decided to give up. Fortunately, I did misclick a video; this moment would change my vision forever.
-$$\href{https://youtu.be/-f5WQAk3dYo?si=-ILvjE8SLsBYy6ld}{\textit{"Geoffrey Hinton, Nobel Prize in Physics 2024: Banquet speech"}}$$
-Wait, did something go wrong here? Nobel Prize in Physics for Artificial Intelligence? My brain turned on because I deeply cared about Physics. "Why did something bullshit receive a Nobel Prize, even in Physics?". I did some searching, and then I found some familiar keywords, such as "Boltzmann Statistics", "Spin-Glass", "Ising Model". "Perhaps I could do some Physics here.", I thought. Time flies so fast, half a year has already passed. I am still confused, but I think I have got an idea. After my first book "Thinking like a Frequentist" was published online, why not try writing about the "bridge" between Physics and AI? At least so far, I have not seen anyone write a sufficiently understandable document on this topic. But the problem is, I am not even a Physics student. Up to now, my Physics knowledge is limited to Halliday textbooks, and some experience with digital and analog electronics. To fill these gaps, I have to learn everything from scratch.
-\\ \\ \\ \indent That is why I wrote this book as a concise self-study guide for anyone interested in Physics and AI. Unlike my first book, which was written when my knowledge of Probability and Statistics was already solid; this book was written during my self-study process. I may have made many mistakes or misinterpretations; but I hope you, my readers, can point them out and send feedbacks via email \url{tinvu1309@gmail.com}. I would be extremely happy if someone could discuss these issues with me.
-\\ \\ \\ \indent The structure of this book contains $2$ main parts: "Introduction to Statistical Physics" from Chapter ~\ref{chap:the_zeroth_law_of_thermodynamics} to Chapter 7, and "The Physics of Artificial Intelligence" from Chapter 8 to Chapter 15. Although I will try to keep everything as simple as possible; but before reading, you should be familiar with elementary university mathematics concepts, include: \textit{Calculus}, \textit{Linear Algebra} and \textit{Probability and Statistics}. The better your math skills, the higher your physics ability. In physics, you need to understand some basic concepts of \textit{Mechanics and Thermodynamics}; \textit{Electromagnetism} and some applied physics subjects such as \textit{Signals and Systems}, \textit{Control Theory} and \textit{Digital Signal Processing}. Some useful books and lecture notes are listed below:
-\begin{enumerate}
-	\item Calculus: Calculus 7E, James Stewart
-	\item Linear Algebra: Elementary Linear Algebra, Larson - Edwards - Falvo
-	\item Probability and Statistics: Probability and Statistics for Engineers and Scientists, Walpole - Myers or \href{https://www.dropbox.com/scl/fo/v6avajcywzf396ijva68s/AClNG47__ZziHChSFUN3FM0?rlkey=a9nk07e97hk29rbizrxpjkv9p&st=ixe6q0bu&dl=0}{Thinking like a Frequentist, Tin Vu}
-	\item Mechanics and Thermodynamics, Electromagnetism: Fundamentals of Physics, Halliday and Resnick
-	\item Signals and Systems: Signals and Systems, Alan V. Oppenheim or \href{https://www.dropbox.com/scl/fo/tlh3tzy4d0ejnk4x6qnvm/AKUyFEJCCTc-tMq0AdVXvNo?rlkey=2osp3r8rhxjsya24lwi3xb90y&st=e6f4pntj&dl=0}{my lecture note} (Vietnamese)
-	\item Digital Signals Processing: \href{https://www.dropbox.com/scl/fo/5eu66idzer3iyrulvp3xq/AHpBr6XP5q98s3l-PsMr_C0?rlkey=q6dci4iatdnyhq8z09u05x62d&st=j2e3ur8e&dl=0}{My lecture note} (Vietnamese)
-	\item Control Theory: Control Systems Engineering, Norman S. Nise or \href{https://www.dropbox.com/scl/fo/64u9vd266rvsgfhpyqm1k/AD9BAXfevdA35OOMrNZLs9c?rlkey=yd5vhhycxugzlbklam8rvixda&st=0gqgl8am&dl=0}{my lecture note} (English)
-\end{enumerate}
-I highly suggest that you should read the first part \textbf{without any AI tools} to build physics intuition (I did that too); before diving into the second part of this book, where we "wire" our intuition up with the aid of AI tools. Everything will turn out great as long as we keep trying.
+\indent OK, let's get started. What is Artificial Intelligence? I do not know; and even after writing this book, I still do not know. Is it a super-machine that can answer all our questions? Or is it just a statistical machine, sometime quite silly? But let's clarify a bit; how do we define "intelligence"? And if machines can learn the way humans learn (through patterns and constantly updating neural weights), can machine think?
+\\ \\
+\textit{"Things change, and we can't do nothing about it. Just let it flow, being lighter. Overflowing."}
+\\ \\
+\indent Third year. It is now the summer of second semester of university. This is the time when people usually think about their future careers, my friends around me are all preparing for internships somewhere and starting jobs. And what about me? Perhaps I am dreaming, and I do not want to wake up yet. I am too ignorant to be a theorist (even in my favorite fields like Physics or mathematics), but too dreamy to be a computer engineer (which will be printed on my degree). I am stuck between two worlds, and I do not belong to either.
+\begin{center}
+	\textit{"This could be a good thinking game."}
+\end{center}
+I remember that day. It was a beautiful sunny day, and I was in the university library. Oh, the next test was in two hours, but how could I cram the enormous amount of knowledge taught in two months into just one hour (not to mention the bus waiting time)? My mind was filled with Fujii Kaze's songs; and yeah, another failed test would not a huge problem, after all. I let my mood drift; and then accidentally clicked on a video of Geoffrey Hinton's banquet speech in Nobel Prize award ceremony.
+\begin{center}
+	\textit{"They are no longer science fiction."}
+\end{center}
+This is the first time in my life I have learned that the Artificial Intelligence was initially inspired by Physics. I was incredibly surprised, and felt a little proud and happy. I have finally found the first man on Earth, who truly cared and dedicated his life to pursue the question of how brain works. What is coolest about him is that he applied many tools from Physics to describe his ideas in Biology and Artificial Intelligence. Perhaps if we understand science deeply enough, the boundaries between branches will almost fade and disappear.
+\\ \\
+\indent Back to reality, my life is chaotic and oscillate like a sine wave. If you expect me to be like a superstar, a typical successful figure at university, you will be very disappointed. But I truly love "thinking" from the bottom of my heart. The spirit of thinking and curiosity about everything has driven me to live to this day, to type these lines to you.
+\begin{center}
+	\textit{{"I am never tired of learning new things."}}
+\end{center}
+Currently, we are at the first step in understanding what Artificial Intelligence from a physical perspective. I wrote this book as a very-easy-understand to Statistical Physics (in my own way); and our journey is still very long. Perhaps there is no destination, but that is precisely the meaning of scientific research.
+\begin{center}
+	\textit{"This must be the best thinking game."}
+\end{center}
 \end{document}
 
 
