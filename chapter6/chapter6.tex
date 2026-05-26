@@ -181,7 +181,123 @@ If our system is very huge and contains $N$ magnetic moment vector, then we have
 $$ U=N\overline{E}=-N\mu B\tanh{(\beta \mu B)}=-N\mu B\tanh{\left(\frac{\mu B}{k_{B}T}\right)} $$
 % section Paramagnetism (end)
 \section{Ferromagnetism and Ising Model}\label{sec:ferromagnetism_and_ising_model} % (fold)
+In an ideal paramagnet, magnetic dipoles respond only to the external magnetic field $\vec{B}$ and the dipoles are \textbf{independent}. But in some materials (like iron), these moment vectors \textbf{influence} each other, even in the absence of an external magnetic field. We call that material \textbf{ferromagnetic}. Together, these parallel vector clusters form \textbf{domains} within the ferromagnet. For a very basic material, its vectors can only point up or down, we represent all its state on a square lattice.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{~/PhyAI/chapter6/6_12.png}
+	\end{center}
+	\caption{Represent ferromagnet by using Ising model}\label{fig:6_12}
+\end{figure}
+Let $N$ be the total number of dipoles, and $s_{i}$ be the current state of the $i$th dipole. For convention, $s_{i}=+1$ (vector is pointing up), $s_{i}=-1$ (vector is pointing down). The energy due to the interaction of a pair of neighboring dipoles will be $-\varepsilon$ when they are \textbf{parallel}, and $+\varepsilon$ when they are \textbf{antiparallel}. The total energy of the system from all the \textbf{nearest-neighbor interaction} is:
+$$ U=-\varepsilon\sum_{\{i,j\}} s_{i}s_{j}$$
+The partition function $Z$ is: $$ Z=\sum\exp{(-\beta U)} $$
+\subsection{Analytical Solution in One Dimension}
+Consider a system containing only one neighboring pair, I denote $\uparrow\uparrow$ for parallel state, and $\uparrow\downarrow$ for antiparallel state.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.5\textwidth]{~/PhyAI/chapter6/6_13.png}
+	\end{center}
+	\caption{$Z$ function for only one neighboring pair}\label{fig:6_13}
+\end{figure}
+For a row of $N$ dipoles, we can approx the $Z$ function:
+$$ Z\approx (2\cosh(\beta\varepsilon))^{N}=2^{N}\cosh^{N}{(\beta\varepsilon)} $$
+The average energy of our system is:
+$$ \overline{U}=-\frac{1 }{Z}\frac{\partial Z }{\partial \beta}=-N\varepsilon\tanh{(\beta\varepsilon)} $$
+\subsection{The Mean Field Approximation}
+Obviously, ferromagnet is much complicated than a row of $N$ dipoles. The Ising model now is extended to two, or three dimensions; so we have to develop a new approximation tool to study it.
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{~/PhyAI/chapter6/6_14}
+	\end{center}
+	\caption{An example of $2\times 2$ Ising model}\label{fig:6_14}
+\end{figure}
+I randomly pick a dipole $i$ inside crystal lattice, represent it on a grid with $n$ neighbors around. If the vector $i$ points up (or down), we obtain two energy functions:
+$$ U_{\uparrow}=-\varepsilon\sum_{\text{neighbors}}s_{i}s_{\text{neighbor}}=-\varepsilon n\overline{s} $$
+$$ U_{\downarrow}=-\varepsilon\sum_{\text{neighbors}}s_{i}s_{\text{neighbor}}=\varepsilon n\overline{s} $$
+for $\overline{s}$ is \textbf{the average neighboring states} around dipole $i$.
+The partition function of dipole $i$ is:
+$$ Z_{i}=\sum\exp{(-\beta U)} =2\cosh{(\beta \varepsilon n\overline{s})}$$
+I reuse this result to determine the \textbf{average dipole $i$ state}:
+$$ \overline{s_{i}}=\sum s\mathcal{P}(s)=\frac{1 }{Z_{i}}[(+1)\exp{(\beta \varepsilon n \overline{s})}+(-1)\exp{(-\beta\varepsilon n\overline{s})}]=\tanh{(\beta\varepsilon n\overline{s})} $$
+Here is a subtle insight; if $n$ is very large (dipole $i$ is surrounded by many neighbors), then $\overline{s_{i}}\approx\overline{s}$. Rewriting this relation yields:
+$$ \overline{s}\approx \tanh{(\beta\varepsilon n \overline{s})} $$
+Wow, that is how we roughly approx the average state of any ferromagnetic material.
+\subsection{Metropolis Algorithm}
+Given an Ising model size $N\times N$, we count a total of $2^{N}$ possible states. How can we find the most stable state (or the state in thermal equilibrium)?
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{~/PhyAI/chapter6/6_15.png}
+	\end{center}
+	\caption{Finding the state in thermal equilibrium}\label{fig:6_15}
+\end{figure}
+To make it easier to visualize, I always imagine this phenomenon like placing a small ball on op of the hill (initial state), and no matter what height I place it at, it will always roll back to the bottom (final state). Similarly, for random Ising model in any energy state; its moment vectors always seek to interact internally to find its own thermal equilibrium state. But unlike rolling ball (which can easily be described by a potential energy function), we determine the most probable state of Ising model using the \textbf{Boltzmann factor}:
+$$ \mathcal{P}(s)\propto \exp(-\beta E(s)) $$
+% \usepackage{algorithm,algorithmicx,algpseudocode}
+\begin{algorithm}[H]
+	\floatname{algorithm}{Procedure: Finding the thermal equilibrium state}
+	\algrenewcommand\algorithmicrequire{\textbf{Input: A random $N\times N$ Ising model}}
+	\algrenewcommand\algorithmicensure{\textbf{Output: }}
+	\caption{}\label{alg:1}
+	\begin{algorithmic}[1]
+		\State \text{Generate a random $N\times N$ Ising model}
+		\State \text{Randomly choose a dipole $i$}
+		\If{$\Delta U\leq 0$}
+		\State{\text{Flip dipole $i$}}
+		\Else
+		\State\text{$P$(\text{Flip dipole} $i$)$=\exp{(-\beta \Delta U})$}
+		\EndIf
+		\State\text{Repeat the process}
+	\end{algorithmic}
+\end{algorithm}
+\\To fully understand how it works, I will try to explain using the example of a rolling ball (again). Why  when $\Delta U$ is negative, I can certainly conclude that our ball will roll downward (or dipole $i$ should be flipped)? The probability of rolling down is:
+$$ P(1\to 2)=\frac{\mathcal{P}(s_{2})}{\mathcal{P}(s_{1})}=\exp(-\beta\Delta U)>1 $$
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.65\textwidth]{~/PhyAI/chapter6/6_16.png}
+	\end{center}
+	\caption{A ball is placed on the top of the hill}\label{fig:6_16}
+\end{figure}
+Otherwise, when $\Delta U$ is positive, the situation is reversed. From the algorithm, the probability of our ball rolling upward is very small, \textbf{but not zero}:
+$$ P(2\to 1)=\frac{\mathcal{P}(s_{1})}{\mathcal{P}(s_{2})}=\exp(-\beta\Delta U) $$
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{~/PhyAI/chapter6/6_17.png}
+	\end{center}
+	\caption{A ball is placed on the bottom of the hill}\label{fig:6_17}
+\end{figure}
+My basic example confirm that this procedure is in perfect agreement with Boltzmann distribution. Here is the algorithm run for actual Ising model:
+\begin{algorithm}[H]
+	\floatname{algorithm}{Metropolis Algorithm: Searching the equilibrium state of Ising model}
+	\algrenewcommand\algorithmicrequire{\textbf{Input: A random $N\times N$ Ising model}}
+	\algrenewcommand\algorithmicensure{\textbf{Output: }}
+	\caption{}\label{alg:2}
+	\begin{algorithmic}[1]
+		\State \text{Generate a random $N\times N$ Ising model}
+		\For {$\text{interation}=1$ \text{to} $\text{interation}=10000$}
+		\State \text{Randomly choose a dipole $(i,j)$}
+		\State \text{$U= $\Call{DeltaU}{$i,j$}}
+		\If {$U\leq 0$}
+		\State{Flip dipole $(i,j)$}
+		\Else
+		\If{$\text{rand}(0,1)<\exp(-\beta U)$} \Comment{Monte Carlo Simulation}
+		\State{Flip dipole $(i,j)$}
+		\EndIf
+		\EndIf
+		\EndFor
+		\Function{DeltaU}{$i,j$}
+		\State$U=2*\text{state}(i,j)*(\text{top}+\text{bottom}+\text{left}+\text{right})$
+		\State{\text{Return}} $U$
+		\EndFunction
+	\end{algorithmic}
+\end{algorithm}
+\begin{figure}[H]
+	\begin{center}
+		\includegraphics[width=0.85\textwidth]{~/PhyAI/chapter6/6_19.png}
+	\end{center}
+	\caption{Metropolis algorithm illustration}\label{fig:6_19}
+\end{figure}
 
 % section Ferromagnetism and Ising Model (end)
 % chapter Magnetism of Matters (end) 
+
 \end{document}
