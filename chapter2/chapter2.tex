@@ -1,14 +1,14 @@
 \documentclass[~/PhyAI/phyai.tex]{subfiles}
 \begin{document}
 \chapter{The Second Law of Thermodynamics}\label{chap:the_second_law_of_thermodynamics} % (fold)
-Ludwig Boltzmann, who spent much of his life studying statistical mechanics, died in $1906$, by his own hand. Paul Ehrenfest, carrying on the work, died similarly in $1933$. Now it is our turn to study statistical mechanics\footnote[1]{Very famous quote that I found on the internet.}.
+\epigraph{Ludwig Boltzmann, who spent much of his life studying statistical mechanics, died in $1906$, by his own hand. Paul Ehrenfest, carrying on the work, died similarly in $1933$. Now it is our turn to study statistical mechanics.}{\textit{David L.Goodstein}}
 \section{Microstate and Macrostate}\label{sec:microstate_and_macrostate} % (fold)
-In the first chapter, we used an ideal statistical model to develop the kinetic theory of gases and obtained some very useful results that formed the basis of the first law of thermodynamics. Now, we continue to use our knowledge of probability and statistics to answer our question: "Why does heat\footnote[2]{Heat in this context, is a \textbf{positive quantity.}} flow from high to low temperatures, but not in the reverse direction?".
-\\ \\ \\ \indent Let's do some combinatorics here. Imagine you have a fair coin, and you flip that coin $3$ times. You define an event $E$ as "Landing $2$ heads". How many sample points are there inside the subset $E$?
+In the first chapter, we used an ideal statistical model to develop the kinetic theory of gases and obtained some very useful results that formed the basis of the first law of thermodynamics. Now, we continue to use our knowledge of probability and statistics to answer our question: "Why does heat flow from high to low temperatures, but not in the reverse direction?".
+\\ \indent Let's do some combinatorics here. Imagine you have a fair coin, and you flip that coin $3$ times. You define an event $E$ as "Landing $2$ heads". How many sample points are there inside the subset $E$?
 $$ E=\{THH,HTH,THH\} \Rightarrow n(E)=\binom{3}{2}=3$$
 How many possible outcomes are there inside the sample space $\Omega$ (or $S$)?
 $$ \Omega=\{TTT,TTH,THT,THH,HHH,HHT,HTH,HHH\}\Rightarrow n(\Omega)=2^{3}=8$$
-The event $E$ is called as the \textbf{macrostate} of the system, and each of its elements is called \textbf{microstate}. For example, the macrostate "Landing $2$ heads" has $3$ microstates, one of them is $THH$; the number of microstates corresponding to a macrostate is called the \textbf{multiplicity}. Now I will change the notation here, I use the symbol $\Omega$ to denote \textbf{multiplicity}\footnote[3]{You can relate this new convention to the \textbf{random variable} concept in math books.}.
+The event $E$ is called as the \textbf{macrostate} of the system, and each of its elements is called \textbf{microstate}. For example, the macrostate "Landing $2$ heads" has $3$ microstates, one of them is $THH$; the number of microstates corresponding to a macrostate is called the \textbf{multiplicity}. Now I will change the notation here, I use the symbol $\Omega$ to denote \textbf{multiplicity}\footnote[1]{You can relate this new convention to the \textbf{random variable} concept in math books.}.
 Generally, the multiplicity of the macrostate "Landing $n$ heads" when flipping a coin $N$ times is:
 \begin{equation*}
 	\Omega(N,n)=\binom{N}{n}
@@ -22,7 +22,7 @@ Actually, the Einstein model is quite difficult for me to fully understand it in
 	\end{center}
 	\caption{How many configurations satisfy $3$ bonds containing $4$ units of energy?}\label{fig:2_1}
 \end{figure}
-A solid contains $N$ chemical bonds\footnote[1]{I think it is more accurate to use term "chemical bonds", rather than "oscillators" here.}\footnote[2]{As of the time of writing, I still do not understand why solids have $6$ degrees of freedom. Atoms in a crystal lattice barely move, so logically, their kinetic energy should be zero, and $f=3$ is simply due to potential energy stored inside the ionic bonds?}, and store a total of $q$ units of energy. The multiplicity is simply the number of \textbf{non-negative} solutions of this equation:
+A solid contains $N$ chemical bonds\footnote[1]{I think it is more accurate to use term "chemical bonds", rather than "oscillators" here.}, and store a total of $q$ units of energy. The multiplicity is simply the number of \textbf{non-negative} solutions of this equation:
 \begin{equation*}
 	x_{1}+x_{2}+\cdots+x_{N-1}+x_{N}=q
 \end{equation*}
@@ -103,7 +103,7 @@ The problem is, $N$ and $q$ are always very large numbers. For example, in $1$ g
 		\end{split}
 	\end{equation*}
 \end{proof}
-Let's apply our previous results to explore a very cool phenomenon. I have an \textbf{interacting system}, which consists $2$ Einstein solids. I call them $A$ and $B$; solid $A$ contains $2$ atoms and solid $B$ contains $3$ atoms. From the simple cube crystal structure, which I drew above, we know that $N_{A}=6$ and $N_{B}=9$ chemical bonds\footnote[1]{In practical, I think we should determine the number of moles first, then search for the actual crystal structure. Cube is just the simplest case.}. You measure the system's \textbf{temperature} through the insulation box, and obtain the total \textbf{internal energy} result $q=q_{A}+q_{B}=8$ (units of energy)\footnote[2]{This is just a very ideal model experiment.}. How is the energy distributed inside the solid $A$ or $B$? I think picking them out of the box might be not a good idea, since they can immediately interact with the outside environment.
+Let's apply our previous results to explore a very cool phenomenon. I have an \textbf{interacting system}, which consists $2$ Einstein solids. I call them $A$ and $B$; solid $A$ contains $2$ atoms and solid $B$ contains $3$ atoms. From the simple cube crystal structure, which I drew above, we know that $N_{A}=6$ and $N_{B}=9$ chemical bonds. You measure the system's \textbf{temperature} through the insulation box, and obtain the total \textbf{internal energy} result $q=q_{A}+q_{B}=8$ (units of energy). How is the energy distributed inside the solid $A$ or $B$? I think picking them out of the box might be not a good idea, since they can immediately interact with the outside environment.
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.70\textwidth]{~/PhyAI/chapter2/2_3.png}
@@ -227,7 +227,7 @@ $$ \frac{q_{A} }{N_{A}}=\frac{q_{B}}{N_{B}}\Rightarrow q_{A}=3.33.10^{5},\; q_{B
 	\end{equation*}
 	So, there is no way $E_{2}$ could happen, compared to $E_{1}$.
 \end{exmp}
-After considering $3$ simple cases of Einstein solids, you can see that equilibrium state is reached when energy is evenly distributed\footnote[1]{I still can not prove the general result mathematically yet, as it is quite difficult. You could try proving the local maxima of $\Omega_{AB}$ is equilibrium state value: $$ \frac{q_{A}}{N_{A}}=\frac{q_{B}}{N_{B}} $$ A special case where $q>>N$ and $N_{A}=N_{B}=N$ is proved in section 2.4, "An Introduction to Thermal Physics", Daniel V. Schroeder.} within solids $A$ and $B$. If we assume the initial internal energy of solid $A$ is $q_{A}=0$ and solid $B$ is $q_{B}=q$, then very quickly the energy is \textbf{well-distributed} due to multiplicities. Solid $A$ receives the energy from solid $B$, and solid $B$ transfers its energy to solid $A$; until they both reach the equilibrium state. Since internal energy is directly proportional to temperature, heat will be transferred from the higher temperature object (solid $B$) to the lower temperature object (solid $A$). This is a very convincing answer for our previous question from previous chapter!
+After considering $3$ simple cases of Einstein solids, you can see that equilibrium state is reached when energy is evenly distributed within solids $A$ and $B$. If we assume the initial internal energy of solid $A$ is $q_{A}=0$ and solid $B$ is $q_{B}=q$, then very quickly the energy is \textbf{well-distributed} due to multiplicities. Solid $A$ receives the energy from solid $B$, and solid $B$ transfers its energy to solid $A$; until they both reach the equilibrium state. Since internal energy is directly proportional to temperature, heat will be transferred from the higher temperature object (solid $B$) to the lower temperature object (solid $A$). This is a very convincing answer for our previous question from previous chapter!
 \begin{theorem}[The Second Law of Thermodynamics]
 	\label{The Second Law of Thermodynamics}
 	Multiplicity tends to increase; and any large system in equilibrium will be found in the macrostate with the greatest multiplicity.
@@ -236,7 +236,7 @@ After considering $3$ simple cases of Einstein solids, you can see that equilibr
 	\textbf{Statistically}, heat flows from the higher temperature object to the lower temperature object, and never in reverse.
 	\label{Heat flowing direction}
 \end{corollary}
-As the examples above have shown, when $(q, N)$ are very large numbers, it is more convenient to deal with $\ln\Omega\footnote[2]{From now on, $\Omega$ is denoted as the short form for $\Omega(N,q)$.}$ than $\Omega$ itself. Now we define a new quantity, called \textbf{entropy}, to scale the multiplicity $\ln\Omega$ down, and assign it with a physical unit.
+As the examples above have shown, when $(q, N)$ are very large numbers, it is more convenient to deal with $\ln\Omega$ than $\Omega$ itself. Now we define a new quantity, called \textbf{entropy}, to scale the multiplicity $\ln\Omega$ down, and assign it with a physical unit.
 \begin{definition}[Entropy Definition]
 	Entropy is defined as: $$ S=k_{B}\ln\Omega \quad(\text{J/K})$$
 \end{definition}
@@ -450,14 +450,14 @@ For monatomic gas case (as we discussed above) like $\ce{He}$, $f$ is equal $3$;
 	$$ S=k_{B}\ln{\Omega_{N}}\approx Nk_{B}\left[\frac{5}{2}+\ln \left(\frac{V}{N} \left(\frac{4\pi mU}{3Nh^{2}}\right)^{3/2}\right)\right] $$
 \end{proof}
 \section{Entropy of Interacting Systems}
-From the previous section, if you look carefully at our calculated tables, you will see the tendency of \textbf{increasing entropy} in case of $2$ Einstein solids interacting system.\footnote[1]{I listed the three main formulas for entropy in Einstein solid model in subsection ~\ref{sub: n and q are relatively small} and ~\ref{sub:_n_and_q_are_large_values}. For a deeper understanding of energy flow, you should try doing the numerical examples of calculations yourself to see it more clearly.}
+From the previous section, if you look carefully at our calculated tables, you will see the tendency of \textbf{increasing entropy} in case of $2$ Einstein solids interacting system.\footnote[1]{I listed the three main formulas for entropy in Einstein solid model in Subsection ~\ref{sub: n and q are relatively small} and ~\ref{sub:_n_and_q_are_large_values}. For a deeper understanding of energy flow, you should try doing the numerical examples of calculations yourself to see it more clearly.}
 \begin{figure}[H]
 	\begin{center}
 		\includegraphics[width=0.4\textwidth]{~/PhyAI/chapter2/2_9.png}
 	\end{center}
 	\caption{The tendency of increasing entropy graph}\label{fig:2_9}
 \end{figure}
-Now I will prove that this graph has only one local maxima in case of our system is at a high temperature, that is the most common and realistic case. The low temperature case can also be proven by the same method here\footnote[1]{As I said before, I still can not prove for the general case.}. We already knew that:
+Now I will prove that this graph has only one local maxima in case of our system is at a high temperature, that is the most common and realistic case. The low temperature case can also be proven by the same method here. We already knew that:
 $$ S_{AB}=S_{A}+S_{B}=k_{B}\ln\Omega_{A}+k_{B}\ln\Omega_{B}=k_{B}\left(N_{A}\ln{\frac{eq_{A}}{N_{A}}}+N_{B}\ln{\frac{eq_{B}}{N_{B}}}\right) $$
 We will show that this function $S_{AB}(q_{A},q_{B})$ has only one local maxima by using two methods: examining single variable function and Lagrange multiplier. Let's begin with the easier one:
 \begin{equation*}

@@ -1,8 +1,8 @@
 \documentclass[~/PhyAI/phyai.tex]{subfiles}
 \begin{document}
 \chapter{The Third Law of Thermodynamics}\label{chap:the_third_law_of_thermodynamics} % (fold)
-Nobody knows what entropy really
-is, so in any discussion you will always have an advantage.\footnote[1]{A quote from John von Neumann, when he discussed the idea of entropy with Claude Shannon. I have heard this term is also used in information theory, but that is not our concern here.}
+\epigraph{Nobody knows what entropy really
+	is, so in any discussion you will always have an advantage.}{\textit{John von Neumann to Claude Shannon}}
 \section{The Meaning of Entropy}
 From the previous chapter, we have been working with the term "entropy" in various situations: solids, ideal gases; but what exactly is entropy? Unlike other quantities such as volume ($V$), pressure ($P$), number of particles ($N$),...; it is not so easy to imagine an abstract and "invisible" thing like entropy ($S$). In this section, we discuss  an intuitive way of understanding entropy, without relying on formulas. Let's forget everything you have learned so far, and decorate a blank wall with a few pictures. Now I give you $5$ landscape pictures, and your mission is sticking them on my wall.
 \begin{figure}[H]
@@ -134,8 +134,8 @@ $$ \frac{\partial S_{A} }{\partial q_{A}}=\frac{\partial S_{B}}{\partial q_{B}}\
 	$$\frac{1 }{T}=\left(\frac{\partial S }{\partial U}\right)_{N,V}\; (1/K) $$
 \end{definition}
 We now eventually understood why the unit of entropy is (J/K) (thanks to the unit of $k_{B}$ constant). Plugging it to the definition above, the energy part (J) disappears, so only (1/K) left.
-\section{Proof of Equipartition Theorem}\label{sec:proof_of_equipartition_theorem} % (fold)
-In this section, we will provide a simple proof of equipartition theorem (Theorem ~\ref{The Equipartition Theorem}) in the two simplest cases: Einstein solid and ideal monatomic gases. Let's begin with the entropy formula of a solid at high temperature (Subsection ~\ref{sub:_n_and_q_are_large_values}):
+\\
+\indent Now I can derive the equipartition theorem (Theorem ~\ref{The Equipartition Theorem}) for the two simplest cases: Einstein solid and ideal monatomic gases. Let's begin with the entropy formula of a solid at high temperature (Subsection ~\ref{sub:_n_and_q_are_large_values}):
 $$ S=k_{B}N \ln{\frac{eq }{N}}=k_{B}N \ln{\frac{eU }{\varepsilon N}}\Rightarrow \frac{1 }{T}=\left(\frac{\partial S }{\partial U}\right)_{N,V}=\frac{k_{B}N }{U}\Rightarrow U=k_{B}NT $$
 Is there any conflict here? Since we already know that any solid has $6$ degrees of freedom, its internal energy must be: $$ U=\frac{f }{2}k_{B}NT=3k_{B}NT\quad(\text{Corollary ~\ref{Total Internal Energy}})$$
 Here is the subtle observation, the key difference is how the quantity $N$ defined:
@@ -338,7 +338,7 @@ The Carnot cycle is the simplest thermodynamics process capable of producing wor
 	\end{center}
 	\caption{A very simple Carnot cycle}\label{fig:3_8}
 \end{figure}
-A very interesting consequence of the second law is that, since a perfect Carnot engine can not exist, the Carnot cycle is, in essence, \textbf{irreversible}\footnote[1]{Since this is not our main topic, I briefly introduce some important concepts here. For more details (or explanations) regarding the relationship between entropy and engines, you should refer to sections 20-2, 20-3, Halliday textbook; or chapter 4, "An Introduction to Thermal Physics", Daniel V. Schroeder.}.
+A very interesting consequence of the second law is that, since a perfect Carnot engine can not exist, the Carnot cycle is, in essence, \textbf{irreversible}\footnote[1]{Since this is not our main topic, I briefly introduce some important concepts here. For more details (or explanations) regarding the relationship between entropy and engines, you should refer to sections 20-2, 20-3, "Fundamentals of Physics" or chapter 4, "An Introduction to Thermal Physics".}.
 % section Heat Engine (end)
 % chapter The Third Law of Thermodynamics (end)
 \end{document}

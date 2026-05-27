@@ -57,14 +57,7 @@ One classic example of pressure is pressing your hand against a small piston fil
 	\end{center}
 	\caption{Pressing a small piston}\label{fig:1.4}
 \end{figure}
-After understanding what volume and pressure are, now it is time to answer our previous question from Chapter ~\ref{chap:the_zeroth_law_of_thermodynamics}, what is Kelvin scale? Imagine you have an elastic balloon, which can be easily stretched. Of course, this balloon is filled fully with gas.
-\begin{figure}[H]
-	\begin{center}
-		\includegraphics[width=0.8\textwidth]{~/PhyAI/chapter1/1_4.png}
-	\end{center}
-	\caption{For every degree decrease, the volume $V/273$ decreases correspondingly}\label{fig:1.5}
-\end{figure}
-But because the volume quantity can not go below zero, if the temperature reaches $(T-273)^{\circ}$C, and continues to decrease, the volume will remain at zero. Alternatively, if you hold the volume of the gas fixed, then its pressure will approach zero as the temperature approaches $(T-273)^{\circ}$C. The special value $-273^{\circ}$C is called \textbf{absolute zero}\footnote[1]{This is the basic idea of how absolute zero was discovered.}, and defines the initial point of the \textbf{absolute temperature scale}, named after Lord Kelvin\footnote[2]{How about holding both the volume and pressure of the gas fixed, and decrease temperature?}.
+After understanding what volume and pressure are, now it is time to answer our previous question from Chapter ~\ref{chap:the_zeroth_law_of_thermodynamics}, what is Kelvin scale? Imagine you have an elastic balloon, which can be easily stretched. But because the volume quantity can not go below zero, if the temperature reaches $-273^{\circ}$C, and continues to decrease, the volume will remain at zero. Alternatively, if you hold the volume of the gas fixed, then its pressure will approach zero as the temperature approaches $-273^{\circ}$C. The special value $-273^{\circ}$C is called \textbf{absolute zero}\footnote[1]{This is the basic idea of how absolute zero was discovered.}, and defines the initial point of the \textbf{absolute temperature scale}, named after Lord Kelvin.
 \begin{definition}[Definition of Kelvin Scale]
 	\label{Definition of Kelvin Scale}
 	The Kelvin scale is an absolute temperature scale that starts at the lowest possible temperature, taken to be $0$K:
@@ -86,7 +79,7 @@ This section does not have much to discuss beyond introducing an important law o
 \end{equation*}
 If we define $N_{A}=6.023.10^{23}$ (mol$^{-1}$) is Avogadro's number, then the law can be rewritten as:
 \begin{equation*}
-	PV=nRT=\frac{N }{N_{A}}RT=N\mathbf{k_{B}}T
+	PV=nRT=\frac{N }{N_{A}}RT=Nk_{B}T
 \end{equation*}
 The constant $k_{B}$ is called \textbf{Boltzmann's constant}, it plays vital role in thermodynamics:
 \begin{equation*}
@@ -166,13 +159,6 @@ Most polyatomic molecules can rotate about all three axes, so if our gas is poly
 	\caption{Degrees of freedom illustration}\label{fig:1.6}
 \end{figure}
 Counting degrees of freedom of liquid is more complicated than gas or solid, since the intermolecular potential energies are not quadratic functions.
-\begin{exmp}
-	Calculate the internal energy of a bottle filled with $\ce{H2}$ at normal room temperature.
-\end{exmp}
-Assuming the normal room condition are $P=1$ (atm), $T_{C}=25^{\circ}$C and the bottle's volume is $V=500$ (ml). Using the idea gas law, we have:
-$$ PV=Nk_{B}T\Rightarrow N=\frac{PV }{k_{B}T} $$
-Applying Corollary ~\ref{Total Internal Energy}, we obtain:
-$$ U=N.f.\frac{k_{B}T }{2}=\frac{PV }{k_{B}T}.f.\frac{k_{B}T }{2}=\frac{PVf }{2}=\frac{101325.0.5.10^{-3}.5}{2}=126.65\text{ (J)} $$
 % section The Equipartition Theorem (end)
 \section{The First Law of Thermodynamics}\label{sec:the_first_law_of_thermodynamics} % (fold)
 \subsection{Heat and Work}\label{Heat and Work}
@@ -183,14 +169,14 @@ Consider a piston filled with ideal gas\footnote[1]{Actually, you do not need to
 	\end{center}
 	\caption{Heat $Q$ is converting to work $W$ to push the piston away}\label{fig:1.7}
 \end{figure}
-I think we are all familiar with the definition of work in Classical Mechanics course: $$ W=\int_{\overrightarrow{r_{i}}}^{\overrightarrow{r_{f}}}\overrightarrow{F}d\overrightarrow{r} \text{ (J)}$$
+I think we are all familiar with the definition of work in Classical Mechanics course: $$ W=\int_{\vec{r_{i}}}^{\vec{r_{f}}}\vec{F}d\vec{r} \text{ (J)}$$
 Both work $W$ and heat $Q$ are $2$ types \textbf{energy}; but they have a slight but subtle difference:
 \begin{itemize}
 	\item Heat is defined as any \textbf{spontaneously flow of energy} from one object to another. As we discussed in the previous chapter, heat tends to flow from the higher temperature object to the lower, but \textbf{not the reverse direction}. We have not known the reason yet.
 	\item Work is defined as any \textbf{other transfer of energy into or out of a system} (not spontaneous).
 \end{itemize}
 Notice that both heat and work refer to energy in \textbf{transmit}. It is meaningless to ask how much heat or work inside the system. We can only talk about how much heat or work have entered or left the system. According to the law of conservation of energy, energy can only be transformed or transferred from one to another. If we use the symbols $Q$ and $W$ to represent the amounts of energy that \textbf{enter} a system as heat and work; $U$ as the internal energy of system, then we can confidently state that:
-\begin{center}\textit{External energy will be transformed into an increase in internal energy.}\end{center} Or written as an equation, this statement is: $$ \Delta U=Q+W\footnote[1]{Many other textbooks, including Halliday, define $W$ as work that \textbf{left} a system, so the sign of $W$ is negative: $$ \Delta U=Q-W $$ This convention works very great when solving heat engine or heat cycle problems.} $$
+\begin{center}\textit{External energy will be transformed into an increase in internal energy.}\end{center} Or written as an equation, this statement is: $$ \Delta U=Q+W\footnote[1]{Many other textbooks define $W$ as work that \textbf{left} a system, so the sign of $W$ is negative: $$ \Delta U=Q-W $$ This convention works very great when solving heat engine or heat cycle problems.} $$
 \begin{theorem}[The First Law of Thermodynamics]
 	The increment in the internal energy is \textbf{equal} to the difference between heat accumulated by the system and the thermodynamics work done by it. $$ \Delta U=Q-W \footnote[2]{I read this statement from \href{https://en.wikipedia.org/wiki/First_law_of_thermodynamics}{Wikipedia}, and I think this is the best explanation for the first law.}$$
 \end{theorem}
@@ -203,9 +189,9 @@ In this scope of this book, we will stick to the convention that I have mentione
 	\caption{Piston is being compressed by force}\label{fig:1_8}
 \end{figure}
 Using the definition of work, we obtain:
-$$ W=\int_{\overrightarrow{r_{i}}}^{\overrightarrow{r_{f}}}\overrightarrow{F}d\overrightarrow{r} =\int_{x_{i}}^{x_{f}}\overrightarrow{F}d\overrightarrow{x}=\int_{x_{i}}^{x_{f}}F\cos(\overrightarrow{F},d\overrightarrow{x})dx\text{ (Moving along $x$-axis)}$$
+$$ W=\int_{\vec{r_{i}}}^{\vec{r_{f}}}\vec{F}d\vec{r} =\int_{x_{i}}^{x_{f}}\vec{F}d\vec{x}=\int_{x_{i}}^{x_{f}}F\cos(\vec{F},d\vec{x})dx\text{ (Moving along $x$-axis)}$$
 If we define $W_{\text{left}}$ as the work that left our piston, then:
-$$ W_{\text{entered}}=-W_{\text{left}}=-\int_{x_{i} }^{x_{f}}F\cos(\overrightarrow{F},d\overrightarrow{x})dx=-\int_{x_{i}}^{x_{f}}Fdx=-\int_{x_{i}}^{x_{f}}PAdx=-\int_{V_{i}}^{V_{f}}PdV    $$
+$$ W_{\text{entered}}=-W_{\text{left}}=-\int_{x_{i} }^{x_{f}}F\cos(\vec{F},d\vec{x})dx=-\int_{x_{i}}^{x_{f}}Fdx=-\int_{x_{i}}^{x_{f}}PAdx=-\int_{V_{i}}^{V_{f}}PdV    $$
 For convenience, $W$ denotes the work that \textbf{entered} system:
 $$ W=-\int_{V_{i}}^{V_{f}}PdV  $$
 Within the scope of this subsection, I will list $4$ main special thermodynamics processes, without going deeply in details.
@@ -230,7 +216,7 @@ $$ W=-\int_{V_{i}}^{V_{f}}PdV=-\int_{V_{i}}^{V_{f}}\frac{Nk_{B}T }{V}dV   =Nk_{B
 According to the first law: $$ \Delta U=Q+W=Q-\int_{V_{i}}^{V_{f}}PdV=Q\text{ (no work is done)}  $$
 Recall the definition of heat capacity from Definition ~\ref{Heat Capacity Definition}:
 $$ C=\frac{Q }{\Delta T}=\frac{\Delta U-W }{\Delta T} $$
-We define a new quantity, is called \textbf{heat capacity at constant volume}, denoted $C_{V}\footnote[1]{Many other textbooks, including Halliday, define the quantity $C_{V}$ as \textbf{molar specific heat at constant volume: $$ C_{V}=\frac{Q }{n\Delta T} $$}There is no conflict here, this convention works very well in solving physics exercises; however the capital $C$ might be confused with the definition of thermal capacity, as we discussed above. }\footnote[2]{I am following the notation convention from "An Introduction to Thermal Physics", written by Daniel V. Schroeder.}$:
+We define a new quantity, is called \textbf{heat capacity at constant volume}, denoted $C_{V}\footnote[1]{Many other textbooks define the quantity $C_{V}$ as \textbf{molar specific heat at constant volume: $$ C_{V}=\frac{Q }{n\Delta T} $$}There is no conflict here, this convention works very well in solving physics exercises; however the capital $C$ might be confused with the definition of thermal capacity, as we discussed above. }$:
 $$ C_{V}=\frac{\Delta U-W }{\Delta T}=\frac{\Delta U }{\Delta T}=\left(\frac{\partial U }{\partial T}\right)_{V}=\frac{Nk_{B}f }{2} $$
 $C_{V}$ is so convenient when we want to calculate the amount of internal energy increasing ($\Delta U$), or heat $Q$ entering the system:
 $$ \Delta U=Q=C_{V}\Delta T=\frac{Nk_{B}f\Delta T }{2} $$
@@ -282,7 +268,7 @@ Using Corollary ~\ref{Total Internal Energy}, we can see that:
 		\Leftrightarrow T^{f/2}V&=\text{constant}\\
 	\end{split}
 \end{equation*}
-Here is a very tricky step\footnote[1]{If you find this proof very unnature, so do I. I recalculated the power factor $2/f$ from the solution, and it is very difficult to find on the first approach to the problem.}\footnote[2]{If you are still not satisfied, I recommend that you should read the proof in section 19-9, Halliday textbook.}, power both sides by $2/f$:
+Power both sides by $2/f$:
 \begin{equation*}
 	(T^{f/2}V)^{2/f}=TV^{2/f}=\frac{PV }{Nk}V^{2/f}=\text{constant}\Rightarrow PV^{(f+2)/f}=\text{constant}
 \end{equation*}

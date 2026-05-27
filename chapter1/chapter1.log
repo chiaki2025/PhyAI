@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  11 MAY 2026 20:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  27 MAY 2026 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,154 +1085,10 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Reference `chap:the_zeroth_law_of_thermodynamics' on page  undef
 ined on input line 60.
 
-
-! LaTeX Error: Environment figure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.61 \begin{figure}
-                   [H]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.63 		\includegraphics
-                       [width=0.8\textwidth]{~/PhyAI/chapter1/1_4.png}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.63 		\includegraphics[width=0.8\textwidth]
-                                            {~/PhyAI/chapter1/1_4.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.63 		\includegraphics[width=0.8\textwidth]
-                                            {~/PhyAI/chapter1/1_4.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.63 ...s[width=0.8\textwidth]{~/PhyAI/chapter1/1_
-                                                  4.png}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.63 ...h=0.8\textwidth]{~/PhyAI/chapter1/1_4.png}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Command \end{center} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 	\end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 	\end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.64 	\end{center}
-                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.64 	\end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.64 	\end{center}
-                  
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.65 	\caption
-              {For every degree decrease, the volume $V/273$ decreases corre...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.66 \end{figure}
-                 
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.67 ...idea of how absolute zero was discovered.}
+l.60 ...idea of how absolute zero was discovered.}
                                                   , and defines the initial ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1243,30 +1099,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.67 ...idea of how absolute zero was discovered.}
+l.60 ...idea of how absolute zero was discovered.}
                                                   , and defines the initial ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.67 ... the gas fixed, and decrease temperature?}
-                                                  .
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.67 ... the gas fixed, and decrease temperature?}
-                                                  .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1280,7 +1114,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \begin{definition}
+l.61 \begin{definition}
                        [Definition of Kelvin Scale]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1293,7 +1127,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.71 	\begin{equation*}
+l.64 	\begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1302,13 +1136,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.72 		T_
+l.65 		T_
          {K}=T_{C}+273^{\circ}C\text{ (K)}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.72 		T_{K}=T_{C}+273^{\circ}C\text
+l.65 		T_{K}=T_{C}+273^{\circ}C\text
                                     { (K)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1323,7 +1157,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 	\end{equation*}
+l.66 	\end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1332,7 +1166,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.73 	\end{equation*}
+l.66 	\end{equation*}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1347,14 +1181,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74 \end{definition}
+l.67 \end{definition}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.76 \section
+l.69 \section
              {The Ideal Gas Law}\label{sec:the_ideal_gas_law} % (fold)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1369,7 +1203,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.78 \begin{theorem}
+l.71 \begin{theorem}
                     [The Ideal Gas Law]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1382,7 +1216,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.82 \end{theorem}
+l.75 \end{theorem}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1395,14 +1229,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84 \begin{equation*}
+l.77 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.85 	R=8.31\text
+l.78 	R=8.31\text
                  { (J/mol.K)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1417,7 +1251,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86 \end{equation*}
+l.79 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1430,7 +1264,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.88 \begin{equation*}
+l.81 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1439,16 +1273,16 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.89 	PV=nRT=\frac{N }{N_{A}}
-                             RT=N\mathbf{k_{B}}T
+l.82 	PV=nRT=\frac{N }{N_{A}}
+                             RT=Nk_{B}T
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
 \frac  #1#2->{\begingroup #1\endgroup \over #2}
                                                
-l.89 	PV=nRT=\frac{N }{N_{A}}
-                             RT=N\mathbf{k_{B}}T
+l.82 	PV=nRT=\frac{N }{N_{A}}
+                             RT=Nk_{B}T
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -1462,7 +1296,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.90 \end{equation*}
+l.83 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1471,7 +1305,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.90 \end{equation*}
+l.83 \end{equation*}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1482,7 +1316,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.90 \end{equation*}
+l.83 \end{equation*}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1497,7 +1331,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.92 \begin{equation*}
+l.85 \begin{equation*}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1506,13 +1340,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.93 	k_
+l.86 	k_
         {B}=\frac{R }{N_{A}}=1.381.10^{-23}\text{ (J/K)}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.93 	k_{B}=\frac{R }{N_{A}}=1.381.10^{-23}\text
+l.86 	k_{B}=\frac{R }{N_{A}}=1.381.10^{-23}\text
                                                 { (J/K)}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1527,7 +1361,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94 \end{equation*}
+l.87 \end{equation*}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1536,7 +1370,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.94 \end{equation*}
+l.87 \end{equation*}
                     
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1545,7 +1379,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.96 \section
+l.89 \section
              {The Kinetic Theory of Gases}\label{sec:the_kinetic_theory_of_g...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1560,15 +1394,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \begin{figure}
+l.91 \begin{figure}
                    [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.100 		\includegraphics
-                        [width=0.5\textwidth]{~/PhyAI/chapter1/1_5.png}
+l.93 		\includegraphics
+                       [width=0.5\textwidth]{~/PhyAI/chapter1/1_5.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1578,8 +1412,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.100 		\includegraphics[width=0.5\textwidth]
-                                             {~/PhyAI/chapter1/1_5.png}
+l.93 		\includegraphics[width=0.5\textwidth]
+                                            {~/PhyAI/chapter1/1_5.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -1587,8 +1421,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.100 		\includegraphics[width=0.5\textwidth]
-                                             {~/PhyAI/chapter1/1_5.png}
+l.93 		\includegraphics[width=0.5\textwidth]
+                                            {~/PhyAI/chapter1/1_5.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -1599,13 +1433,13 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.100 ...[width=0.5\textwidth]{~/PhyAI/chapter1/1_
+l.93 ...s[width=0.5\textwidth]{~/PhyAI/chapter1/1_
                                                   5.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.100 ...=0.5\textwidth]{~/PhyAI/chapter1/1_5.png}
+l.93 ...h=0.5\textwidth]{~/PhyAI/chapter1/1_5.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1620,8 +1454,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 	\end{center}
-                   
+l.94 	\end{center}
+                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1632,8 +1466,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 	\end{center}
-                   
+l.94 	\end{center}
+                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1644,16 +1478,16 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 	\end{center}
-                   
+l.94 	\end{center}
+                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.101 	\end{center}
-                   
+l.94 	\end{center}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1663,8 +1497,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.101 	\end{center}
-                   
+l.94 	\end{center}
+                  
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1678,8 +1512,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.102 	\caption
-               {An oversimplified model of an ideal gas}\label{fig:1_5}
+l.95 	\caption
+              {An oversimplified model of an ideal gas}\label{fig:1_5}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1690,8 +1524,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 \end{figure}
-                  
+l.96 \end{figure}
+                 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1703,7 +1537,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.111 \begin{equation*}
+l.104 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1716,7 +1550,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 	\begin{split}
+l.105 	\begin{split}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1725,13 +1559,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.113 		\overline
+l.106 		\overline
                  {P}_{\text{x, on piston}}&=\frac{\overline{F}_{\text{x, on ...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.113 		\overline{P}_{\text
+l.106 		\overline{P}_{\text
                            {x, on piston}}&=\frac{\overline{F}_{\text{x, on ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1740,7 +1574,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.113 		\overline{P}_{\text{x, on piston}}&
+l.106 		\overline{P}_{\text{x, on piston}}&
                                            =\frac{\overline{F}_{\text{x, on ...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1752,7 +1586,7 @@ might try typing `S' now just to see what is salvageable.
 ! Undefined control sequence.
 <argument> \overline {F}_{\text 
                                 {x, on piston}} 
-l.113 ...c{\overline{F}_{\text{x, on piston}} }{A}
+l.106 ...c{\overline{F}_{\text{x, on piston}} }{A}
                                                   =-\frac{\overline{F}_{\tex...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1763,7 +1597,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> \overline {F}_{\text 
                                 {x, on particle}} 
-l.113 ...\overline{F}_{\text{x, on particle}} }{A}
+l.106 ...\overline{F}_{\text{x, on particle}} }{A}
                                                   \text{ (Newton's Third Law...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1772,7 +1606,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.113 ...line{F}_{\text{x, on particle}} }{A}\text
+l.106 ...line{F}_{\text{x, on particle}} }{A}\text
                                                   { (Newton's Third Law)}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1783,7 +1617,7 @@ and I'll forget about whatever was undefined.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.114 		&
+l.107 		&
          =-\frac{m \displaystyle\frac{\Delta v}{\Delta t}}{A}=-\frac{m \disp...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1799,7 +1633,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.115 	\end{split}
+l.108 	\end{split}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1808,7 +1642,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.115 	\end{split}
+l.108 	\end{split}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1823,14 +1657,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.116 \end{equation*}
+l.109 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.118 $$ P_{x}=\sum\overline{P}_{\text
+l.111 $$ P_{x}=\sum\overline{P}_{\text
                                       {x, on piston}}=\frac{\sum m v_{x,i}^{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1845,7 +1679,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128 \begin{equation*}
+l.121 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1854,7 +1688,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.129 	\overline
+l.122 	\overline
                 {v^{2}}=\frac{3k_{B}T }{m}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1866,7 +1700,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 \end{equation*}
+l.123 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1875,7 +1709,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.130 \end{equation*}
+l.123 \end{equation*}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1890,7 +1724,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.132 \begin{equation*}
+l.125 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1899,13 +1733,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.133 	v_
+l.126 	v_
          {\text{rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3k_{B}T }{m}}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.133 	v_{\text
+l.126 	v_{\text
                {rms}}=\sqrt{\overline{v^{2}}}=\sqrt{\frac{3k_{B}T }{m}}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1920,7 +1754,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.134 \end{equation*}
+l.127 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1929,7 +1763,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.134 \end{equation*}
+l.127 \end{equation*}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1940,7 +1774,7 @@ my insertion and my current dilemma will both disappear.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.135 ...gy $U=mgz$ can be ignored, since $K>>U$.}
+l.128 ...gy $U=mgz$ can be ignored, since $K>>U$.}
                                                   . In the spirit of Statist...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1951,7 +1785,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.135 ...gy $U=mgz$ can be ignored, since $K>>U$.}
+l.128 ...gy $U=mgz$ can be ignored, since $K>>U$.}
                                                   . In the spirit of Statist...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1960,7 +1794,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.137 \section
+l.130 \section
               {The Equipartition Theorem}\label{sec:the_equipartition_theore...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1975,7 +1809,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 \begin{theorem}
+l.138 \begin{theorem}
                      [The Equipartition Theorem]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1988,7 +1822,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.148 \end{theorem}
+l.141 \end{theorem}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2001,7 +1835,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 \begin{corollary}
+l.142 \begin{corollary}
                        [Total Internal Energy]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2010,7 +1844,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.151 ...ect them and keep it simple as possible.}
+l.144 ...ect them and keep it simple as possible.}
                                                    is: $$ U=N.f. \frac{1 }{2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2021,7 +1855,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.151 ...ect them and keep it simple as possible.}
+l.144 ...ect them and keep it simple as possible.}
                                                    is: $$ U=N.f. \frac{1 }{2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2036,14 +1870,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.152 \end{corollary}
+l.145 \end{corollary}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.158 ...g around $x$-axis: $\overline{K}_{x,\text
+l.151 ...g around $x$-axis: $\overline{K}_{x,\text
                                                   { rotate}}=\displaystyle\f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2052,7 +1886,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.159 ...g around $y$-axis: $\overline{K}_{y,\text
+l.152 ...g around $y$-axis: $\overline{K}_{y,\text
                                                   { rotate}}=\displaystyle\f...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2067,14 +1901,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 \begin{figure}
+l.155 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.164 		\includegraphics
+l.157 		\includegraphics
                         [width=0.8\textwidth]{~/PhyAI/chapter1/1_6.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2085,7 +1919,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.164 		\includegraphics[width=0.8\textwidth]
+l.157 		\includegraphics[width=0.8\textwidth]
                                              {~/PhyAI/chapter1/1_6.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2094,7 +1928,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.164 		\includegraphics[width=0.8\textwidth]
+l.157 		\includegraphics[width=0.8\textwidth]
                                              {~/PhyAI/chapter1/1_6.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2106,13 +1940,13 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.164 ...[width=0.8\textwidth]{~/PhyAI/chapter1/1_
+l.157 ...[width=0.8\textwidth]{~/PhyAI/chapter1/1_
                                                   6.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.164 ...=0.8\textwidth]{~/PhyAI/chapter1/1_6.png}
+l.157 ...=0.8\textwidth]{~/PhyAI/chapter1/1_6.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2127,7 +1961,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 	\end{center}
+l.158 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2139,7 +1973,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 	\end{center}
+l.158 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2151,7 +1985,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.165 	\end{center}
+l.158 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2159,7 +1993,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.165 	\end{center}
+l.158 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2170,7 +2004,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.165 	\end{center}
+l.158 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2185,7 +2019,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\caption
+l.159 	\caption
                {Degrees of freedom illustration}\label{fig:1.6}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2197,60 +2031,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 \end{figure}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-! LaTeX Error: Environment exmp undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.169 \begin{exmp}
+l.160 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-<recently read> \ce 
-                    
-l.170 ...ernal energy of a bottle filled with $\ce
-                                                  {H2}$ at normal room tempe...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: \begin{document} ended by \end{exmp}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.171 \end{exmp}
-                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.175 ...frac{101325.0.5.10^{-3}.5}{2}=126.65\text
-                                                  { (J)} $$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.177 \section
+l.163 \section
               {The First Law of Thermodynamics}\label{sec:the_first_law_of_t...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2259,7 +2047,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.178 \subsection
+l.164 \subsection
                  {Heat and Work}\label{Heat and Work}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2270,7 +2058,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.179 ... life behave similar to ideal gas model.}
+l.165 ... life behave similar to ideal gas model.}
                                                   , now you heat it up with ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2281,7 +2069,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.179 ... life behave similar to ideal gas model.}
+l.165 ... life behave similar to ideal gas model.}
                                                   , now you heat it up with ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2296,14 +2084,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180 \begin{figure}
+l.166 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.182 		\includegraphics
+l.168 		\includegraphics
                         [width=0.7\textwidth]{~/PhyAI/chapter1/1_7.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2314,7 +2102,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.182 		\includegraphics[width=0.7\textwidth]
+l.168 		\includegraphics[width=0.7\textwidth]
                                              {~/PhyAI/chapter1/1_7.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -2323,7 +2111,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.182 		\includegraphics[width=0.7\textwidth]
+l.168 		\includegraphics[width=0.7\textwidth]
                                              {~/PhyAI/chapter1/1_7.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -2335,13 +2123,13 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.182 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
+l.168 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
                                                   7.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.182 ...=0.7\textwidth]{~/PhyAI/chapter1/1_7.png}
+l.168 ...=0.7\textwidth]{~/PhyAI/chapter1/1_7.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2356,7 +2144,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 	\end{center}
+l.169 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2368,7 +2156,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 	\end{center}
+l.169 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2380,7 +2168,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.183 	\end{center}
+l.169 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2388,7 +2176,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.183 	\end{center}
+l.169 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2399,7 +2187,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.183 	\end{center}
+l.169 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2414,7 +2202,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184 	\caption
+l.170 	\caption
                {Heat $Q$ is converting to work $W$ to push the piston away}\...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -2427,14 +2215,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 \end{figure}
+l.171 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.186 ...verrightarrow{F}d\overrightarrow{r} \text
+l.172 ..._{i}}}^{\vec{r_{f}}}\vec{F}d\vec{r} \text
                                                   { (J)}$$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2445,7 +2233,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.193 ...ving heat engine or heat cycle problems.}
+l.179 ...ving heat engine or heat cycle problems.}
                                                    $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2456,7 +2244,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.193 ...ving heat engine or heat cycle problems.}
+l.179 ...ving heat engine or heat cycle problems.}
                                                    $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2471,7 +2259,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.194 \begin{theorem}
+l.180 \begin{theorem}
                      [The First Law of Thermodynamics]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2480,7 +2268,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2491,7 +2279,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2502,7 +2290,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> I read this statement from \href 
                                             {https://en.wikipedia.org/wiki/F...
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2513,7 +2301,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2521,7 +2309,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...rg/wiki/First_law_of_thermodynamics}
                                                   {Wikipedia}, and I think t...
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2532,7 +2320,7 @@ deleted material, e.g., by typing `I$}'.
 ! Extra }, or forgotten $.
 <recently read> }
                  
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2543,7 +2331,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -2551,7 +2339,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2562,7 +2350,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.195 ... the best explanation for the first law.}
+l.181 ... the best explanation for the first law.}
                                                   $$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2577,15 +2365,239 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.196 \end{theorem}
+l.182 \end{theorem}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.198 \subsection
+l.184 \subsection
                  {Thermodynamics Process}\label{Thermodynamics Process}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Environment figure undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \begin{figure}
+                    [H]
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.187 		\includegraphics
+                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_8.png}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.187 		\includegraphics[width=0.7\textwidth]
+                                             {~/PhyAI/chapter1/1_8.png}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.187 		\includegraphics[width=0.7\textwidth]
+                                             {~/PhyAI/chapter1/1_8.png}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.187 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
+                                                  8.png}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.187 ...=0.7\textwidth]{~/PhyAI/chapter1/1_8.png}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+! LaTeX Error: Command \end{center} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.188 	\end{center}
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.188 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.188 	\end{center}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 	\caption
+               {Piston is being compressed by force}\label{fig:1_8}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.190 \end{figure}
+                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.192 ...i}}^{x_{f}}F\cos(\vec{F},d\vec{x})dx\text
+                                                  { (Moving along $x$-axis)}$$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.192 ...\vec{F},d\vec{x})dx\text{ (Moving along $
+                                                  x$-axis)}$$
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   x
+l.192 ...vec{F},d\vec{x})dx\text{ (Moving along $x
+                                                  $-axis)}$$
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten $.
+l.192 ...\vec{x})dx\text{ (Moving along $x$-axis)}
+                                                  $$
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.193 If we define $W_
+                      {\text{left}}$ as the work that left our piston, then:
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.193 If we define $W_{\text
+                            {left}}$ as the work that left our piston, then:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.194 $$ W_{\text
+                 {entered}}=-W_{\text{left}}=-\int_{x_{i} }^{x_{f}}F\cos(\ve...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.194 $$ W_{\text{entered}}=-W_{\text
+                                     {left}}=-\int_{x_{i} }^{x_{f}}F\cos(\ve...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.198 \subsubsection
+                    {Isotherm Process}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2607,7 +2619,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.201 		\includegraphics
-                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_8.png}
+                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_9.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2618,7 +2630,7 @@ and I'll forget about whatever was undefined.
 <to be read again> 
                    ]
 l.201 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_8.png}
+                                             {~/PhyAI/chapter1/1_9.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2627,7 +2639,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.201 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_8.png}
+                                             {~/PhyAI/chapter1/1_9.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2639,12 +2651,12 @@ two letters. (See Chapter 27 of The TeXbook.)
 <inserted text> 
                 $
 l.201 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
-                                                  8.png}
+                                                  9.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.201 ...=0.7\textwidth]{~/PhyAI/chapter1/1_8.png}
+l.201 ...=0.7\textwidth]{~/PhyAI/chapter1/1_9.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2718,7 +2730,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.203 	\caption
-               {Piston is being compressed by force}\label{fig:1_8}
+               {Isotherm PV graph}\label{fig:1_9}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2736,53 +2748,8 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.206 ...rightarrow{F},d\overrightarrow{x})dx\text
-                                                  { (Moving along $x$-axis)}$$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.206 ...verrightarrow{x})dx\text{ (Moving along $
-                                                  x$-axis)}$$
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Display math should end with $$.
-<to be read again> 
-                   x
-l.206 ...errightarrow{x})dx\text{ (Moving along $x
-                                                  $-axis)}$$
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-! Extra }, or forgotten $.
-l.206 ...rrow{x})dx\text{ (Moving along $x$-axis)}
-                                                  $$
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.207 If we define $W_
-                      {\text{left}}$ as the work that left our piston, then:
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Undefined control sequence.
-l.207 If we define $W_{\text
-                            {left}}$ as the work that left our piston, then:
+l.206 Because $T$ is \text
+                          {constant}, we can conclude that: $$ \Delta U=Q+W=...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2790,26 +2757,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.208 $$ W_{\text
-                 {entered}}=-W_{\text{left}}=-\int_{x_{i} }^{x_{f}}F\cos(\ov...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.208 $$ W_{\text{entered}}=-W_{\text
-                                     {left}}=-\int_{x_{i} }^{x_{f}}F\cos(\ov...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.212 \subsubsection
-                    {Isotherm Process}
+l.209 \subsubsection
+                    {Constant-Volume Process}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2823,15 +2772,15 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213 \begin{figure}
+l.210 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.215 		\includegraphics
-                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_9.png}
+l.212 		\includegraphics
+                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_10.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2841,8 +2790,8 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.215 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_9.png}
+l.212 		\includegraphics[width=0.7\textwidth]
+                                             {~/PhyAI/chapter1/1_10.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -2850,8 +2799,8 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.215 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_9.png}
+l.212 		\includegraphics[width=0.7\textwidth]
+                                             {~/PhyAI/chapter1/1_10.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -2862,13 +2811,13 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.215 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
-                                                  9.png}
+l.212 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
+                                                  10.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.215 ...=0.7\textwidth]{~/PhyAI/chapter1/1_9.png}
+l.212 ...0.7\textwidth]{~/PhyAI/chapter1/1_10.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -2883,7 +2832,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 	\end{center}
+l.213 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2895,7 +2844,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 	\end{center}
+l.213 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2907,7 +2856,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.216 	\end{center}
+l.213 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -2915,7 +2864,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.216 	\end{center}
+l.213 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2926,7 +2875,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.216 	\end{center}
+l.213 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -2941,8 +2890,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 	\caption
-               {Isotherm PV graph}\label{fig:1_9}
+l.214 	\caption
+               {Constant-Volume PV graph}\label{fig:1_10}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -2953,15 +2902,52 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.218 \end{figure}
+l.215 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.220 Because $T$ is \text
-                          {constant}, we can conclude that: $$ \Delta U=Q+W=...
+l.216 ...ta U=Q+W=Q-\int_{V_{i}}^{V_{f}}PdV=Q\text
+                                                  { (no work is done)}  $$
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<write> ... Capacity Definition' on page \thepage 
+                                                  \space undefined\on@line .
+l.217 ...efinition ~\ref{Heat Capacity Definition}
+                                                  :
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Reference `Heat Capacity Definition' on page  undefined on input
+ line 217.
+
+! Undefined control sequence.
+\@footnotetext ...tins {\reset@font \footnotesize 
+                                                  \interlinepenalty \interfo...
+l.219 ...hermal capacity, as we discussed above. }
+                                                  $:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@footnotetext ...}\color@begingroup \@makefntext 
+                                                  {\rule \z@ \footnotesep \i...
+l.219 ...hermal capacity, as we discussed above. }
+                                                  $:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2970,7 +2956,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.223 \subsubsection
-                    {Constant-Volume Process}
+                    {Constant-Pressure Process}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2992,7 +2978,7 @@ or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.226 		\includegraphics
-                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_10.png}
+                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_11.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3003,7 +2989,7 @@ and I'll forget about whatever was undefined.
 <to be read again> 
                    ]
 l.226 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_10.png}
+                                             {~/PhyAI/chapter1/1_11.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
@@ -3012,7 +2998,7 @@ look up `weird error' in the index to The TeXbook.)
 <to be read again> 
                    ]
 l.226 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_10.png}
+                                             {~/PhyAI/chapter1/1_11.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -3024,12 +3010,12 @@ two letters. (See Chapter 27 of The TeXbook.)
 <inserted text> 
                 $
 l.226 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
-                                                  10.png}
+                                                  11.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.226 ...0.7\textwidth]{~/PhyAI/chapter1/1_10.png}
+l.226 ...0.7\textwidth]{~/PhyAI/chapter1/1_11.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3103,7 +3089,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.228 	\caption
-               {Constant-Volume PV graph}\label{fig:1_10}
+               {Constant-Pressure PV graph}\label{fig:1_11}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3120,226 +3106,6 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-! Undefined control sequence.
-l.230 ...ta U=Q+W=Q-\int_{V_{i}}^{V_{f}}PdV=Q\text
-                                                  { (no work is done)}  $$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> ... Capacity Definition' on page \thepage 
-                                                  \space undefined\on@line .
-l.231 ...efinition ~\ref{Heat Capacity Definition}
-                                                  :
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `Heat Capacity Definition' on page  undefined on input
- line 231.
-
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.233 ...hermal capacity, as we discussed above. }
-                                                  \footnote[2]{I am followin...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.233 ...hermal capacity, as we discussed above. }
-                                                  \footnote[2]{I am followin...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.233 ...hysics", written by Daniel V. Schroeder.}
-                                                  $:
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.233 ...hysics", written by Daniel V. Schroeder.}
-                                                  $:
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.237 \subsubsection
-                    {Constant-Pressure Process}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: Environment figure undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.238 \begin{figure}
-                    [H]
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Undefined control sequence.
-l.240 		\includegraphics
-                        [width=0.7\textwidth]{~/PhyAI/chapter1/1_11.png}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   ]
-l.240 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_11.png}
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   ]
-l.240 		\includegraphics[width=0.7\textwidth]
-                                             {~/PhyAI/chapter1/1_11.png}
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.240 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
-                                                  11.png}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-l.240 ...0.7\textwidth]{~/PhyAI/chapter1/1_11.png}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Command \end{center} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 	\end{center}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 	\end{center}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.241 	\end{center}
-                   
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.241 	\end{center}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.241 	\end{center}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-! LaTeX Error: \caption outside float.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.242 	\caption
-               {Constant-Pressure PV graph}\label{fig:1_11}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.243 \end{figure}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
 
 ! LaTeX Error: Environment equation* undefined.
 
@@ -3347,7 +3113,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.245 \begin{equation*}
+l.231 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3360,7 +3126,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.246 	\begin{split}
+l.232 	\begin{split}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3369,13 +3135,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.247 		C_
+l.233 		C_
           {P}&=\frac{Q }{\Delta T}=\frac{\Delta U - W }{\Delta T}=\frac{\Del...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.247 		C_{P}&
+l.233 		C_{P}&
               =\frac{Q }{\Delta T}=\frac{\Delta U - W }{\Delta T}=\frac{\Del...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3387,7 +3153,7 @@ might try typing `S' now just to see what is salvageable.
 ! Misplaced alignment tab character &.
 <recently read> &
                  
-l.248 		&
+l.234 		&
          =C_{V}+P\left(\frac{\partial V }{\partial T}\right)_{P}=C_{V}+Nk_{B}
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3403,7 +3169,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.249 	\end{split}
+l.235 	\end{split}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3412,7 +3178,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.249 	\end{split}
+l.235 	\end{split}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3427,7 +3193,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.250 \end{equation*}
+l.236 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3440,7 +3206,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.253 \begin{equation*}
+l.239 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3453,14 +3219,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.254 	\begin{split}
+l.240 	\begin{split}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.255 		W&
+l.241 		W&
           =-P\Delta V\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3472,13 +3238,13 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.255 		W&=-P\Delta
+l.241 		W&=-P\Delta
                     V\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.256 		Q&
+l.242 		Q&
           =C_{P}\Delta T=(C_{V}+Nk_{B})\Delta T
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3494,7 +3260,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.257 	\end{split}
+l.243 	\end{split}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3503,7 +3269,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.257 	\end{split}
+l.243 	\end{split}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3518,14 +3284,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.258 \end{equation*}
+l.244 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.259 \subsubsection
+l.245 \subsubsection
                     {Adiabatic Process}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3536,7 +3302,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
-l.260 ...alyzed in more detail in later chapters.}
+l.246 ...alyzed in more detail in later chapters.}
                                                    as something happens very...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3547,7 +3313,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
-l.260 ...alyzed in more detail in later chapters.}
+l.246 ...alyzed in more detail in later chapters.}
                                                    as something happens very...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3562,14 +3328,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.261 \begin{figure}
+l.247 \begin{figure}
                     [H]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.263 		\includegraphics
+l.249 		\includegraphics
                         [width=0.7\textwidth]{~/PhyAI/chapter1/1_12.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3580,7 +3346,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    ]
-l.263 		\includegraphics[width=0.7\textwidth]
+l.249 		\includegraphics[width=0.7\textwidth]
                                              {~/PhyAI/chapter1/1_12.png}
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -3589,7 +3355,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    ]
-l.263 		\includegraphics[width=0.7\textwidth]
+l.249 		\includegraphics[width=0.7\textwidth]
                                              {~/PhyAI/chapter1/1_12.png}
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -3601,13 +3367,13 @@ two letters. (See Chapter 27 of The TeXbook.)
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.263 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
+l.249 ...[width=0.7\textwidth]{~/PhyAI/chapter1/1_
                                                   12.png}
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-l.263 ...0.7\textwidth]{~/PhyAI/chapter1/1_12.png}
+l.249 ...0.7\textwidth]{~/PhyAI/chapter1/1_12.png}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -3622,7 +3388,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 	\end{center}
+l.250 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3634,7 +3400,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 	\end{center}
+l.250 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3646,7 +3412,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.264 	\end{center}
+l.250 	\end{center}
                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3654,7 +3420,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.264 	\end{center}
+l.250 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3665,7 +3431,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.264 	\end{center}
+l.250 	\end{center}
                    
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3680,7 +3446,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.265 	\caption
+l.251 	\caption
                {Adiabatic PV graph}\label{fig:1_12}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -3692,7 +3458,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.266 \end{figure}
+l.252 \end{figure}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3705,7 +3471,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.269 \begin{equation*}
+l.255 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3718,7 +3484,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.270 	\begin{split}
+l.256 	\begin{split}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3727,13 +3493,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.271 		\Delta
+l.257 		\Delta
                U&=W=-\int_{V_{i}}^{V_{f}}PdV\Rightarrow dU=-PdV \text{ (Diff...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.271 		\Delta U&
+l.257 		\Delta U&
                  =W=-\int_{V_{i}}^{V_{f}}PdV\Rightarrow dU=-PdV \text{ (Diff...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3743,7 +3509,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.271 ..._{i}}^{V_{f}}PdV\Rightarrow dU=-PdV \text
+l.257 ..._{i}}^{V_{f}}PdV\Rightarrow dU=-PdV \text
                                                   { (Differentiate both side...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3758,7 +3524,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 	\end{split}
+l.258 	\end{split}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3767,7 +3533,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.272 	\end{split}
+l.258 	\end{split}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3782,7 +3548,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.273 \end{equation*}
+l.259 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3795,7 +3561,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.275 \begin{equation*}
+l.261 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3808,14 +3574,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.276 	\begin{split}
+l.262 	\begin{split}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Misplaced alignment tab character &.
-l.277 		dU&
+l.263 		dU&
            =-PdV\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3827,13 +3593,13 @@ might try typing `S' now just to see what is salvageable.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.278 		\Leftrightarrow
+l.264 		\Leftrightarrow
                         \frac{Nk_{B}f}{2}.dT&=-PdV\\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Misplaced alignment tab character &.
-l.278 		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&
+l.264 		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&
                                              =-PdV\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3843,7 +3609,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.279 		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&
+l.265 		\Leftrightarrow \frac{Nk_{B}f}{2}.dT&
                                              =-\frac{Nk_{B}T }{V}dV\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3853,7 +3619,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.280 ...rrow \int\frac{Nk_{B}f}{2}.\frac{dT }{T}&
+l.266 ...rrow \int\frac{Nk_{B}f}{2}.\frac{dT }{T}&
                                                   =-\int Nk_{B}.\frac{dV}{V}...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3863,7 +3629,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.280 ...c{dT }{T}&=-\int Nk_{B}.\frac{dV}{V}\text
+l.266 ...c{dT }{T}&=-\int Nk_{B}.\frac{dV}{V}\text
                                                   { (Take antiderivative bot...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3872,7 +3638,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Misplaced alignment tab character &.
-l.281 		\Leftrightarrow \frac{f }{2}\ln{T}&
+l.267 		\Leftrightarrow \frac{f }{2}\ln{T}&
                                            =-\ln{V}+C\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3882,7 +3648,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Misplaced alignment tab character &.
-l.282 		\Leftrightarrow T^{f/2}V&
+l.268 		\Leftrightarrow T^{f/2}V&
                                  =\text{constant}\\
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -3892,7 +3658,7 @@ you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
 ! Undefined control sequence.
-l.282 		\Leftrightarrow T^{f/2}V&=\text
+l.268 		\Leftrightarrow T^{f/2}V&=\text
                                        {constant}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3907,7 +3673,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.283 	\end{split}
+l.269 	\end{split}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3916,7 +3682,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.283 	\end{split}
+l.269 	\end{split}
                   
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -3931,55 +3697,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.284 \end{equation*}
+l.270 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.285 ...nd on the first approach to the problem.}
-                                                  \footnote[2]{If you are st...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.285 ...nd on the first approach to the problem.}
-                                                  \footnote[2]{If you are st...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...tins {\reset@font \footnotesize 
-                                                  \interlinepenalty \interfo...
-l.285 ...roof in section 19-9, Halliday textbook.}
-                                                  , power both sides by $2/f$:
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@footnotetext ...}\color@begingroup \@makefntext 
-                                                  {\rule \z@ \footnotesep \i...
-l.285 ...roof in section 19-9, Halliday textbook.}
-                                                  , power both sides by $2/f$:
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 
 ! LaTeX Error: Environment equation* undefined.
@@ -3988,7 +3710,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.286 \begin{equation*}
+l.272 \begin{equation*}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3997,13 +3719,13 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.287 	(T^
+l.273 	(T^
           {f/2}V)^{2/f}=TV^{2/f}=\frac{PV }{Nk}V^{2/f}=\text{constant}\Right...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.287 ...2/f}=TV^{2/f}=\frac{PV }{Nk}V^{2/f}=\text
+l.273 ...2/f}=TV^{2/f}=\frac{PV }{Nk}V^{2/f}=\text
                                                   {constant}\Rightarrow PV^{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4012,7 +3734,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.287 ...t{constant}\Rightarrow PV^{(f+2)/f}=\text
+l.273 ...t{constant}\Rightarrow PV^{(f+2)/f}=\text
                                                   {constant}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4027,7 +3749,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.288 \end{equation*}
+l.274 \end{equation*}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4036,7 +3758,7 @@ or  <return>  to continue without it.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.288 \end{equation*}
+l.274 \end{equation*}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -4045,7 +3767,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 ! Undefined control sequence.
-l.291 ... adiabatic function: $$ PV^{\gamma}=\text
+l.277 ... adiabatic function: $$ PV^{\gamma}=\text
                                                   {constant} $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4061,7 +3783,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.295 \end{document}
+l.281 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4071,7 +3793,7 @@ or  <return>  to continue without it.
 ! Undefined control sequence.
 <write> ...el{Definition of Pressure}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4082,18 +3804,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1.4}{{}{\thepage 
                                        }}
-l.295 \end{document}
-                    
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<write> \newlabel{fig:1.5}{{}{\thepage 
-                                       }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4104,7 +3815,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...efinition of Kelvin Scale}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4115,7 +3826,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...bel{sec:the_ideal_gas_law}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4126,7 +3837,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{The Ideal Gas Law}{{}{\thepage 
                                                  }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4137,7 +3848,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...e_kinetic_theory_of_gases}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4148,7 +3859,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1_5}{{}{\thepage 
                                        }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4159,7 +3870,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...the_equipartition_theorem}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4170,7 +3881,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...The Equipartition Theorem}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4181,7 +3892,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...bel{Total Internal Energy}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4192,7 +3903,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1.6}{{}{\thepage 
                                        }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4203,7 +3914,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...rst_law_of_thermodynamics}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4214,7 +3925,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{Heat and Work}{{}{\thepage 
                                              }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4225,7 +3936,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1.7}{{}{\thepage 
                                        }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4236,7 +3947,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> ...el{Thermodynamics Process}{{}{\thepage 
                                                   }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4247,7 +3958,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1_8}{{}{\thepage 
                                        }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4258,7 +3969,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1_9}{{}{\thepage 
                                        }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4269,7 +3980,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1_10}{{}{\thepage 
                                         }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4280,7 +3991,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1_11}{{}{\thepage 
                                         }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4291,7 +4002,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <write> \newlabel{fig:1_12}{{}{\thepage 
                                         }}
-l.295 \end{document}
+l.281 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4307,30 +4018,28 @@ LaTeX Warning: There were undefined references.
 (\end occurred when \ifx on line 35 was incomplete)
 (\end occurred when \ifx on line 2 was incomplete) 
 Here is how much of TeX's memory you used:
- 295 strings out of 476091
- 7273 string characters out of 5794082
- 1919330 words of memory out of 5000000
- 20759 multiletter control sequences out of 15000+600000
- 513560 words of font info for 36 fonts, out of 8000000 for 9000
+ 289 strings out of 476091
+ 7219 string characters out of 5794082
+ 1909330 words of memory out of 5000000
+ 20755 multiletter control sequences out of 15000+600000
+ 512941 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,12n,35p,690b,142s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 35i,6n,35p,838b,142s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmbx5.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmbx7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on chapter1.pdf (2 pages, 180635 bytes).
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on chapter1.pdf (2 pages, 163511 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 66 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
