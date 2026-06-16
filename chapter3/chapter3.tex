@@ -196,15 +196,15 @@ Now it is time to focus on the most common types of equilibrium in thermodynamic
 From Definition ~\ref{The Third Definition of Temperature}:
 $$ \frac{1 }{T}= \left(\frac{\partial S }{\partial U}\right)_{N,V}  $$
 \begin{exmp}
-	A $50$ grams copper sphere at $100^{\circ}$C is dropped into a cup containing $100$ grams of water at $25^{\circ}$C. Given $c_{V,\ce{H2O}}=4.13$ (kJ/kg.K) and $c_{P,\ce{Cu}}=386\footnote[1]{I could not find any detailed information about $c_{P,\ce{Cu}}$ value on the internet; but that is understandable because we usually measure $c_{V}$ of liquids and gases, $c_{P}$ of solids. Maintaining constant volume condition (for liquids and gases) and constant pressure (for solids) is much easier when conducting any type of measurement.}$ (J/kg.K); show that the total entropy of system is increasing.
+	A $50$ grams copper sphere at $100^{\circ}$C is dropped into a cup containing $100$ grams of water at $25^{\circ}$C. Given $c_{V,\ce{H2O}}=4.13$ (kJ/kg.K) and $c_{P,\ce{Cu}}=386$ (J/kg.K); show that the total entropy of system is increasing\footnote[1]{I could not find any detailed information about $c_{P,\ce{Cu}}$ value on the internet; but that is understandable because we usually measure $c_{V}$ of liquids and gases, $c_{P}$ of solids. Maintaining constant volume condition (for liquids and gases) and constant pressure (for solids) is much easier when conducting any type of measurement.}.
 	\\ \indent Using the same technique from the last example in Chapter ~\ref{chap:the_zeroth_law_of_thermodynamics}, we obtain the equilibrium (final) temperature is $T_{f}=301.34K$ ($28.34^{\circ}$C).
 	\begin{equation*}
 		\begin{split}
 			\Delta S_{\ce{H2O}}&=\int_{i }^{f}\frac{dU }{T}=C_{V}.\int_{T_{i} }^{T_{f}} \frac{dT }{T}=m_{\ce{H2O}}.c_{V,\ce{H2O}}.\int_{T_{i} }^{T_{f}} \frac{dT }{T}=0.1.4.13.10^{3}.\ln{\frac{301.34}{298}}=4.6\text{(J/K)}\\
 		\end{split}
 	\end{equation*}
-	Here is the subtle part of this problem, how do we know $\Delta S_{\ce{Cu}}$? We only know its $c_{P,\ce{Cu}}$ value, and can not directly apply the formula above. When looking at our equation, I notice that I can remove something:
-	$$ dU=Q+W=Q+P\Delta V=Q+P(\beta.V.\Delta T)=Q+P(\beta.\rho.m.\Delta T)\footnote[2]{$\beta$:  coefficient of volume expansion (1/K), $\rho$: density (kg/$\text{m}^3$). The product result is small enough (you should verify yourself) to be neglected.  } \approx Q$$
+	Here is the subtle part of this problem, how do we know $\Delta S_{\ce{Cu}}$? We only know its $c_{P,\ce{Cu}}$ value, and can not directly apply the formula above. When looking at our equation, I notice that I can remove something\footnote[2]{$\beta$:  coefficient of volume expansion (1/K), $\rho$: density (kg/$\text{m}^3$). The product result is small enough (you should verify yourself) to be neglected.  }:
+	$$ dU=Q+W=Q+P\Delta V=Q+P(\beta.V.\Delta T)=Q+P(\beta.\rho.m.\Delta T)\approx Q$$
 	The difference in entropy is:
 	$$ \Delta S_{\ce{Cu}}=\int_{i }^{f}\frac{dU }{T}=C_{P}\int_{i }^{f}\frac{dT }{T}=m_{\ce{Cu}}.c_{P,\ce{Cu}}\int_{T_{i} }^{T_{f}}\frac{dT }{T}=0.05.386.\ln{\frac{301.34 }{373}}=-4.1\text{ (J/K)}    $$
 	Finally, we now can conclude that the total entropy is increasing, as expected:

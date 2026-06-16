@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  27 MAY 2026 11:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  17 JUN 2026 00:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2234,7 +2234,7 @@ and I'll forget about whatever was undefined.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
 l.179 ...ving heat engine or heat cycle problems.}
-                                                   $$
+                                                  : $$ \Delta U=Q+W $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2245,7 +2245,7 @@ and I'll forget about whatever was undefined.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
 l.179 ...ving heat engine or heat cycle problems.}
-                                                   $$
+                                                  : $$ \Delta U=Q+W $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2269,7 +2269,7 @@ or  <return>  to continue without it.
 \@footnotetext ...tins {\reset@font \footnotesize 
                                                   \interlinepenalty \interfo...
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2280,7 +2280,7 @@ and I'll forget about whatever was undefined.
 \@footnotetext ...}\color@begingroup \@makefntext 
                                                   {\rule \z@ \footnotesep \i...
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2291,7 +2291,7 @@ and I'll forget about whatever was undefined.
 <argument> I read this statement from \href 
                                             {https://en.wikipedia.org/wiki/F...
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2302,7 +2302,7 @@ and I'll forget about whatever was undefined.
 <inserted text> 
                 $
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -2310,7 +2310,7 @@ you left one out. Proceed, with fingers crossed.
 <argument> ...rg/wiki/First_law_of_thermodynamics}
                                                   {Wikipedia}, and I think t...
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2321,7 +2321,7 @@ deleted material, e.g., by typing `I$}'.
 <recently read> }
                  
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
 you forgot something else, as in `\hbox{$x}'. In such cases
@@ -2332,7 +2332,7 @@ deleted material, e.g., by typing `I$}'.
 <inserted text> 
                 $
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
@@ -2340,7 +2340,7 @@ you left one out. Proceed, with fingers crossed.
 <inserted text> 
                 }
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -2351,7 +2351,7 @@ my insertion and my current dilemma will both disappear.
 <inserted text> 
                 }
 l.181 ... the best explanation for the first law.}
-                                                  $$
+                                                  . $$ \Delta U=Q-W $$
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -3720,12 +3720,12 @@ or  <return>  to continue without it.
 <inserted text> 
                 $
 l.273 	(T^
-          {f/2}V)^{2/f}=TV^{2/f}=\frac{PV }{Nk}V^{2/f}=\text{constant}\Right...
+          {f/2}V)^{2/f}=TV^{2/f}=\frac{PV }{Nk_{B}}V^{2/f}=\text{constant}\R...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Undefined control sequence.
-l.273 ...2/f}=TV^{2/f}=\frac{PV }{Nk}V^{2/f}=\text
+l.273 ...=TV^{2/f}=\frac{PV }{Nk_{B}}V^{2/f}=\text
                                                   {constant}\Rightarrow PV^{...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4036,7 +4036,7 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr
 /share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on chapter1.pdf (2 pages, 163511 bytes).
+Output written on chapter1.pdf (2 pages, 163536 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  39 compressed objects within 1 object stream

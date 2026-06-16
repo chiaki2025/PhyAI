@@ -1,6 +1,6 @@
 INFO:  latexindent version 3.20.1, 2023-01-07, a script to indent .tex files
        latexindent lives here: /usr/share/texlive/texmf-dist/scripts/latexindent/
-       Sat May 23 21:09:09 2026
+       Wed Jun 17 00:16:28 2026
        Filename: chapter4.tex
 INFO:  Processing switches:
        -s|--silent: Silent mode active (you have used either -s or --silent)
@@ -29,13 +29,8 @@ INFO:  YAML settings read: -y switch
 INFO:  Backup procedure (-w flag active):
        ./chapter4.bak0 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
        ./chapter4.bak1 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter4.bak2 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter4.bak3 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter4.bak4 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter4.bak5 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       ./chapter4.bak6 already exists, incrementing by 1... (see maxNumberOfBackUps and onlyOneBackUp)
-       copying chapter4.tex to ./chapter4.bak7
-       Backup file: ./chapter4.bak7
+       copying chapter4.tex to ./chapter4.bak2
+       Backup file: ./chapter4.bak2
        chapter4.tex will be overwritten after indentation
 INFO:  Phase 1: searching for objects
 INFO:  Phase 2: finding surrounding indentation

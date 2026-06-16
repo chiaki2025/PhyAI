@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  26 MAY 2026 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.3.3)  17 JUN 2026 00:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3940,7 +3940,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.276 		\For
-             {$\text{interation}=1$ \text{to} $\text{interation}=10000$}
+             {$\text{iteration}=1$ \text{to} $\text{iteration}=10000$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3951,7 +3951,7 @@ and I'll forget about whatever was undefined.
 <recently read> \text 
                       
 l.276 		\For {$\text
-                    {interation}=1$ \text{to} $\text{interation}=10000$}
+                    {iteration}=1$ \text{to} $\text{iteration}=10000$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3959,8 +3959,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.276 		\For {$\text{interation}=1$ \text
-                                         {to} $\text{interation}=10000$}
+l.276 		\For {$\text{iteration}=1$ \text
+                                        {to} $\text{iteration}=10000$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3970,8 +3970,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <recently read> \text 
                       
-l.276 ...r {$\text{interation}=1$ \text{to} $\text
-                                                  {interation}=10000$}
+l.276 ...or {$\text{iteration}=1$ \text{to} $\text
+                                                  {iteration}=10000$}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct

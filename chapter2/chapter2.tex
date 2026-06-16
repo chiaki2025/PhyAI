@@ -5,9 +5,9 @@
 \section{Microstate and Macrostate}\label{sec:microstate_and_macrostate} % (fold)
 In the first chapter, we used an ideal statistical model to develop the kinetic theory of gases and obtained some very useful results that formed the basis of the first law of thermodynamics. Now, we continue to use our knowledge of probability and statistics to answer our question: "Why does heat flow from high to low temperatures, but not in the reverse direction?".
 \\ \indent Let's do some combinatorics here. Imagine you have a fair coin, and you flip that coin $3$ times. You define an event $E$ as "Landing $2$ heads". How many sample points are there inside the subset $E$?
-$$ E=\{THH,HTH,THH\} \Rightarrow n(E)=\binom{3}{2}=3$$
+$$ E=\{THH,HTH,HHT\} \Rightarrow n(E)=\binom{3}{2}=3$$
 How many possible outcomes are there inside the sample space $\Omega$ (or $S$)?
-$$ \Omega=\{TTT,TTH,THT,THH,HHH,HHT,HTH,HHH\}\Rightarrow n(\Omega)=2^{3}=8$$
+$$ \Omega=\{TTT,TTH,THT,THH,HHH,HHT,HTH,HTT\}\Rightarrow n(\Omega)=2^{3}=8$$
 The event $E$ is called as the \textbf{macrostate} of the system, and each of its elements is called \textbf{microstate}. For example, the macrostate "Landing $2$ heads" has $3$ microstates, one of them is $THH$; the number of microstates corresponding to a macrostate is called the \textbf{multiplicity}. Now I will change the notation here, I use the symbol $\Omega$ to denote \textbf{multiplicity}\footnote[1]{You can relate this new convention to the \textbf{random variable} concept in math books.}.
 Generally, the multiplicity of the macrostate "Landing $n$ heads" when flipping a coin $N$ times is:
 \begin{equation*}
